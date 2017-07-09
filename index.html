@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Relics of Corbantis Launcher</title>
+    <style>
+      .button {
+        position: absolute;
+        left: 2%;
+        width: 334px;
+        height: 96px;
+        border:none;
+        cursor:pointer;
+      }
+      :focus {outline:0}
+      .traybutton {
+        color: #cc9966;
+        background-color:#7b1b1d;
+        height:32px;
+        width:32px;
+        font-size:16px;
+        line-height:16px;
+        font-weight: 1000;
+        border-radius: 5px;
+        border: none;
+      }
+      .rightbox {
+        position:absolute;
+        top:0;
+        bottom:0;
+        left:calc(6% + 334px);
+        right:2%;
+      }
+      .right {
+        font: 24px Arial;
+        color: #cc9966;
+        position: absolute;
+        left: 0;
+        width: 100%;
+        text-align: center;
+      }
+
+      #play { background:url(./img/playbutton.png) no-repeat; }
+      #play:hover { background:url(./img/playbuttonhov.png) no-repeat; }
+      #play:active { background:url(./img/playbuttonclick.png) no-repeat; }
+      #play.disabled { background:url(./img/playbuttondis.png) no-repeat; }
+
+      #settings { background:url(./img/settingsbutton.png) no-repeat; }
+      #settings:hover { background:url(./img/settingsbuttonhov.png) no-repeat; }
+      #settings:active, #settings.active { background:url(./img/settingsbuttonclick.png) no-repeat; }
+      #settings.disabled { background:url(./img/settingsbuttondis.png) no-repeat; }
+
+      #profcalc { background:url(./img/profcalcbutton.png) no-repeat; }
+      #profcalc:hover { background:url(./img/profcalcbuttonhov.png) no-repeat; }
+      #profcalc:active { background:url(./img/profcalcbuttonclick.png) no-repeat; }
+      #profcalc.disabled { background:url(./img/profcalcbuttondis.png) no-repeat; }
+
+      #web { background:url(./img/webbutton.png) no-repeat; }
+      #web:hover { background:url(./img/webbuttonhov.png) no-repeat; }
+      #web:active { background:url(./img/webbuttonclick.png) no-repeat; }
+      #web.disabled { background:url(./img/webbuttondis.png) no-repeat; }
+
+      #disc { background:url(./img/discbutton.png) no-repeat; }
+      #disc:hover { background:url(./img/discbuttonhov.png) no-repeat; }
+      #disc:active { background:url(./img/discbuttonclick.png) no-repeat; }
+      #disc.disabled { background:url(./img/discbuttondis.png) no-repeat; }
+    </style>
+  </head>
+  <body style="overflow:hidden; height: 100%">
+    <img class="header-img" src="./img/launcher-background1.jpg" style="position: absolute; left: 0px; top: 0px; width: 100%; height: 100%; z-index: -1;"/>
+    <div style="position: absolute; top:0px; right: 0px; z-index: 1000">
+      <button id="minimize" class="traybutton">&#xff3f;</button>
+      <button id="maximize" class="traybutton">&#x2b1c;</button>
+      <button id="close" class="traybutton">&#x274c;</button>
+    </div>
+    <div id="rightcontent" class="rightbox">
+      <div class="right" style="top: 12px;">Latest News</div>
+      <webview id="news" class="right" style="top:48px;height: calc(48% - 48px)" src="http://relicsofcorbantis.com/blog/"></webview>
+      <div class="right" style="top: calc(50% + 12px);">Updates</div>
+      <webview id="updates" class="right" style="top: calc(50% + 48px); height:calc(48% - 48px)" src="http://relicsofcorbantis.com/updates-changes-at-relics/"></webview>
+    </div>
+    <div id="rightsettings" class="rightbox" style="display:none">
+      <div class="right" style="top: 12px;">SWGEMU Folder</div>
+      <input id="folder" type="text" class="right" style="top: 48px;color: black; border: 3px solid #7b1b1d; border-radius: 8px; box-sizing: border-box; background-color: #627d9f"/>
+      <button id="browse" class="right" style="top: 96px; border-radius: 8px; background-color: #7b1b1d; border: 3px solid #7b1b1d; color: #cc9966">Browse</button>
+      
+      <button id="gamesettings" class="right" style="bottom:12px; border-radius: 8px; background-color: #7b1b1d; border: 3px solid #7b1b1d; color: #cc9966">Game Settings</button>
+    </div>
+
+    <img class="header-img" src="./img/Relics-of-Corbantis-logo.png" style="position: absolute; left: 2%; top: 2%; width: 334px; -webkit-app-region: drag"/>
+    <button id="play" class="button" style="top: 23%;"/>
+    <button id="settings" class="button" style="top: 38%;"/>
+    <button id="profcalc" class="button disabled" style="top: 53%;"/>
+    <button id="web" class="button" style="top: 68%;"/>
+    <button id="disc" class="button" style="top: 83%;"/>
+  </body>
+
+  <script>
+    require('./renderer.js')
+  </script>
+</html>

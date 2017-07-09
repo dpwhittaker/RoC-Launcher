@@ -1,0 +1,27 @@
+{
+  "name": "roc-launcher",
+  "version": "0.0.1",
+  "description": "Relics of Corbantis Official SWGEMU Launcher",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": "https://github.com/dpwhittaker/roc-launcher",
+  "keywords": [
+    "relics of corbantis",
+    "launcher",
+    "installer",
+    "swg",
+    "star",
+    "wars",
+    "galaxies",
+    "emulator",
+    "emu",
+    "swgemu"
+  ],
+  "author": "Progor",
+  "license": "CC0-1.0",
+  "devDependencies": {
+    "electron": "~1.6.2"
+  }
+}
