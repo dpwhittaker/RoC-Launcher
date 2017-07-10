@@ -1,0 +1,28 @@
+{
+  "name": "roclauncher",
+  "version": "0.0.1",
+  "description": "roclauncher builder",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dpwhittaker/RoC-Launcher.git"
+  },
+  "author": "David Whittaker <dpwhittaker@gmail.com>",
+  "license": "CC0-1.0",
+  "bugs": {
+    "url": "https://github.com/dpwhittaker/RoC-Launcher/issues"
+  },
+  "homepage": "http://relicsofcorbantis.com",
+  "build": {
+    "appId": "com.relicsofcorbantis.launcher",
+    "app-category-type": "games",
+    "win": {
+      "iconUrl": ""
+    }
+  }
+}
