@@ -1,10 +1,11 @@
 {
-  "name": "roclauncher",
+  "name": "RoC-Launcher",
   "version": "0.0.1",
   "description": "Relics of Corbantis Official SWGEMU Launcher",
   "main": "main.js",
   "scripts": {
-    "start": "electron ."
+    "start": "electron .",
+    "build": "build --win --ia32 -p always"
   },
   "repository": "https://github.com/dpwhittaker/roc-launcher",
   "homepage": "http://relicsofcorbantis.com",
@@ -23,6 +24,19 @@
   "author": "Progor",
   "license": "CC0-1.0",
   "devDependencies": {
-    "electron": "~1.6.2"
+    "electron": "~1.6.2",
+    "electron-builder": "^19.13.0"
+  },
+  "dependencies": {
+    "electron-log": "^2.2.7",
+    "electron-updater": "^2.4.5"
+  },
+  "build": {
+    "win": {
+      "target": ["nsis", "zip"]
+    },
+    "nsis": {
+      "perMachine": true
+    }
   }
 }
