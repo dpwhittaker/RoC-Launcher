@@ -20,9 +20,10 @@ const minBtn = document.getElementById('minimize');
 const maxBtn = document.getElementById('maximize');
 const closeBtn = document.getElementById('close');
 
-var config = {folder: 'C:\\'};
-if (fs.existsSync('config.json'))
-    config = JSON.parse(fs.readFileSync('config.json'));
+const configFile = require('os').homedir() + '/RoC-Launcher.json';
+var config = {folder: 'C:/'};
+if (fs.existsSync(configFile))
+    config = JSON.parse(fs.readFileSync(configFile));
 folderBox.value = config.folder;
 
 minBtn.addEventListener('click', event => remote.getCurrentWindow().minimize());
@@ -64,7 +65,7 @@ browseBtn.addEventListener('click', function (event) {
 ipc.on('selected-directory', function (event, path) {
     document.getElementById('folder').value = path;
     config.folder = path;
-    fs.writeFileSync('config.json', JSON.stringify(config));
+    fs.writeFileSync(configFile, JSON.stringify(config));
 });
 
 function removeHeader(webview) {
