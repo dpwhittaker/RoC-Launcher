@@ -8,7 +8,7 @@
         position: absolute;
         left: 2%;
         width: 334px;
-        height: 96px;
+        height: 53px;
         border:none;
         cursor:pointer;
       }
@@ -64,6 +64,8 @@
       #disc:hover { background:url(./img/discbuttonhov.png) no-repeat; }
       #disc:active { background:url(./img/discbuttonclick.png) no-repeat; }
       #disc.disabled { background:url(./img/discbuttondis.png) no-repeat; }
+
+      .webview-wrapper {border-radius: 5px; padding: 5px 0; background-color: white; box-sizing:border-box}
     </style>
   </head>
   <body style="overflow:hidden; height: 100%">
@@ -75,9 +77,13 @@
     </div>
     <div id="rightcontent" class="rightbox">
       <div class="right" style="top: 12px;">Latest News</div>
-      <webview id="news" class="right" style="top:48px;height: calc(48% - 48px)" src="http://relicsofcorbantis.com/blog/"></webview>
+      <div class="webview-wrapper right" style="top:48px;height: calc(48% - 48px)">
+        <webview id="news" style="width:100%;height:100%" src="http://relicsofcorbantis.com/blog/"></webview>
+      </div>
       <div class="right" style="top: calc(50% + 12px);">Updates</div>
-      <webview id="updates" class="right" style="top: calc(50% + 48px); height:calc(48% - 48px)" src="http://relicsofcorbantis.com/updates-changes-at-relics/"></webview>
+      <div class="webview-wrapper right" style="top: calc(50% + 48px); height:calc(48% - 48px)">
+        <webview id="updates" style="width:100%;height:100%" src="http://relicsofcorbantis.com/updates-changes-at-relics/"></webview>
+      </div>
     </div>
     <div id="rightsettings" class="rightbox" style="display:none">
       <div class="right" style="top: 12px;">SWGEMU Folder</div>
