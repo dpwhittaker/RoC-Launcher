@@ -4,9 +4,7 @@
   "description": "Relics of Corbantis Official SWGEMU Launcher",
   "main": "main.js",
   "scripts": {
-    "start": "electron .",
-    "package": "electron-packager . RoCLauncher --platform win32 --arch ia32 --out dist --icon img\\relics_launcher_logo_icon.ico",
-    "installer": "electron-installer-windows --src dist\\RoCLauncher-win32-ia32\\ --dest dist\\installer\\"
+    "start": "electron ."
   },
   "repository": "https://github.com/dpwhittaker/roc-launcher",
   "homepage": "http://relicsofcorbantis.com",
@@ -25,8 +23,6 @@
   "author": "Progor",
   "license": "CC0-1.0",
   "devDependencies": {
-    "electron": "~1.6.2",
-    "electron-installer-windows": "^0.2.0",
-    "electron-packager": "^8.7.2"
+    "electron": "~1.6.2"
   }
 }
