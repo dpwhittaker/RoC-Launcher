@@ -1,6 +1,6 @@
 {
   "name": "RoC-Launcher",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Relics of Corbantis Official SWGEMU Launcher",
   "main": "main.js",
   "scripts": {
@@ -28,12 +28,16 @@
     "electron-builder": "^19.13.0"
   },
   "dependencies": {
+    "electron-is-dev": "^0.2.0",
     "electron-log": "^2.2.7",
     "electron-updater": "^2.4.5"
   },
   "build": {
     "win": {
-      "target": ["nsis", "zip"]
+      "target": [
+        "nsis",
+        "zip"
+      ]
     },
     "nsis": {
       "perMachine": true
