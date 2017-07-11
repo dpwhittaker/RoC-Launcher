@@ -65,6 +65,12 @@ settings.addEventListener('click', event => {
     }
 });
 
+home.addEventListener('click', event => {
+    rightContent.style.display = 'block';
+    rightSettings.style.display = 'none';
+    settings.className = "button";
+});
+
 websiteBtn.addEventListener('click', event => shell.openExternal("http://relicsofcorbantis.com/"));
 discordBtn.addEventListener('click', event => shell.openExternal("https://discordapp.com/channels/126343966848188417/289458004745650176"));
 

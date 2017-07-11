@@ -35,9 +35,17 @@
         font: 24px Arial;
         color: #cc9966;
         position: absolute;
-        left: 0;
         width: 100%;
         text-align: center;
+      }
+      .shadow {
+        box-shadow: 3px 3px 3px rgba(0,0,0,0.75);
+      }
+      .right.button {
+        height: 45px;
+        width: 155px;
+        right: -7px;
+        left: initial;
       }
       #version {
         position: absolute;
@@ -74,6 +82,10 @@
       #disc:active { background:url(./img/discbuttonclick.png) no-repeat; }
       #disc.disabled { background:url(./img/discbuttondis.png) no-repeat; }
 
+      #home { background:url(./img/homebutton.png) no-repeat; }
+      #home:hover { background:url(./img/homebuttonhov.png) no-repeat; }
+      #home:active { background:url(./img/homebuttonclick.png) no-repeat; }
+
       .webview-wrapper {border-radius: 5px; padding: 5px 0; background-color: white; box-sizing:border-box}
     </style>
   </head>
@@ -86,20 +98,21 @@
     </div>
     <div id="rightcontent" class="rightbox">
       <div class="right" style="top: 12px;">Latest News</div>
-      <div class="webview-wrapper right" style="top:48px;height: calc(48% - 48px)">
+      <div class="webview-wrapper right shadow" style="top:48px;height: calc(48% - 48px)">
         <webview id="news" style="width:100%;height:100%" src="http://relicsofcorbantis.com/blog/"></webview>
       </div>
       <div class="right" style="top: calc(50% + 12px);">Updates</div>
-      <div class="webview-wrapper right" style="top: calc(50% + 48px); height:calc(48% - 48px)">
+      <div class="webview-wrapper right shadow" style="top: calc(50% + 48px); height:calc(48% - 48px)">
         <webview id="updates" style="width:100%;height:100%" src="http://relicsofcorbantis.com/updates-changes-at-relics/"></webview>
       </div>
     </div>
     <div id="rightsettings" class="rightbox" style="display:none">
       <div class="right" style="top: 12px;">SWGEMU Folder</div>
-      <input id="folder" type="text" class="right" style="top: 48px;color: black; border: 3px solid #7b1b1d; border-radius: 8px; box-sizing: border-box; background-color: #627d9f"/>
-      <button id="browse" class="right" style="top: 96px; border-radius: 8px; background-color: #7b1b1d; border: 3px solid #7b1b1d; color: #cc9966">Browse</button>
+      <input id="folder" type="text" class="right shadow" style="top: 48px;color: black; border: 3px solid #7b1b1d; border-radius: 8px; box-sizing: border-box; background-color: #627d9f"/>
+      <button id="browse" class="right shadow" style="top: 96px; border-radius: 8px; background-color: #7b1b1d; border: 3px solid #7b1b1d; color: #cc9966">Browse</button>
       
-      <button id="gamesettings" class="right" style="bottom:12px; border-radius: 8px; background-color: #7b1b1d; border: 3px solid #7b1b1d; color: #cc9966">Game Settings</button>
+      <button id="gamesettings" class="right shadow" style="bottom:70px; border-radius: 8px; background-color: #7b1b1d; border: 3px solid #7b1b1d; color: #cc9966">Game Settings</button>
+      <button id="home" class="right button" style="bottom:12px"></button>
     </div>
 
     <img class="header-img" src="./img/Relics-of-Corbantis-logo.png" style="position: absolute; left: 2%; top: 2%; width: 334px; -webkit-app-region: drag"/>
