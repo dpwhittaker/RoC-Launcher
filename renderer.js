@@ -72,10 +72,19 @@ browseBtn.addEventListener('click', function (event) {
     ipc.send('open-directory-dialog');
 });
 
+folderBox.addEventListener('keyup', event => {
+    config.folder = event.target.value;
+    fs.writeFileSync(configFile, JSON.stringify(config));
+});
+
 ipc.on('selected-directory', function (event, path) {
-    document.getElementById('folder').value = path;
+    folderBox.value = path;
     config.folder = path;
     fs.writeFileSync(configFile, JSON.stringify(config));
+});
+
+ipc.on('downloading-update', function (event, text) {
+    versionDiv.innerHTML = text;
 });
 
 function removeHeader(webview) {

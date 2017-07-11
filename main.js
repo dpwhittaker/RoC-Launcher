@@ -38,6 +38,10 @@ autoUpdater.on('update-downloaded', (info) => {
   autoUpdater.quitAndInstall();  
 });
 
+autoUpdater.on('update-available', info => {
+  mainWindow.webContents.send('downloading-update', 'Downloading version ' + info.version);
+})
+
 app.on('ready', function()  {
   autoUpdater.checkForUpdates();
 });
