@@ -1,5 +1,6 @@
 {
-  "name": "RoC-Launcher",
+  "name": "roc-launcher",
+  "productName": "RoC Launcher",
   "version": "0.0.5",
   "description": "Relics of Corbantis Official SWGEMU Launcher",
   "main": "main.js",
@@ -33,7 +34,6 @@
     "electron-updater": "^2.4.5"
   },
   "build": {
-    "productName": "RoC Launcher",
     "win": {
       "target": [
         "nsis",
