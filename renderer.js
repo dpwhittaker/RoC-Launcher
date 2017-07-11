@@ -4,6 +4,7 @@ const remote = require('electron').remote;
 const fs = require('fs');
 const process = require('child_process');
 const server = require('./server');
+const package = require('./package');
 const path = require('path');
 
 const playBtn = document.getElementById('play');
@@ -21,6 +22,8 @@ const minBtn = document.getElementById('minimize');
 const maxBtn = document.getElementById('maximize');
 const closeBtn = document.getElementById('close');
 const gamesettingsBtn = document.getElementById('gamesettings');
+const versionDiv = document.getElementById('version');
+versionDiv.innerHTML = package.version;
 
 const configFile = require('os').homedir() + '/RoC-Launcher.json';
 var config = {folder: 'C:\\SWGRelics'};
@@ -110,3 +113,5 @@ function removeHeader(webview) {
 }
 news.addEventListener("dom-ready", removeHeader(news));
 updates.addEventListener("dom-ready", removeHeader(updates));
+
+versionDiv.addEventListener('click', event => remote.getCurrentWebContents().openDevTools());

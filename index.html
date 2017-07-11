@@ -39,6 +39,15 @@
         width: 100%;
         text-align: center;
       }
+      #version {
+        position: absolute;
+        left: 5px;
+        bottom: 5px;
+        font: 10px Arial;
+        color: #cc9966;
+        cursor: pointer;
+        z-index: 1000;
+      }
 
       #play { background:url(./img/playbutton.png) no-repeat; }
       #play:hover { background:url(./img/playbuttonhov.png) no-repeat; }
@@ -94,11 +103,12 @@
     </div>
 
     <img class="header-img" src="./img/Relics-of-Corbantis-logo.png" style="position: absolute; left: 2%; top: 2%; width: 334px; -webkit-app-region: drag"/>
-    <button id="play" class="button" style="top: 23%;"/>
-    <button id="settings" class="button" style="top: 38%;"/>
-    <button id="profcalc" class="button disabled" style="top: 53%;"/>
-    <button id="web" class="button" style="top: 68%;"/>
-    <button id="disc" class="button" style="top: 83%;"/>
+    <button id="play" class="button" style="top: 23%;"></button>
+    <button id="settings" class="button" style="top: 38%;"></button>
+    <button id="profcalc" class="button disabled" style="top: 53%;"></button>
+    <button id="web" class="button" style="top: 68%;"></button>
+    <button id="disc" class="button" style="top: 83%;"></button>
+    <div id="version"></div>
   </body>
 
   <script>
