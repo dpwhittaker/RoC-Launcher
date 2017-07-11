@@ -4,7 +4,7 @@ const {autoUpdater} = require('electron-updater');
 const path = require('path');
 const url = require('url');
 
-log.transports.file.file = require('os').homedir() + '/RoC-Launcher-log.txt';;
+log.transports.file.file = require('os').homedir() + '/RoC-Launcher-log.txt';
 autoUpdater.logger = log;
 autoUpdater.logger.transports.file.level = 'info';
 log.info('App starting...');

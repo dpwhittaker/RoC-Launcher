@@ -4,6 +4,7 @@ const remote = require('electron').remote;
 const fs = require('fs');
 const process = require('child_process');
 const server = require('./server');
+const path = require('path');
 
 const playBtn = document.getElementById('play');
 const settingsBtn = document.getElementById('settings');
@@ -19,9 +20,10 @@ const updates = document.getElementById('updates');
 const minBtn = document.getElementById('minimize');
 const maxBtn = document.getElementById('maximize');
 const closeBtn = document.getElementById('close');
+const gamesettingsBtn = document.getElementById('gamesettings');
 
 const configFile = require('os').homedir() + '/RoC-Launcher.json';
-var config = {folder: 'C:/'};
+var config = {folder: 'C:\\SWGRelics'};
 if (fs.existsSync(configFile))
     config = JSON.parse(fs.readFileSync(configFile));
 folderBox.value = config.folder;
@@ -42,6 +44,11 @@ playBtn.addEventListener('click', event => {
     const child = process.spawn("SWGEmu.exe", args, {cwd: config.folder, detached: true, stdio: 'ignore'});
     child.unref();
 });
+
+gamesettingsBtn.addEventListener('click', event => {
+    const child = process.spawn("cmd", ["/c", path.join(config.folder, "SWGEmu_Setup.exe")], {cwd: config.folder, detached: true, stdio: 'ignore'});
+    child.unref();
+})
 
 settings.addEventListener('click', event => {
     if (rightContent.style.display == 'none') {
