@@ -40,6 +40,7 @@ maxBtn.addEventListener('click', event => {
 closeBtn.addEventListener('click', event => remote.getCurrentWindow().close());
 
 playBtn.addEventListener('click', event => {
+    fs.writeFileSync(path.join(config.folder, "swgemu_login.cfg"), `[ClientGame]\r\nloginServerAddress0=${server.address}\r\nloginServerPort0=${server.port}`);
     var args = ["--",
         "-s", "ClientGame", "loginServerAddress0=" + server.address, "loginServerPort0=" + server.port,
         "-s", "Station", "gameFeatures=34929",
