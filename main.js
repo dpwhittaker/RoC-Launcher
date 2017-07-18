@@ -12,7 +12,7 @@ log.info('App starting...');
 let mainWindow;
 
 function createWindow () {
-  mainWindow = new BrowserWindow({width: 1024, height: 600, show: false, autoHideMenuBar: true, frame: false});
+  mainWindow = new BrowserWindow({width: 1024, minWidth: 1024, height: 600, minHeight: 600, show: false, autoHideMenuBar: true, frame: false});
   mainWindow.loadURL(url.format({
     pathname: path.join(__dirname, 'index.html'),
     protocol: 'file:',
