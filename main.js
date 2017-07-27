@@ -26,17 +26,21 @@ function createWindow () {
 app.on('ready', createWindow);
 app.on('window-all-closed', () => app.quit());
 
-ipcMain.on('open-directory-dialog', function (event) {
+ipcMain.on('open-directory-dialog', function (event, response) {
   dialog.showOpenDialog({
     properties: ['openDirectory']
   }, function (files) {
-    if (files) event.sender.send('selected-directory', files[0])
+    if (files) event.sender.send(response, files[0])
   });
 });
 
 autoUpdater.on('update-downloaded', (info) => {
   autoUpdater.quitAndInstall();  
 });
+
+autoUpdater.on('download-progress', (progress) => {
+  mainWindow.webContents.send('download-progress', progress);
+})
 
 autoUpdater.on('update-available', info => {
   mainWindow.webContents.send('downloading-update', 'Downloading version ' + info.version);

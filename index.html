@@ -47,6 +47,12 @@
         right: -7px;
         left: initial;
       }
+      button.right {
+        background-color: #7b1b1d;
+      }
+      button.right.disabled {
+        background-color: #2f2f2f;
+      }
       #version {
         position: absolute;
         left: 5px;
@@ -55,6 +61,20 @@
         color: #cc9966;
         cursor: pointer;
         z-index: 1000;
+      }
+      #modlist {
+        background-color: #627d9f;
+        border: 3px solid #7b1b1d;
+        border-radius: 8px;
+        color: black;
+        box-sizing: border-box;
+        padding: 0;
+        margin: 0;
+      }
+      #modlist li {
+        list-style-type: none;
+        display: inline-block;
+        margin-left: 10px;
       }
 
       #play { background:url(./img/playbutton.png) no-repeat; }
@@ -109,14 +129,21 @@
     <div id="rightsettings" class="rightbox" style="display:none">
       <div class="right" style="top: 12px;">SWGEMU Folder</div>
       <input id="folder" type="text" class="right shadow" style="top: 48px;color: black; border: 3px solid #7b1b1d; border-radius: 8px; box-sizing: border-box; background-color: #627d9f"/>
-      <button id="browse" class="right shadow" style="top: 96px; border-radius: 8px; background-color: #7b1b1d; border: 3px solid #7b1b1d; color: #cc9966">Browse</button>
-      
-      <button id="gamesettings" class="right shadow" style="bottom:70px; border-radius: 8px; background-color: #7b1b1d; border: 3px solid #7b1b1d; color: #cc9966">Game Settings</button>
+      <button id="browse" class="right shadow" style="top: 96px; border-radius: 8px; border: 3px solid #7b1b1d; color: #cc9966">Browse</button>
+      <button id="install" class="right shadow" style="top: 144px; width:48%; border-radius: 8px; border: 3px solid #7b1b1d; color: #cc9966">Install From SWG</button>
+      <button id="fullscan" class="right shadow" style="top: 144px; right:0; width:48%; border-radius: 8px; border: 3px solid #7b1b1d; color: #cc9966">Full Scan</button>
+      <div class="right" style="top: 208px;">Mods</div>
+      <ul id="modlist" class="right shadow" style="top:240px;"></ul>
+      <button id="gamesettings" class="right shadow" style="bottom:70px; border-radius: 8px; border: 3px solid #7b1b1d; color: #cc9966">Game Settings</button>
       <button id="home" class="right button" style="bottom:12px"></button>
     </div>
 
     <img class="header-img" src="./img/Relics-of-Corbantis-logo.png" style="position: absolute; left: 2%; top: 2%; width: 334px; -webkit-app-region: drag"/>
-    <button id="play" class="button" style="top: 23%;"></button>
+    <button id="play" class="button disabled" style="top: 23%;"></button>
+    <div id="progressbox" class="button shadow" style="top: 33%;height:24px; color: black; font-size: 16px; border: 3px solid #7b1b1d; border-radius: 8px; box-sizing: border-box; background-color: #627d9f">
+      <div id="progress" style="width:0%;height:100%;background-color:#cc9966;border-radius:6px"></div>
+      <div id="progresstext" style="position:absolute;top:0;width:100%;height:100%;text-align:center;"></div>
+    </div>
     <button id="settings" class="button" style="top: 38%;"></button>
     <button id="profcalc" class="button disabled" style="top: 53%;"></button>
     <button id="web" class="button" style="top: 68%;"></button>

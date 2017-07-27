@@ -5,6 +5,7 @@ const fs = require('fs');
 const process = require('child_process');
 const server = require('./server');
 const package = require('./package');
+const install = require('./install');
 const path = require('path');
 
 const playBtn = document.getElementById('play');
@@ -16,6 +17,12 @@ const rightContent = document.getElementById('rightcontent');
 const rightSettings = document.getElementById('rightsettings');
 const folderBox = document.getElementById('folder');
 const browseBtn = document.getElementById('browse');
+const installBtn = document.getElementById('install');
+const fullscanBtn = document.getElementById('fullscan');
+const modListBox = document.getElementById('modlist');
+const progressBox = document.getElementById('progressbox');
+const progressBar = document.getElementById('progress');
+const progressText = document.getElementById('progresstext');
 const news = document.getElementById('news');
 const updates = document.getElementById('updates');
 const minBtn = document.getElementById('minimize');
@@ -30,6 +37,10 @@ var config = {folder: 'C:\\SWGRelics'};
 if (fs.existsSync(configFile))
     config = JSON.parse(fs.readFileSync(configFile));
 folderBox.value = config.folder;
+if (!config.mods) {
+    config.mods = [];
+    saveConfig();
+}
 
 minBtn.addEventListener('click', event => remote.getCurrentWindow().minimize());
 maxBtn.addEventListener('click', event => {
@@ -40,6 +51,7 @@ maxBtn.addEventListener('click', event => {
 closeBtn.addEventListener('click', event => remote.getCurrentWindow().close());
 
 playBtn.addEventListener('click', event => {
+    if (isDisabled(playBtn)) return;
     fs.writeFileSync(path.join(config.folder, "swgemu_login.cfg"), `[ClientGame]\r\nloginServerAddress0=${server.address}\r\nloginServerPort0=${server.port}`);
     var args = ["--",
         "-s", "ClientGame", "loginServerAddress0=" + server.address, "loginServerPort0=" + server.port,
@@ -76,23 +88,121 @@ websiteBtn.addEventListener('click', event => shell.openExternal("http://relicso
 discordBtn.addEventListener('click', event => shell.openExternal("https://discordapp.com/channels/126343966848188417/289458004745650176"));
 
 browseBtn.addEventListener('click', function (event) {
-    ipc.send('open-directory-dialog');
+    ipc.send('open-directory-dialog', 'selected-directory');
 });
 
 folderBox.addEventListener('keyup', event => {
     config.folder = event.target.value;
-    fs.writeFileSync(configFile, JSON.stringify(config));
+    saveConfig();
 });
 
 ipc.on('selected-directory', function (event, path) {
     folderBox.value = path;
     config.folder = path;
-    fs.writeFileSync(configFile, JSON.stringify(config));
+    saveConfig();
+});
+
+installBtn.addEventListener('click', function(event) {
+    if (isDisabled(installBtn)) return;
+    ipc.send('open-directory-dialog', 'install-selected');
+});
+
+ipc.on('install-selected', function (event, path) {
+    disable(installBtn);
+    disable(fullscanBtn);
+    disable(playBtn);
+    install.install(path, config.folder, config.mods);
 });
 
 ipc.on('downloading-update', function (event, text) {
     versionDiv.innerHTML = text;
+    disable(installBtn);
+    disable(fullscanBtn);
+    disable(playBtn);
 });
+
+ipc.on('download-progress', function(event, info) {
+    install.progress(info.transferred, info.total);
+})
+
+install.progress = function(completed, total) {
+    if (progressBox.style.display == 'none') progressBox.style.display = 'block';
+    progressText.innerHTML = Math.trunc(completed * 100 / total) + '%';
+    progressBar.style.width = (completed * 100 / total) + '%';
+    if (completed == total) {
+        enable(playBtn);
+        enable(fullscanBtn);
+        enable(installBtn);
+        progressBox.style.display = 'none';
+    }
+}
+
+install.modList = function(mods) {
+    modListBox.innerHTML = "";
+    for (var mod of mods) {
+        var checkbox = document.createElement('input');
+        checkbox.type = "checkbox";
+        checkbox.value = mod;
+        checkbox.id = mod.replace(/[^a-zA-Z]/g, "");
+        checkbox.checked = config.mods.includes(mod);
+        checkbox.onchange = modListChanged;
+        var label = document.createElement('label');
+        label.htmlFor = checkbox.id;
+        label.appendChild(document.createTextNode(mod));
+        var li = document.createElement('li');
+        li.appendChild(checkbox);
+        li.appendChild(label);
+        modListBox.appendChild(li);
+    }
+}
+
+function modListChanged() {
+    config.mods = [];
+    for (var child of modListBox.children) {
+        if (child.children[0].checked) config.mods.push(child.children[0].value);
+    }
+    saveConfig();
+    disable(fullscanBtn);
+    disable(installBtn);
+    disable(playBtn);
+    install.install(config.folder, config.folder, config.mods);
+}
+
+fullscanBtn.addEventListener('click', function(event) {
+    if (isDisabled(fullscanBtn)) return;
+    disable(fullscanBtn);
+    disable(installBtn);
+    disable(playBtn);
+    install.install(config.folder, config.folder, config.mods, true);
+});
+
+if (fs.existsSync(path.join(config.folder, 'bottom.tre'))) {
+    disable(fullscanBtn);
+    disable(installBtn);
+    disable(playBtn);
+    install.install(config.folder, config.folder, config.mods);
+} else {
+    disable(playBtn);
+    disable(fullscanBtn);
+    install.getManifest();
+    settings.click();
+}
+
+function isDisabled(btn) {
+    return /disabled/.test(btn.className);
+}
+
+function disable(btn) {
+    if (!isDisabled(btn)) btn.className += ' disabled';
+}
+
+function enable(btn) {
+    btn.className = btn.className.replace(/ ?disabled ?/,'');
+}
+
+function saveConfig() {
+    fs.writeFileSync(configFile, JSON.stringify(config));
+}
 
 function removeHeader(webview) {
     return event => {
