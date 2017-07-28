@@ -2,10 +2,10 @@ const fs = require('fs');
 const path = require('path');
 const request = require('request');
 
-module.exports.getManifest = function(mods, fullScan, checkFiles) {
+module.exports.getManifest = function(mods, fullScan, emuPath, checkFiles) {
     if (!mods) mods = [];
     var files = require('./required');
-    if (fullScan || !fs.existsSync(path.join())) {
+    if (fullScan || emuPath && !fs.existsSync(path.join(emuPath, "swgemu.cfg"))) {
         //force download with size:0, md5:""
         files = files.concat([
             {name:"swgemu.cfg", size:0, md5:"", url:"http://www.launchpad2.net/SWGEmu/swgemu.cfg"},
@@ -27,7 +27,7 @@ module.exports.getManifest = function(mods, fullScan, checkFiles) {
 module.exports.install = function(swgPath, emuPath, mods, fullScan) {
     const child_process = require('child_process');
 
-    module.exports.getManifest(mods, fullScan, checkFiles);
+    module.exports.getManifest(mods, fullScan, emuPath, checkFiles);
 
     var fileIndex = 0;
     var completedBytes = 0;
