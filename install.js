@@ -19,7 +19,7 @@ module.exports.getManifest = function(mods, fullScan, emuPath, checkFiles) {
         for (var mod in body) if (mod != 'required') allmods.push(mod);
         if (module.exports.modList) module.exports.modList(allmods);
         files = files.concat(body.required);
-        for (var mod of mods) files = files.concat(body[mod]);
+        for (var mod of mods) files = files.concat(body[mod] || []);
         if (checkFiles) checkFiles(files);
     });
 }
