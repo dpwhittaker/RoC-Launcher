@@ -51,7 +51,7 @@
         background-color: #7b1b1d;
         cursor: pointer;
       }
-      button.right.disabled {
+      button.right:disabled {
         background-color: #2f2f2f;
       }
       #version {
@@ -81,27 +81,27 @@
       #play { background:url(./img/playbutton.png) no-repeat; }
       #play:hover { background:url(./img/playbuttonhov.png) no-repeat; }
       #play:active { background:url(./img/playbuttonclick.png) no-repeat; }
-      #play.disabled { background:url(./img/playbuttondis.png) no-repeat; }
+      #play:disabled { background:url(./img/playbuttondis.png) no-repeat; }
 
       #settings { background:url(./img/settingsbutton.png) no-repeat; }
       #settings:hover { background:url(./img/settingsbuttonhov.png) no-repeat; }
       #settings:active, #settings.active { background:url(./img/settingsbuttonclick.png) no-repeat; }
-      #settings.disabled { background:url(./img/settingsbuttondis.png) no-repeat; }
+      #settings:disabled { background:url(./img/settingsbuttondis.png) no-repeat; }
 
       #profcalc { background:url(./img/profcalcbutton.png) no-repeat; }
       #profcalc:hover { background:url(./img/profcalcbuttonhov.png) no-repeat; }
       #profcalc:active { background:url(./img/profcalcbuttonclick.png) no-repeat; }
-      #profcalc.disabled { background:url(./img/profcalcbuttondis.png) no-repeat; }
+      #profcalc:disabled { background:url(./img/profcalcbuttondis.png) no-repeat; }
 
       #web { background:url(./img/webbutton.png) no-repeat; }
       #web:hover { background:url(./img/webbuttonhov.png) no-repeat; }
       #web:active { background:url(./img/webbuttonclick.png) no-repeat; }
-      #web.disabled { background:url(./img/webbuttondis.png) no-repeat; }
+      #web:disabled { background:url(./img/webbuttondis.png) no-repeat; }
 
       #disc { background:url(./img/discbutton.png) no-repeat; }
       #disc:hover { background:url(./img/discbuttonhov.png) no-repeat; }
       #disc:active { background:url(./img/discbuttonclick.png) no-repeat; }
-      #disc.disabled { background:url(./img/discbuttondis.png) no-repeat; }
+      #disc:disabled { background:url(./img/discbuttondis.png) no-repeat; }
 
       #home { background:url(./img/homebutton.png) no-repeat; }
       #home:hover { background:url(./img/homebuttonhov.png) no-repeat; }
@@ -140,13 +140,13 @@
     </div>
 
     <img class="header-img" src="./img/Relics-of-Corbantis-logo.png" style="position: absolute; left: 2%; top: 2%; width: 334px; -webkit-app-region: drag"/>
-    <button id="play" class="button disabled" style="top: 23%;"></button>
+    <button id="play" class="button" disabled style="top: 23%;"></button>
     <div id="progressbox" class="button shadow" style="top: 33%;height:24px; color: black; font-size: 16px; border: 3px solid #7b1b1d; border-radius: 8px; box-sizing: border-box; background-color: #627d9f">
       <div id="progress" style="width:0%;height:100%;background-color:#cc9966;border-radius:6px"></div>
       <div id="progresstext" style="position:absolute;top:0;width:100%;height:100%;text-align:center;"></div>
     </div>
     <button id="settings" class="button" style="top: 38%;"></button>
-    <button id="profcalc" class="button disabled" style="top: 53%;"></button>
+    <button id="profcalc" class="button" disabled style="top: 53%;"></button>
     <button id="web" class="button" style="top: 68%;"></button>
     <button id="disc" class="button" style="top: 83%;"></button>
     <div id="version"></div>

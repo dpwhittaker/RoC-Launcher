@@ -51,7 +51,7 @@ maxBtn.addEventListener('click', event => {
 closeBtn.addEventListener('click', event => remote.getCurrentWindow().close());
 
 playBtn.addEventListener('click', event => {
-    if (isDisabled(playBtn)) return;
+    if (playBtn.disabled) return;
     fs.writeFileSync(path.join(config.folder, "swgemu_login.cfg"), `[ClientGame]\r\nloginServerAddress0=${server.address}\r\nloginServerPort0=${server.port}`);
     var args = ["--",
         "-s", "ClientGame", "loginServerAddress0=" + server.address, "loginServerPort0=" + server.port,
@@ -103,37 +103,52 @@ ipc.on('selected-directory', function (event, path) {
 });
 
 installBtn.addEventListener('click', function(event) {
-    if (isDisabled(installBtn)) return;
-    disable(installBtn);
+    if (installBtn.disabled = false) return;
+    installBtn.disabled = true;
     ipc.send('open-directory-dialog', 'install-selected');
 });
 
 ipc.on('install-selected', function (event, path) {
-    disable(installBtn);
-    disable(fullscanBtn);
-    disable(playBtn);
+    disableAll();
     install.install(path, config.folder, config.mods);
 });
 
 ipc.on('downloading-update', function (event, text) {
     versionDiv.innerHTML = text;
-    disable(installBtn);
-    disable(fullscanBtn);
-    disable(playBtn);
+    disableAll();
 });
 
 ipc.on('download-progress', function(event, info) {
     install.progress(info.transferred, info.total);
 })
 
+var lastCompleted = 0;
+var lastTime = new Date();
+var rate = 0;
+var units = " B/s";
 install.progress = function(completed, total) {
+    var time = new Date();
+    var elapsed = (time - lastTime) / 1000;
+    if (elapsed >= 1) {
+        var bytes = completed - lastCompleted;
+        units = " B/s";
+        rate = bytes / elapsed;
+        if (rate > 1024) {
+            rate = rate / 1024;
+            units = " KB/s";
+        }
+        if (rate > 1024) {
+            rate = rate / 1024;
+            units = " MB/s";
+        }
+        lastCompleted = completed;
+        lastTime = time;
+    }
     if (progressBox.style.display == 'none') progressBox.style.display = 'block';
-    progressText.innerHTML = Math.trunc(completed * 100 / total) + '%';
+    progressText.innerHTML = Math.trunc(completed * 100 / total) + '% (' + rate.toPrecision(3) + units + ')';
     progressBar.style.width = (completed * 100 / total) + '%';
     if (completed == total) {
-        enable(playBtn);
-        enable(fullscanBtn);
-        enable(installBtn);
+        enableAll();
         progressBox.style.display = 'none';
     }
 }
@@ -147,6 +162,7 @@ install.modList = function(mods) {
         checkbox.id = mod.replace(/[^a-zA-Z]/g, "");
         checkbox.checked = config.mods.includes(mod);
         checkbox.onchange = modListChanged;
+        checkbox.disabled = true;
         var label = document.createElement('label');
         label.htmlFor = checkbox.id;
         label.appendChild(document.createTextNode(mod));
@@ -163,42 +179,46 @@ function modListChanged() {
         if (child.children[0].checked) config.mods.push(child.children[0].value);
     }
     saveConfig();
-    disable(fullscanBtn);
-    disable(installBtn);
-    disable(playBtn);
+    disableAll();
     install.install(config.folder, config.folder, config.mods);
 }
 
 fullscanBtn.addEventListener('click', function(event) {
-    if (isDisabled(fullscanBtn)) return;
-    disable(fullscanBtn);
-    disable(installBtn);
-    disable(playBtn);
+    if (fullscanBtn.disabled) return;
+    disableAll();
     install.install(config.folder, config.folder, config.mods, true);
 });
 
 if (fs.existsSync(path.join(config.folder, 'bottom.tre'))) {
-    disable(fullscanBtn);
-    disable(installBtn);
-    disable(playBtn);
+    disableAll();
     install.install(config.folder, config.folder, config.mods);
 } else {
-    disable(playBtn);
-    disable(fullscanBtn);
+    playBtn.disabled = true;
+    fullscanBtn.disabled = true;
     install.getManifest();
     settings.click();
 }
 
-function isDisabled(btn) {
-    return /disabled/.test(btn.className);
+function disableAll() {
+    folderBox.disabled = true;
+    fullscanBtn.disabled = true;
+    installBtn.disabled = true;
+    playBtn.disabled = true;
+    browseBtn.disabled = true;
+    for (var child of modListBox.children) {
+        child.children[0].disabled = true;
+    }    
 }
 
-function disable(btn) {
-    if (!isDisabled(btn)) btn.className += ' disabled';
-}
-
-function enable(btn) {
-    btn.className = btn.className.replace(/ ?disabled ?/,'');
+function enableAll() {
+    folderBox.disabled = false;
+    fullscanBtn.disabled = false;
+    installBtn.disabled = false;
+    playBtn.disabled = false;
+    browseBtn.disabled = false;
+    for (var child of modListBox.children) {
+        child.children[0].disabled = false;
+    }    
 }
 
 function saveConfig() {

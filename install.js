@@ -15,13 +15,23 @@ module.exports.getManifest = function(mods, fullScan, emuPath, checkFiles) {
     }
     request({url:"https://github.com/dpwhittaker/RoC-Launcher/releases/download/Assets/manifest.json", json:true}, function(err, response, body) {
         if (err) return console.error(err);
+
         var allmods = [];
         for (var mod in body) if (mod != 'required') allmods.push(mod);
         if (module.exports.modList) module.exports.modList(allmods);
-        files = files.concat(body.required);
-        for (var mod of mods) files = files.concat(body[mod] || []);
+        files = unionByName(files, body.required);
+        for (var mod of mods) files = unionByName(files, body[mod] || []);
         if (checkFiles) checkFiles(files);
     });
+}
+
+function unionByName(a, b) {
+    var lookup = {};
+    for (var i of b) lookup[i.name] = true;
+    var r = [];
+    for (var i of a) if (!lookup[i.name]) r.push(i);
+    for (var i of b) r.push(i);
+    return r;
 }
 
 module.exports.install = function(swgPath, emuPath, mods, fullScan) {
