@@ -34,9 +34,11 @@ function unionByName(a, b) {
     return r;
 }
 
+var forks = [];
+var canceling = true;
 module.exports.install = function(swgPath, emuPath, mods, fullScan) {
     const child_process = require('child_process');
-
+    canceling = false;
     module.exports.getManifest(mods, fullScan, emuPath, checkFiles);
 
     var fileIndex = 0;
@@ -57,6 +59,7 @@ module.exports.install = function(swgPath, emuPath, mods, fullScan) {
             let fork = child_process.fork(__filename, {env});
             fork.on('message', m => installedCallback(fork, m));
             fork.send(files[fileIndex++]);
+            forks.push(fork);
         }
     }
     function installedCallback(fork, message) {
@@ -64,6 +67,7 @@ module.exports.install = function(swgPath, emuPath, mods, fullScan) {
             completedBytes += message.complete;
             progress(completedBytes, totalBytes);
             if (fileIndex == files.length) {
+                forks.splice(forks.indexOf(fork), 1);
                 fork.kill();
                 console.log("killing fork");
             }
@@ -76,8 +80,14 @@ module.exports.install = function(swgPath, emuPath, mods, fullScan) {
         }
     }
     function progress(completed, total) {
-        if (module.exports.progress) module.exports.progress(completed, total);
+        if (module.exports.progress && !canceling) module.exports.progress(completed, total);
     }
+}
+
+module.exports.cancel = function() {
+    canceling = true;
+    for (var fork of forks) fork.kill();
+    forks = [];
 }
 
 if (process.send) {

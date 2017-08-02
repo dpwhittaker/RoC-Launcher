@@ -19,6 +19,7 @@ const folderBox = document.getElementById('folder');
 const browseBtn = document.getElementById('browse');
 const installBtn = document.getElementById('install');
 const fullscanBtn = document.getElementById('fullscan');
+const cancelBtn = document.getElementById('cancel');
 const modListBox = document.getElementById('modlist');
 const progressBox = document.getElementById('progressbox');
 const progressBar = document.getElementById('progress');
@@ -107,6 +108,12 @@ installBtn.addEventListener('click', function(event) {
     installBtn.disabled = true;
     ipc.send('open-directory-dialog', 'install-selected');
 });
+
+cancelBtn.addEventListener('click', function(event) {
+    install.cancel();
+    enableAll();
+    progressBox.style.display = 'none';
+})
 
 ipc.on('install-selected', function (event, path) {
     disableAll();
