@@ -13,7 +13,7 @@ module.exports.getManifest = function(mods, fullScan, emuPath, checkFiles) {
             {name:"swgemu_preload.cfg", size:0, md5:"", url:"http://www.launchpad2.net/SWGEmu/swgemu_preload.cfg"}
         ]);
     }
-    request({url:"https://github.com/dpwhittaker/RoC-Launcher/releases/download/Assets/manifest.json", json:true}, function(err, response, body) {
+    request({url:"https://github.com/c0pp3r/RoC-Launcher/releases/download/Assets/manifest.json", json:true}, function(err, response, body) {
         if (err) return console.error(err);
 
         var allmods = [];

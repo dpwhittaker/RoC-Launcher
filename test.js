@@ -1,7 +1,7 @@
 const request = require('request');
 const fs = require('fs');
-var url = "https://github.com/dpwhittaker/RoC-Launcher/releases/download/Assets/relics_1.tre";
-var file = fs.createWriteStream("C:\\SWGTest\\relics_1.tre");
+var url = "https://github.com/c0pp3r/RoC-Launcher/releases/download/Assets/aftermath_1.tre";
+var file = fs.createWriteStream("C:\\SWGTest\\aftermath_1.tre");
 request(url).on('error', err => {
     process.send("download error " + err);
     file.close();
