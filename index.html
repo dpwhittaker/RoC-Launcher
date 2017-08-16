@@ -46,10 +46,21 @@
         width: 155px;
         right: -7px;
         left: initial;
+        border: none;
+      }
+      .right.input {
+        border: 3px solid #7b1b1d;
+        border-radius: 8px;
+        background-color: #627d9f;
+        box-sizing: border-box;
+        color: black;
       }
       button.right {
         background-color: #7b1b1d;
         cursor: pointer;
+        border-radius: 8px;
+        border: 3px solid #7b1b1d;
+        color: #cc9966
       }
       button.right:disabled {
         background-color: #2f2f2f;
@@ -133,14 +144,35 @@
     </div>
     <div id="rightsettings" class="rightbox" style="display:none">
       <div class="right" style="top: 12px;">RoC Folder</div>
-      <input id="folder" type="text" class="right shadow" style="top: 48px;color: black; border: 3px solid #7b1b1d; border-radius: 8px; box-sizing: border-box; background-color: #627d9f"/>
-      <button id="browse" class="right shadow" style="top: 96px; border-radius: 8px; border: 3px solid #7b1b1d; color: #cc9966">Browse</button>
-      <button id="install" class="right shadow" style="top: 144px; width:38%; border-radius: 8px; border: 3px solid #7b1b1d; color: #cc9966">Install From SWG</button>
-      <button id="fullscan" class="right shadow" style="top: 144px; left:40%; width:38%; border-radius: 8px; border: 3px solid #7b1b1d; color: #cc9966">Full Scan</button>
-      <button id="cancel" class="right shadow" style="top: 144px; left:80%; width:20%; border-radius: 8px; border: 3px solid #7b1b1d; color: #cc9966">Cancel</button>
+      <input id="folder" type="text" class="right shadow input" style="top: 48px;"/>
+      <button id="browse" class="right shadow" style="top: 96px;">Browse</button>
+      <button id="install" class="right shadow" style="top: 144px; width:38%;">Install From SWG</button>
+      <button id="fullscan" class="right shadow" style="top: 144px; left:40%; width:38%;">Full Scan</button>
+      <button id="cancel" class="right shadow" style="top: 144px; left:80%; width:20%;">Cancel</button>
       <div class="right" style="top: 208px;">Mods</div>
       <ul id="modlist" class="right shadow" style="top:240px;"></ul>
-      <button id="gamesettings" class="right shadow" style="bottom:70px; border-radius: 8px; border: 3px solid #7b1b1d; color: #cc9966">Game Settings</button>
+      <div class="right" style="bottom:118px;left: 0px;width:15%">RAM</div>
+      <select id="ram" class="right shadow input" style="bottom:118px;left:15%;width:15%;">
+        <option value="750">750 MB (default)</option>
+        <option value="1024">1 GB</option>
+        <option value="1536">1.5 GB</option>
+        <option value="2048">2 GB</option>
+      </select>
+      <div class="right" style="bottom:118px; left:35%;width:15%">FPS</div>
+      <select id="fps" class="right shadow input" style="bottom:118px;left:50%;width:15%;">
+        <option value="30">30 (default)</option>
+        <option value="45">45</option>
+        <option value="60">60</option>
+      </select>
+      <div class="right" style="bottom:118px; left:70%;width:15%">Zoom</div>
+      <select id="zoom" class="right shadow input" style="bottom:118px;left:85%;width:15%;">
+        <option value="1">1 (default)</option>
+        <option value="3">3</option>
+        <option value="5">5 (medium)</option>
+        <option value="7">7</option>
+        <option value="10">10 (far)</option>
+      </select>
+      <button id="gamesettings" class="right shadow" style="bottom:70px;">Game Settings</button>
       <button id="home" class="right button" style="bottom:12px"></button>
     </div>
 
