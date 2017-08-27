@@ -1,1 +1,5 @@
-{"address": "server.relicsofcorbantis.com", "port": "44453"}
+{
+    "address": "server.relicsofcorbantis.com",
+    "port": "44453",
+    "manifestUrl": "https://raw.githubusercontent.com/dpwhittaker/RoC-Assets/master/manifest.json"
+}
