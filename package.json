@@ -1,6 +1,6 @@
 {
   "name": "roc-launcher",
-  "version": "0.9.1",
+  "version": "0.9.2",
   "description": "Relics of Corbantis Official SWGEMU Launcher",
   "main": "main.js",
   "scripts": {
@@ -21,7 +21,7 @@
     "emu",
     "swgemu"
   ],
-  "author": "Progor",
+  "author": "Progor at Relics of Corbantis",
   "license": "CC0-1.0",
   "devDependencies": {
     "electron": "~1.6.2",

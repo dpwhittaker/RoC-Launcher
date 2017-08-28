@@ -171,6 +171,7 @@ cancelBtn.addEventListener('click', function(event) {
 
 ipc.on('install-selected', function (event, path) {
     disableAll();
+    resetProgress();
     install.install(path, config.folder, config.mods);
 });
 
@@ -187,6 +188,13 @@ var lastCompleted = 0;
 var lastTime = new Date();
 var rate = 0;
 var units = " B/s";
+
+function resetProgress() {
+    lastCompleted = 0;
+    lastTime = new Date();
+    rate = 0;
+}
+
 install.progress = function(completed, total) {
     var time = new Date();
     var elapsed = (time - lastTime) / 1000;
@@ -241,17 +249,20 @@ function modListChanged() {
     }
     saveConfig();
     disableAll();
+    resetProgress();
     install.install(config.folder, config.folder, config.mods);
 }
 
 fullscanBtn.addEventListener('click', function(event) {
     if (fullscanBtn.disabled) return;
     disableAll();
+    resetProgress();
     install.install(config.folder, config.folder, config.mods, true);
 });
 
 if (fs.existsSync(path.join(config.folder, 'bottom.tre'))) {
     disableAll();
+    resetProgress();
     install.install(config.folder, config.folder, config.mods);
 } else {
     playBtn.disabled = true;
