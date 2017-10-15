@@ -15109,8 +15109,7 @@
           "droid_tracks": 4,
           "droid_track_chance": 50,
           "droid_track_speed": 40,
-          "droid_find_speed": 30,
-          "bounty_mission_level": 1
+          "droid_find_speed": 30
         },
         "SEARCHABLE": true,
         "ENDER": 0
@@ -15137,7 +15136,8 @@
         "SKILL_MODS": {
           "droid_tracks": 4,
           "droid_track_chance": 40,
-          "droid_track_speed": 30
+          "droid_track_speed": 30,
+          "bounty_mission_level": 1
         },
         "SEARCHABLE": true,
         "ENDER": 0,
@@ -18199,7 +18199,7 @@
         "IS_PROFESSION": false,
         "IS_HIDDEN": false,
         "MONEY_REQUIRED": 0,
-        "POINTS_REQUIRED": 0,
+        "POINTS_REQUIRED": 1,
         "SKILLS_REQUIRED_COUNT": 0,
         "SKILLS_REQUIRED": [
           "force_sensitive_combat_prowess_novice"
@@ -18303,7 +18303,7 @@
         "IS_PROFESSION": false,
         "IS_HIDDEN": false,
         "MONEY_REQUIRED": 0,
-        "POINTS_REQUIRED": 0,
+        "POINTS_REQUIRED": 1,
         "SKILLS_REQUIRED_COUNT": 0,
         "SKILLS_REQUIRED": [
           "force_sensitive_combat_prowess_novice"
@@ -18407,7 +18407,7 @@
         "IS_PROFESSION": false,
         "IS_HIDDEN": false,
         "MONEY_REQUIRED": 0,
-        "POINTS_REQUIRED": 0,
+        "POINTS_REQUIRED": 1,
         "SKILLS_REQUIRED_COUNT": 0,
         "SKILLS_REQUIRED": [
           "force_sensitive_combat_prowess_novice"
@@ -18511,7 +18511,7 @@
         "IS_PROFESSION": false,
         "IS_HIDDEN": false,
         "MONEY_REQUIRED": 0,
-        "POINTS_REQUIRED": 0,
+        "POINTS_REQUIRED": 1,
         "SKILLS_REQUIRED_COUNT": 0,
         "SKILLS_REQUIRED": [
           "force_sensitive_combat_prowess_novice"
@@ -18686,7 +18686,7 @@
         "IS_PROFESSION": false,
         "IS_HIDDEN": false,
         "MONEY_REQUIRED": 0,
-        "POINTS_REQUIRED": 0,
+        "POINTS_REQUIRED": 1,
         "SKILLS_REQUIRED_COUNT": 0,
         "SKILLS_REQUIRED": [
           "force_sensitive_enhanced_reflexes_novice"
@@ -18790,7 +18790,7 @@
         "IS_PROFESSION": false,
         "IS_HIDDEN": false,
         "MONEY_REQUIRED": 0,
-        "POINTS_REQUIRED": 0,
+        "POINTS_REQUIRED": 1,
         "SKILLS_REQUIRED_COUNT": 0,
         "SKILLS_REQUIRED": [
           "force_sensitive_enhanced_reflexes_novice"
@@ -18894,7 +18894,7 @@
         "IS_PROFESSION": false,
         "IS_HIDDEN": false,
         "MONEY_REQUIRED": 0,
-        "POINTS_REQUIRED": 0,
+        "POINTS_REQUIRED": 1,
         "SKILLS_REQUIRED_COUNT": 0,
         "SKILLS_REQUIRED": [
           "force_sensitive_enhanced_reflexes_novice"
@@ -19001,7 +19001,7 @@
         "IS_PROFESSION": false,
         "IS_HIDDEN": false,
         "MONEY_REQUIRED": 0,
-        "POINTS_REQUIRED": 0,
+        "POINTS_REQUIRED": 1,
         "SKILLS_REQUIRED_COUNT": 0,
         "SKILLS_REQUIRED": [
           "force_sensitive_enhanced_reflexes_novice"
@@ -19179,7 +19179,7 @@
         "IS_PROFESSION": false,
         "IS_HIDDEN": false,
         "MONEY_REQUIRED": 0,
-        "POINTS_REQUIRED": 0,
+        "POINTS_REQUIRED": 1,
         "SKILLS_REQUIRED_COUNT": 0,
         "SKILLS_REQUIRED": [
           "force_sensitive_crafting_mastery_novice"
@@ -19283,7 +19283,7 @@
         "IS_PROFESSION": false,
         "IS_HIDDEN": false,
         "MONEY_REQUIRED": 0,
-        "POINTS_REQUIRED": 0,
+        "POINTS_REQUIRED": 1,
         "SKILLS_REQUIRED_COUNT": 0,
         "SKILLS_REQUIRED": [
           "force_sensitive_crafting_mastery_novice"
@@ -19387,7 +19387,7 @@
         "IS_PROFESSION": false,
         "IS_HIDDEN": false,
         "MONEY_REQUIRED": 0,
-        "POINTS_REQUIRED": 0,
+        "POINTS_REQUIRED": 1,
         "SKILLS_REQUIRED_COUNT": 0,
         "SKILLS_REQUIRED": [
           "force_sensitive_crafting_mastery_novice"
@@ -19491,7 +19491,7 @@
         "IS_PROFESSION": false,
         "IS_HIDDEN": false,
         "MONEY_REQUIRED": 0,
-        "POINTS_REQUIRED": 0,
+        "POINTS_REQUIRED": 1,
         "SKILLS_REQUIRED_COUNT": 0,
         "SKILLS_REQUIRED": [
           "force_sensitive_crafting_mastery_novice"
@@ -19666,7 +19666,7 @@
         "IS_PROFESSION": false,
         "IS_HIDDEN": false,
         "MONEY_REQUIRED": 0,
-        "POINTS_REQUIRED": 0,
+        "POINTS_REQUIRED": 1,
         "SKILLS_REQUIRED_COUNT": 0,
         "SKILLS_REQUIRED": [
           "force_sensitive_heightened_senses_novice"
@@ -19778,7 +19778,7 @@
         "IS_PROFESSION": false,
         "IS_HIDDEN": false,
         "MONEY_REQUIRED": 0,
-        "POINTS_REQUIRED": 0,
+        "POINTS_REQUIRED": 1,
         "SKILLS_REQUIRED_COUNT": 0,
         "SKILLS_REQUIRED": [
           "force_sensitive_heightened_senses_novice"
@@ -19882,7 +19882,7 @@
         "IS_PROFESSION": false,
         "IS_HIDDEN": false,
         "MONEY_REQUIRED": 0,
-        "POINTS_REQUIRED": 0,
+        "POINTS_REQUIRED": 1,
         "SKILLS_REQUIRED_COUNT": 0,
         "SKILLS_REQUIRED": [
           "force_sensitive_heightened_senses_novice"
@@ -19986,7 +19986,7 @@
         "IS_PROFESSION": false,
         "IS_HIDDEN": false,
         "MONEY_REQUIRED": 0,
-        "POINTS_REQUIRED": 0,
+        "POINTS_REQUIRED": 1,
         "SKILLS_REQUIRED_COUNT": 0,
         "SKILLS_REQUIRED": [
           "force_sensitive_heightened_senses_novice"
@@ -20113,7 +20113,7 @@
         "IS_PROFESSION": false,
         "IS_HIDDEN": false,
         "MONEY_REQUIRED": 0,
-        "POINTS_REQUIRED": 5,
+        "POINTS_REQUIRED": 8,
         "SKILLS_REQUIRED_COUNT": 0,
         "SKILLS_REQUIRED": [
           "force_title_jedi_rank_02"
@@ -20161,7 +20161,7 @@
         "IS_PROFESSION": false,
         "IS_HIDDEN": false,
         "MONEY_REQUIRED": 0,
-        "POINTS_REQUIRED": 0,
+        "POINTS_REQUIRED": 1,
         "SKILLS_REQUIRED_COUNT": 0,
         "SKILLS_REQUIRED": [
           "force_discipline_light_saber_one_hand_04",
@@ -20207,7 +20207,7 @@
         "IS_PROFESSION": false,
         "IS_HIDDEN": false,
         "MONEY_REQUIRED": 0,
-        "POINTS_REQUIRED": 1,
+        "POINTS_REQUIRED": 8,
         "SKILLS_REQUIRED_COUNT": 0,
         "SKILLS_REQUIRED": [
           "force_discipline_light_saber_novice"
@@ -20240,7 +20240,7 @@
         "IS_PROFESSION": false,
         "IS_HIDDEN": false,
         "MONEY_REQUIRED": 0,
-        "POINTS_REQUIRED": 0,
+        "POINTS_REQUIRED": 6,
         "SKILLS_REQUIRED_COUNT": 0,
         "SKILLS_REQUIRED": [
           "force_discipline_light_saber_one_hand_01"
@@ -20275,7 +20275,7 @@
         "IS_PROFESSION": false,
         "IS_HIDDEN": false,
         "MONEY_REQUIRED": 0,
-        "POINTS_REQUIRED": 0,
+        "POINTS_REQUIRED": 4,
         "SKILLS_REQUIRED_COUNT": 0,
         "SKILLS_REQUIRED": [
           "force_discipline_light_saber_one_hand_02"
@@ -20308,7 +20308,7 @@
         "IS_PROFESSION": false,
         "IS_HIDDEN": false,
         "MONEY_REQUIRED": 0,
-        "POINTS_REQUIRED": 0,
+        "POINTS_REQUIRED": 2,
         "SKILLS_REQUIRED_COUNT": 0,
         "SKILLS_REQUIRED": [
           "force_discipline_light_saber_one_hand_03"
@@ -20344,7 +20344,7 @@
         "IS_PROFESSION": false,
         "IS_HIDDEN": false,
         "MONEY_REQUIRED": 0,
-        "POINTS_REQUIRED": 1,
+        "POINTS_REQUIRED": 8,
         "SKILLS_REQUIRED_COUNT": 0,
         "SKILLS_REQUIRED": [
           "force_discipline_light_saber_novice"
@@ -20377,7 +20377,7 @@
         "IS_PROFESSION": false,
         "IS_HIDDEN": false,
         "MONEY_REQUIRED": 0,
-        "POINTS_REQUIRED": 0,
+        "POINTS_REQUIRED": 6,
         "SKILLS_REQUIRED_COUNT": 0,
         "SKILLS_REQUIRED": [
           "force_discipline_light_saber_two_hand_01"
@@ -20412,7 +20412,7 @@
         "IS_PROFESSION": false,
         "IS_HIDDEN": false,
         "MONEY_REQUIRED": 0,
-        "POINTS_REQUIRED": 0,
+        "POINTS_REQUIRED": 4,
         "SKILLS_REQUIRED_COUNT": 0,
         "SKILLS_REQUIRED": [
           "force_discipline_light_saber_two_hand_02"
@@ -20445,7 +20445,7 @@
         "IS_PROFESSION": false,
         "IS_HIDDEN": false,
         "MONEY_REQUIRED": 0,
-        "POINTS_REQUIRED": 0,
+        "POINTS_REQUIRED": 2,
         "SKILLS_REQUIRED_COUNT": 0,
         "SKILLS_REQUIRED": [
           "force_discipline_light_saber_two_hand_03"
@@ -20481,7 +20481,7 @@
         "IS_PROFESSION": false,
         "IS_HIDDEN": false,
         "MONEY_REQUIRED": 0,
-        "POINTS_REQUIRED": 1,
+        "POINTS_REQUIRED": 8,
         "SKILLS_REQUIRED_COUNT": 0,
         "SKILLS_REQUIRED": [
           "force_discipline_light_saber_novice"
@@ -20514,7 +20514,7 @@
         "IS_PROFESSION": false,
         "IS_HIDDEN": false,
         "MONEY_REQUIRED": 0,
-        "POINTS_REQUIRED": 0,
+        "POINTS_REQUIRED": 6,
         "SKILLS_REQUIRED_COUNT": 0,
         "SKILLS_REQUIRED": [
           "force_discipline_light_saber_polearm_01"
@@ -20549,7 +20549,7 @@
         "IS_PROFESSION": false,
         "IS_HIDDEN": false,
         "MONEY_REQUIRED": 0,
-        "POINTS_REQUIRED": 0,
+        "POINTS_REQUIRED": 4,
         "SKILLS_REQUIRED_COUNT": 0,
         "SKILLS_REQUIRED": [
           "force_discipline_light_saber_polearm_02"
@@ -20582,7 +20582,7 @@
         "IS_PROFESSION": false,
         "IS_HIDDEN": false,
         "MONEY_REQUIRED": 0,
-        "POINTS_REQUIRED": 0,
+        "POINTS_REQUIRED": 2,
         "SKILLS_REQUIRED_COUNT": 0,
         "SKILLS_REQUIRED": [
           "force_discipline_light_saber_polearm_03"
@@ -20618,7 +20618,7 @@
         "IS_PROFESSION": false,
         "IS_HIDDEN": false,
         "MONEY_REQUIRED": 0,
-        "POINTS_REQUIRED": 1,
+        "POINTS_REQUIRED": 8,
         "SKILLS_REQUIRED_COUNT": 0,
         "SKILLS_REQUIRED": [
           "force_discipline_light_saber_novice"
@@ -20654,7 +20654,7 @@
         "IS_PROFESSION": false,
         "IS_HIDDEN": false,
         "MONEY_REQUIRED": 0,
-        "POINTS_REQUIRED": 0,
+        "POINTS_REQUIRED": 6,
         "SKILLS_REQUIRED_COUNT": 0,
         "SKILLS_REQUIRED": [
           "force_discipline_light_saber_technique_01"
@@ -20690,7 +20690,7 @@
         "IS_PROFESSION": false,
         "IS_HIDDEN": false,
         "MONEY_REQUIRED": 0,
-        "POINTS_REQUIRED": 0,
+        "POINTS_REQUIRED": 4,
         "SKILLS_REQUIRED_COUNT": 0,
         "SKILLS_REQUIRED": [
           "force_discipline_light_saber_technique_02"
@@ -20726,7 +20726,7 @@
         "IS_PROFESSION": false,
         "IS_HIDDEN": false,
         "MONEY_REQUIRED": 0,
-        "POINTS_REQUIRED": 0,
+        "POINTS_REQUIRED": 2,
         "SKILLS_REQUIRED_COUNT": 0,
         "SKILLS_REQUIRED": [
           "force_discipline_light_saber_technique_03"
@@ -20785,7 +20785,7 @@
         "IS_PROFESSION": false,
         "IS_HIDDEN": false,
         "MONEY_REQUIRED": 0,
-        "POINTS_REQUIRED": 5,
+        "POINTS_REQUIRED": 8,
         "SKILLS_REQUIRED_COUNT": 0,
         "SKILLS_REQUIRED": [
           "force_title_jedi_rank_02"
@@ -20815,7 +20815,7 @@
         "IS_PROFESSION": false,
         "IS_HIDDEN": false,
         "MONEY_REQUIRED": 0,
-        "POINTS_REQUIRED": 0,
+        "POINTS_REQUIRED": 1,
         "SKILLS_REQUIRED_COUNT": 0,
         "SKILLS_REQUIRED": [
           "force_discipline_powers_lightning_04",
@@ -20858,7 +20858,7 @@
         "IS_PROFESSION": false,
         "IS_HIDDEN": false,
         "MONEY_REQUIRED": 0,
-        "POINTS_REQUIRED": 1,
+        "POINTS_REQUIRED": 8,
         "SKILLS_REQUIRED_COUNT": 0,
         "SKILLS_REQUIRED": [
           "force_discipline_powers_novice"
@@ -20890,7 +20890,7 @@
         "IS_PROFESSION": false,
         "IS_HIDDEN": false,
         "MONEY_REQUIRED": 0,
-        "POINTS_REQUIRED": 0,
+        "POINTS_REQUIRED": 6,
         "SKILLS_REQUIRED_COUNT": 0,
         "SKILLS_REQUIRED": [
           "force_discipline_powers_lightning_01"
@@ -20922,7 +20922,7 @@
         "IS_PROFESSION": false,
         "IS_HIDDEN": false,
         "MONEY_REQUIRED": 0,
-        "POINTS_REQUIRED": 0,
+        "POINTS_REQUIRED": 4,
         "SKILLS_REQUIRED_COUNT": 0,
         "SKILLS_REQUIRED": [
           "force_discipline_powers_lightning_02"
@@ -20954,7 +20954,7 @@
         "IS_PROFESSION": false,
         "IS_HIDDEN": false,
         "MONEY_REQUIRED": 0,
-        "POINTS_REQUIRED": 0,
+        "POINTS_REQUIRED": 2,
         "SKILLS_REQUIRED_COUNT": 0,
         "SKILLS_REQUIRED": [
           "force_discipline_powers_lightning_03"
@@ -20986,7 +20986,7 @@
         "IS_PROFESSION": false,
         "IS_HIDDEN": false,
         "MONEY_REQUIRED": 0,
-        "POINTS_REQUIRED": 1,
+        "POINTS_REQUIRED": 8,
         "SKILLS_REQUIRED_COUNT": 0,
         "SKILLS_REQUIRED": [
           "force_discipline_powers_novice"
@@ -21017,7 +21017,7 @@
         "IS_PROFESSION": false,
         "IS_HIDDEN": false,
         "MONEY_REQUIRED": 0,
-        "POINTS_REQUIRED": 0,
+        "POINTS_REQUIRED": 6,
         "SKILLS_REQUIRED_COUNT": 0,
         "SKILLS_REQUIRED": [
           "force_discipline_powers_mental_01"
@@ -21048,7 +21048,7 @@
         "IS_PROFESSION": false,
         "IS_HIDDEN": false,
         "MONEY_REQUIRED": 0,
-        "POINTS_REQUIRED": 0,
+        "POINTS_REQUIRED": 4,
         "SKILLS_REQUIRED_COUNT": 0,
         "SKILLS_REQUIRED": [
           "force_discipline_powers_mental_02"
@@ -21079,7 +21079,7 @@
         "IS_PROFESSION": false,
         "IS_HIDDEN": false,
         "MONEY_REQUIRED": 0,
-        "POINTS_REQUIRED": 0,
+        "POINTS_REQUIRED": 2,
         "SKILLS_REQUIRED_COUNT": 0,
         "SKILLS_REQUIRED": [
           "force_discipline_powers_mental_03"
@@ -21110,7 +21110,7 @@
         "IS_PROFESSION": false,
         "IS_HIDDEN": false,
         "MONEY_REQUIRED": 0,
-        "POINTS_REQUIRED": 1,
+        "POINTS_REQUIRED": 8,
         "SKILLS_REQUIRED_COUNT": 0,
         "SKILLS_REQUIRED": [
           "force_discipline_powers_novice"
@@ -21141,7 +21141,7 @@
         "IS_PROFESSION": false,
         "IS_HIDDEN": false,
         "MONEY_REQUIRED": 0,
-        "POINTS_REQUIRED": 0,
+        "POINTS_REQUIRED": 6,
         "SKILLS_REQUIRED_COUNT": 0,
         "SKILLS_REQUIRED": [
           "force_discipline_powers_debuff_01"
@@ -21173,7 +21173,7 @@
         "IS_PROFESSION": false,
         "IS_HIDDEN": false,
         "MONEY_REQUIRED": 0,
-        "POINTS_REQUIRED": 0,
+        "POINTS_REQUIRED": 4,
         "SKILLS_REQUIRED_COUNT": 0,
         "SKILLS_REQUIRED": [
           "force_discipline_powers_debuff_02"
@@ -21205,7 +21205,7 @@
         "IS_PROFESSION": false,
         "IS_HIDDEN": false,
         "MONEY_REQUIRED": 0,
-        "POINTS_REQUIRED": 0,
+        "POINTS_REQUIRED": 2,
         "SKILLS_REQUIRED_COUNT": 0,
         "SKILLS_REQUIRED": [
           "force_discipline_powers_debuff_03"
@@ -21237,7 +21237,7 @@
         "IS_PROFESSION": false,
         "IS_HIDDEN": false,
         "MONEY_REQUIRED": 0,
-        "POINTS_REQUIRED": 1,
+        "POINTS_REQUIRED": 8,
         "SKILLS_REQUIRED_COUNT": 0,
         "SKILLS_REQUIRED": [
           "force_discipline_powers_novice"
@@ -21268,7 +21268,7 @@
         "IS_PROFESSION": false,
         "IS_HIDDEN": false,
         "MONEY_REQUIRED": 0,
-        "POINTS_REQUIRED": 0,
+        "POINTS_REQUIRED": 6,
         "SKILLS_REQUIRED_COUNT": 0,
         "SKILLS_REQUIRED": [
           "force_discipline_powers_push_01"
@@ -21300,7 +21300,7 @@
         "IS_PROFESSION": false,
         "IS_HIDDEN": false,
         "MONEY_REQUIRED": 0,
-        "POINTS_REQUIRED": 0,
+        "POINTS_REQUIRED": 4,
         "SKILLS_REQUIRED_COUNT": 0,
         "SKILLS_REQUIRED": [
           "force_discipline_powers_push_02"
@@ -21332,7 +21332,7 @@
         "IS_PROFESSION": false,
         "IS_HIDDEN": false,
         "MONEY_REQUIRED": 0,
-        "POINTS_REQUIRED": 0,
+        "POINTS_REQUIRED": 2,
         "SKILLS_REQUIRED_COUNT": 0,
         "SKILLS_REQUIRED": [
           "force_discipline_powers_push_03"
@@ -21387,7 +21387,7 @@
         "IS_PROFESSION": false,
         "IS_HIDDEN": false,
         "MONEY_REQUIRED": 0,
-        "POINTS_REQUIRED": 5,
+        "POINTS_REQUIRED": 8,
         "SKILLS_REQUIRED_COUNT": 0,
         "SKILLS_REQUIRED": [
           "force_title_jedi_rank_02"
@@ -21417,7 +21417,7 @@
         "IS_PROFESSION": false,
         "IS_HIDDEN": false,
         "MONEY_REQUIRED": 0,
-        "POINTS_REQUIRED": 0,
+        "POINTS_REQUIRED": 1,
         "SKILLS_REQUIRED_COUNT": 0,
         "SKILLS_REQUIRED": [
           "force_discipline_healing_damage_04",
@@ -21452,7 +21452,7 @@
         "IS_PROFESSION": false,
         "IS_HIDDEN": false,
         "MONEY_REQUIRED": 0,
-        "POINTS_REQUIRED": 1,
+        "POINTS_REQUIRED": 8,
         "SKILLS_REQUIRED_COUNT": 0,
         "SKILLS_REQUIRED": [
           "force_discipline_healing_novice"
@@ -21483,7 +21483,7 @@
         "IS_PROFESSION": false,
         "IS_HIDDEN": false,
         "MONEY_REQUIRED": 0,
-        "POINTS_REQUIRED": 0,
+        "POINTS_REQUIRED": 6,
         "SKILLS_REQUIRED_COUNT": 0,
         "SKILLS_REQUIRED": [
           "force_discipline_healing_damage_01"
@@ -21513,7 +21513,7 @@
         "IS_PROFESSION": false,
         "IS_HIDDEN": false,
         "MONEY_REQUIRED": 0,
-        "POINTS_REQUIRED": 0,
+        "POINTS_REQUIRED": 4,
         "SKILLS_REQUIRED_COUNT": 0,
         "SKILLS_REQUIRED": [
           "force_discipline_healing_damage_02"
@@ -21545,7 +21545,7 @@
         "IS_PROFESSION": false,
         "IS_HIDDEN": false,
         "MONEY_REQUIRED": 0,
-        "POINTS_REQUIRED": 0,
+        "POINTS_REQUIRED": 2,
         "SKILLS_REQUIRED_COUNT": 0,
         "SKILLS_REQUIRED": [
           "force_discipline_healing_damage_03"
@@ -21575,7 +21575,7 @@
         "IS_PROFESSION": false,
         "IS_HIDDEN": false,
         "MONEY_REQUIRED": 0,
-        "POINTS_REQUIRED": 1,
+        "POINTS_REQUIRED": 8,
         "SKILLS_REQUIRED_COUNT": 0,
         "SKILLS_REQUIRED": [
           "force_discipline_healing_novice"
@@ -21606,7 +21606,7 @@
         "IS_PROFESSION": false,
         "IS_HIDDEN": false,
         "MONEY_REQUIRED": 0,
-        "POINTS_REQUIRED": 0,
+        "POINTS_REQUIRED": 6,
         "SKILLS_REQUIRED_COUNT": 0,
         "SKILLS_REQUIRED": [
           "force_discipline_healing_wound_01"
@@ -21637,7 +21637,7 @@
         "IS_PROFESSION": false,
         "IS_HIDDEN": false,
         "MONEY_REQUIRED": 0,
-        "POINTS_REQUIRED": 0,
+        "POINTS_REQUIRED": 4,
         "SKILLS_REQUIRED_COUNT": 0,
         "SKILLS_REQUIRED": [
           "force_discipline_healing_wound_02"
@@ -21668,7 +21668,7 @@
         "IS_PROFESSION": false,
         "IS_HIDDEN": false,
         "MONEY_REQUIRED": 0,
-        "POINTS_REQUIRED": 0,
+        "POINTS_REQUIRED": 2,
         "SKILLS_REQUIRED_COUNT": 0,
         "SKILLS_REQUIRED": [
           "force_discipline_healing_wound_03"
@@ -21699,7 +21699,7 @@
         "IS_PROFESSION": false,
         "IS_HIDDEN": false,
         "MONEY_REQUIRED": 0,
-        "POINTS_REQUIRED": 1,
+        "POINTS_REQUIRED": 8,
         "SKILLS_REQUIRED_COUNT": 0,
         "SKILLS_REQUIRED": [
           "force_discipline_healing_novice"
@@ -21731,7 +21731,7 @@
         "IS_PROFESSION": false,
         "IS_HIDDEN": false,
         "MONEY_REQUIRED": 0,
-        "POINTS_REQUIRED": 0,
+        "POINTS_REQUIRED": 6,
         "SKILLS_REQUIRED_COUNT": 0,
         "SKILLS_REQUIRED": [
           "force_discipline_healing_other_01"
@@ -21761,7 +21761,7 @@
         "IS_PROFESSION": false,
         "IS_HIDDEN": false,
         "MONEY_REQUIRED": 0,
-        "POINTS_REQUIRED": 0,
+        "POINTS_REQUIRED": 4,
         "SKILLS_REQUIRED_COUNT": 0,
         "SKILLS_REQUIRED": [
           "force_discipline_healing_other_02"
@@ -21793,7 +21793,7 @@
         "IS_PROFESSION": false,
         "IS_HIDDEN": false,
         "MONEY_REQUIRED": 0,
-        "POINTS_REQUIRED": 0,
+        "POINTS_REQUIRED": 2,
         "SKILLS_REQUIRED_COUNT": 0,
         "SKILLS_REQUIRED": [
           "force_discipline_healing_other_03"
@@ -21824,7 +21824,7 @@
         "IS_PROFESSION": false,
         "IS_HIDDEN": false,
         "MONEY_REQUIRED": 0,
-        "POINTS_REQUIRED": 1,
+        "POINTS_REQUIRED": 8,
         "SKILLS_REQUIRED_COUNT": 0,
         "SKILLS_REQUIRED": [
           "force_discipline_healing_novice"
@@ -21854,7 +21854,7 @@
         "IS_PROFESSION": false,
         "IS_HIDDEN": false,
         "MONEY_REQUIRED": 0,
-        "POINTS_REQUIRED": 0,
+        "POINTS_REQUIRED": 6,
         "SKILLS_REQUIRED_COUNT": 0,
         "SKILLS_REQUIRED": [
           "force_discipline_healing_states_01"
@@ -21884,7 +21884,7 @@
         "IS_PROFESSION": false,
         "IS_HIDDEN": false,
         "MONEY_REQUIRED": 0,
-        "POINTS_REQUIRED": 0,
+        "POINTS_REQUIRED": 4,
         "SKILLS_REQUIRED_COUNT": 0,
         "SKILLS_REQUIRED": [
           "force_discipline_healing_states_02"
@@ -21914,7 +21914,7 @@
         "IS_PROFESSION": false,
         "IS_HIDDEN": false,
         "MONEY_REQUIRED": 0,
-        "POINTS_REQUIRED": 0,
+        "POINTS_REQUIRED": 2,
         "SKILLS_REQUIRED_COUNT": 0,
         "SKILLS_REQUIRED": [
           "force_discipline_healing_states_03"
@@ -21967,7 +21967,7 @@
         "IS_PROFESSION": false,
         "IS_HIDDEN": false,
         "MONEY_REQUIRED": 0,
-        "POINTS_REQUIRED": 5,
+        "POINTS_REQUIRED": 8,
         "SKILLS_REQUIRED_COUNT": 0,
         "SKILLS_REQUIRED": [
           "force_title_jedi_rank_02"
@@ -21997,7 +21997,7 @@
         "IS_PROFESSION": false,
         "IS_HIDDEN": false,
         "MONEY_REQUIRED": 0,
-        "POINTS_REQUIRED": 0,
+        "POINTS_REQUIRED": 1,
         "SKILLS_REQUIRED_COUNT": 0,
         "SKILLS_REQUIRED": [
           "force_discipline_enhancements_movement_04",
@@ -22032,7 +22032,7 @@
         "IS_PROFESSION": false,
         "IS_HIDDEN": false,
         "MONEY_REQUIRED": 0,
-        "POINTS_REQUIRED": 1,
+        "POINTS_REQUIRED": 8,
         "SKILLS_REQUIRED_COUNT": 0,
         "SKILLS_REQUIRED": [
           "force_discipline_enhancements_novice"
@@ -22062,7 +22062,7 @@
         "IS_PROFESSION": false,
         "IS_HIDDEN": false,
         "MONEY_REQUIRED": 0,
-        "POINTS_REQUIRED": 0,
+        "POINTS_REQUIRED": 6,
         "SKILLS_REQUIRED_COUNT": 0,
         "SKILLS_REQUIRED": [
           "force_discipline_enhancements_movement_01"
@@ -22092,7 +22092,7 @@
         "IS_PROFESSION": false,
         "IS_HIDDEN": false,
         "MONEY_REQUIRED": 0,
-        "POINTS_REQUIRED": 0,
+        "POINTS_REQUIRED": 4,
         "SKILLS_REQUIRED_COUNT": 0,
         "SKILLS_REQUIRED": [
           "force_discipline_enhancements_movement_02"
@@ -22122,7 +22122,7 @@
         "IS_PROFESSION": false,
         "IS_HIDDEN": false,
         "MONEY_REQUIRED": 0,
-        "POINTS_REQUIRED": 0,
+        "POINTS_REQUIRED": 2,
         "SKILLS_REQUIRED_COUNT": 0,
         "SKILLS_REQUIRED": [
           "force_discipline_enhancements_movement_03"
@@ -22152,7 +22152,7 @@
         "IS_PROFESSION": false,
         "IS_HIDDEN": false,
         "MONEY_REQUIRED": 0,
-        "POINTS_REQUIRED": 1,
+        "POINTS_REQUIRED": 8,
         "SKILLS_REQUIRED_COUNT": 0,
         "SKILLS_REQUIRED": [
           "force_discipline_enhancements_novice"
@@ -22182,7 +22182,7 @@
         "IS_PROFESSION": false,
         "IS_HIDDEN": false,
         "MONEY_REQUIRED": 0,
-        "POINTS_REQUIRED": 0,
+        "POINTS_REQUIRED": 6,
         "SKILLS_REQUIRED_COUNT": 0,
         "SKILLS_REQUIRED": [
           "force_discipline_enhancements_protection_01"
@@ -22212,7 +22212,7 @@
         "IS_PROFESSION": false,
         "IS_HIDDEN": false,
         "MONEY_REQUIRED": 0,
-        "POINTS_REQUIRED": 0,
+        "POINTS_REQUIRED": 4,
         "SKILLS_REQUIRED_COUNT": 0,
         "SKILLS_REQUIRED": [
           "force_discipline_enhancements_protection_02"
@@ -22242,7 +22242,7 @@
         "IS_PROFESSION": false,
         "IS_HIDDEN": false,
         "MONEY_REQUIRED": 0,
-        "POINTS_REQUIRED": 0,
+        "POINTS_REQUIRED": 2,
         "SKILLS_REQUIRED_COUNT": 0,
         "SKILLS_REQUIRED": [
           "force_discipline_enhancements_protection_03"
@@ -22273,7 +22273,7 @@
         "IS_PROFESSION": false,
         "IS_HIDDEN": false,
         "MONEY_REQUIRED": 0,
-        "POINTS_REQUIRED": 1,
+        "POINTS_REQUIRED": 8,
         "SKILLS_REQUIRED_COUNT": 0,
         "SKILLS_REQUIRED": [
           "force_discipline_enhancements_novice"
@@ -22303,7 +22303,7 @@
         "IS_PROFESSION": false,
         "IS_HIDDEN": false,
         "MONEY_REQUIRED": 0,
-        "POINTS_REQUIRED": 0,
+        "POINTS_REQUIRED": 6,
         "SKILLS_REQUIRED_COUNT": 0,
         "SKILLS_REQUIRED": [
           "force_discipline_enhancements_resistance_01"
@@ -22333,7 +22333,7 @@
         "IS_PROFESSION": false,
         "IS_HIDDEN": false,
         "MONEY_REQUIRED": 0,
-        "POINTS_REQUIRED": 0,
+        "POINTS_REQUIRED": 4,
         "SKILLS_REQUIRED_COUNT": 0,
         "SKILLS_REQUIRED": [
           "force_discipline_enhancements_resistance_02"
@@ -22363,7 +22363,7 @@
         "IS_PROFESSION": false,
         "IS_HIDDEN": false,
         "MONEY_REQUIRED": 0,
-        "POINTS_REQUIRED": 0,
+        "POINTS_REQUIRED": 2,
         "SKILLS_REQUIRED_COUNT": 0,
         "SKILLS_REQUIRED": [
           "force_discipline_enhancements_resistance_03"
@@ -22393,7 +22393,7 @@
         "IS_PROFESSION": false,
         "IS_HIDDEN": false,
         "MONEY_REQUIRED": 0,
-        "POINTS_REQUIRED": 1,
+        "POINTS_REQUIRED": 8,
         "SKILLS_REQUIRED_COUNT": 0,
         "SKILLS_REQUIRED": [
           "force_discipline_enhancements_novice"
@@ -22423,7 +22423,7 @@
         "IS_PROFESSION": false,
         "IS_HIDDEN": false,
         "MONEY_REQUIRED": 0,
-        "POINTS_REQUIRED": 0,
+        "POINTS_REQUIRED": 6,
         "SKILLS_REQUIRED_COUNT": 0,
         "SKILLS_REQUIRED": [
           "force_discipline_enhancements_synergy_01"
@@ -22454,7 +22454,7 @@
         "IS_PROFESSION": false,
         "IS_HIDDEN": false,
         "MONEY_REQUIRED": 0,
-        "POINTS_REQUIRED": 0,
+        "POINTS_REQUIRED": 4,
         "SKILLS_REQUIRED_COUNT": 0,
         "SKILLS_REQUIRED": [
           "force_discipline_enhancements_synergy_02"
@@ -22484,7 +22484,7 @@
         "IS_PROFESSION": false,
         "IS_HIDDEN": false,
         "MONEY_REQUIRED": 0,
-        "POINTS_REQUIRED": 0,
+        "POINTS_REQUIRED": 2,
         "SKILLS_REQUIRED_COUNT": 0,
         "SKILLS_REQUIRED": [
           "force_discipline_enhancements_synergy_03"
@@ -22538,7 +22538,7 @@
         "IS_PROFESSION": false,
         "IS_HIDDEN": false,
         "MONEY_REQUIRED": 0,
-        "POINTS_REQUIRED": 5,
+        "POINTS_REQUIRED": 8,
         "SKILLS_REQUIRED_COUNT": 0,
         "SKILLS_REQUIRED": [
           "force_title_jedi_rank_02"
@@ -22571,7 +22571,7 @@
         "IS_PROFESSION": false,
         "IS_HIDDEN": false,
         "MONEY_REQUIRED": 0,
-        "POINTS_REQUIRED": 0,
+        "POINTS_REQUIRED": 1,
         "SKILLS_REQUIRED_COUNT": 0,
         "SKILLS_REQUIRED": [
           "force_discipline_defender_melee_defense_04",
@@ -22610,7 +22610,7 @@
         "IS_PROFESSION": false,
         "IS_HIDDEN": false,
         "MONEY_REQUIRED": 0,
-        "POINTS_REQUIRED": 1,
+        "POINTS_REQUIRED": 8,
         "SKILLS_REQUIRED_COUNT": 0,
         "SKILLS_REQUIRED": [
           "force_discipline_defender_novice"
@@ -22640,7 +22640,7 @@
         "IS_PROFESSION": false,
         "IS_HIDDEN": false,
         "MONEY_REQUIRED": 0,
-        "POINTS_REQUIRED": 0,
+        "POINTS_REQUIRED": 6,
         "SKILLS_REQUIRED_COUNT": 0,
         "SKILLS_REQUIRED": [
           "force_discipline_defender_melee_defense_01"
@@ -22670,7 +22670,7 @@
         "IS_PROFESSION": false,
         "IS_HIDDEN": false,
         "MONEY_REQUIRED": 0,
-        "POINTS_REQUIRED": 0,
+        "POINTS_REQUIRED": 4,
         "SKILLS_REQUIRED_COUNT": 0,
         "SKILLS_REQUIRED": [
           "force_discipline_defender_melee_defense_02"
@@ -22700,7 +22700,7 @@
         "IS_PROFESSION": false,
         "IS_HIDDEN": false,
         "MONEY_REQUIRED": 0,
-        "POINTS_REQUIRED": 0,
+        "POINTS_REQUIRED": 2,
         "SKILLS_REQUIRED_COUNT": 0,
         "SKILLS_REQUIRED": [
           "force_discipline_defender_melee_defense_03"
@@ -22730,7 +22730,7 @@
         "IS_PROFESSION": false,
         "IS_HIDDEN": false,
         "MONEY_REQUIRED": 0,
-        "POINTS_REQUIRED": 1,
+        "POINTS_REQUIRED": 8,
         "SKILLS_REQUIRED_COUNT": 0,
         "SKILLS_REQUIRED": [
           "force_discipline_defender_novice"
@@ -22760,7 +22760,7 @@
         "IS_PROFESSION": false,
         "IS_HIDDEN": false,
         "MONEY_REQUIRED": 0,
-        "POINTS_REQUIRED": 0,
+        "POINTS_REQUIRED": 6,
         "SKILLS_REQUIRED_COUNT": 0,
         "SKILLS_REQUIRED": [
           "force_discipline_defender_ranged_defense_01"
@@ -22790,7 +22790,7 @@
         "IS_PROFESSION": false,
         "IS_HIDDEN": false,
         "MONEY_REQUIRED": 0,
-        "POINTS_REQUIRED": 0,
+        "POINTS_REQUIRED": 4,
         "SKILLS_REQUIRED_COUNT": 0,
         "SKILLS_REQUIRED": [
           "force_discipline_defender_ranged_defense_02"
@@ -22820,7 +22820,7 @@
         "IS_PROFESSION": false,
         "IS_HIDDEN": false,
         "MONEY_REQUIRED": 0,
-        "POINTS_REQUIRED": 0,
+        "POINTS_REQUIRED": 2,
         "SKILLS_REQUIRED_COUNT": 0,
         "SKILLS_REQUIRED": [
           "force_discipline_defender_ranged_defense_03"
@@ -22850,7 +22850,7 @@
         "IS_PROFESSION": false,
         "IS_HIDDEN": false,
         "MONEY_REQUIRED": 0,
-        "POINTS_REQUIRED": 1,
+        "POINTS_REQUIRED": 8,
         "SKILLS_REQUIRED_COUNT": 0,
         "SKILLS_REQUIRED": [
           "force_discipline_defender_novice"
@@ -22880,7 +22880,7 @@
         "IS_PROFESSION": false,
         "IS_HIDDEN": false,
         "MONEY_REQUIRED": 0,
-        "POINTS_REQUIRED": 0,
+        "POINTS_REQUIRED": 6,
         "SKILLS_REQUIRED_COUNT": 0,
         "SKILLS_REQUIRED": [
           "force_discipline_defender_force_defense_01"
@@ -22910,7 +22910,7 @@
         "IS_PROFESSION": false,
         "IS_HIDDEN": false,
         "MONEY_REQUIRED": 0,
-        "POINTS_REQUIRED": 0,
+        "POINTS_REQUIRED": 4,
         "SKILLS_REQUIRED_COUNT": 0,
         "SKILLS_REQUIRED": [
           "force_discipline_defender_force_defense_02"
@@ -22940,7 +22940,7 @@
         "IS_PROFESSION": false,
         "IS_HIDDEN": false,
         "MONEY_REQUIRED": 0,
-        "POINTS_REQUIRED": 0,
+        "POINTS_REQUIRED": 2,
         "SKILLS_REQUIRED_COUNT": 0,
         "SKILLS_REQUIRED": [
           "force_discipline_defender_force_defense_03"
@@ -22970,7 +22970,7 @@
         "IS_PROFESSION": false,
         "IS_HIDDEN": false,
         "MONEY_REQUIRED": 0,
-        "POINTS_REQUIRED": 1,
+        "POINTS_REQUIRED": 8,
         "SKILLS_REQUIRED_COUNT": 0,
         "SKILLS_REQUIRED": [
           "force_discipline_defender_novice"
@@ -23000,7 +23000,7 @@
         "IS_PROFESSION": false,
         "IS_HIDDEN": false,
         "MONEY_REQUIRED": 0,
-        "POINTS_REQUIRED": 0,
+        "POINTS_REQUIRED": 6,
         "SKILLS_REQUIRED_COUNT": 0,
         "SKILLS_REQUIRED": [
           "force_discipline_defender_preternatural_defense_01"
@@ -23030,7 +23030,7 @@
         "IS_PROFESSION": false,
         "IS_HIDDEN": false,
         "MONEY_REQUIRED": 0,
-        "POINTS_REQUIRED": 0,
+        "POINTS_REQUIRED": 4,
         "SKILLS_REQUIRED_COUNT": 0,
         "SKILLS_REQUIRED": [
           "force_discipline_defender_preternatural_defense_02"
@@ -23060,7 +23060,7 @@
         "IS_PROFESSION": false,
         "IS_HIDDEN": false,
         "MONEY_REQUIRED": 0,
-        "POINTS_REQUIRED": 0,
+        "POINTS_REQUIRED": 2,
         "SKILLS_REQUIRED_COUNT": 0,
         "SKILLS_REQUIRED": [
           "force_discipline_defender_preternatural_defense_03"
@@ -23904,7 +23904,7 @@
         "IS_PROFESSION": false,
         "IS_HIDDEN": false,
         "MONEY_REQUIRED": 0,
-        "POINTS_REQUIRED": 225,
+        "POINTS_REQUIRED": 18,
         "SKILLS_REQUIRED_COUNT": 0,
         "SKILLS_REQUIRED": [
           "force_title_jedi_rank_01"
@@ -23941,12 +23941,10 @@
         "XP_CAP": 0,
         "APPRENTICESHIPS_REQUIRED": 0,
         "JEDI_STATE_REQUIRED": "forceSensitive",
-        "COMMANDS": [
-          "forceMeditate"
-        ],
         "SEARCHABLE": false,
         "ENDER": 0,
-        "SKILL_MODS": {}
+        "SKILL_MODS": {},
+        "COMMANDS": []
       },
       {
         "NAME": "force_title_jedi_rank_04",
