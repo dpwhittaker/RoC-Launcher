@@ -1,6 +1,6 @@
 {
   "name": "roc-launcher",
-  "version": "0.9.2",
+  "version": "0.9.3",
   "description": "Relics of Corbantis Official SWGEMU Launcher",
   "main": "main.js",
   "scripts": {
