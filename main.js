@@ -34,6 +34,16 @@ ipcMain.on('open-directory-dialog', function (event, response) {
   });
 });
 
+ipcMain.on('open-profcalc', function() {
+  window = new BrowserWindow({width: 1296, height: 839, autoHideMenuBar: true});
+  window.loadURL(url.format({
+    pathname: path.join(__dirname, 'profcalc', 'index.html'),
+    protocol: 'file:',
+    slashes: true
+  }));
+  if (require('electron-is-dev')) window.webContents.openDevTools();
+});
+
 autoUpdater.on('update-downloaded', (info) => {
   autoUpdater.quitAndInstall();  
 });

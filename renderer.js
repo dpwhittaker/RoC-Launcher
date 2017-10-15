@@ -10,6 +10,7 @@ const path = require('path');
 
 const playBtn = document.getElementById('play');
 const settingsBtn = document.getElementById('settings');
+const profcalcBtn = document.getElementById('profcalc');
 const websiteBtn = document.getElementById('web');
 const discordBtn = document.getElementById('disc');
 
@@ -89,6 +90,10 @@ playBtn.addEventListener('click', event => {
     } else {
         play();
     }
+});
+
+profcalcBtn.addEventListener('click', function (event) {
+    ipc.send('open-profcalc');
 });
 
 function play() {
