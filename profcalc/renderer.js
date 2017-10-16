@@ -133,6 +133,10 @@ function selectProfession(name) {
     var profession = professions.find(k => k.NAME == name);
     $('#title').innerHTML = skillNames[profession.NAME];
     drawTree($('#proftree'), profession, true);
+    let div = document.createElement('div');
+    div.className = 'pointsused';
+    div.innerHTML = `Points Used: ${build.pointsUsed}<br/>Points Left: ${250-build.pointsUsed}`;
+    $('#proftree').appendChild(div);
 }
 
 function drawTree(tree, profession, drawText) {
@@ -217,10 +221,6 @@ function drawBuild() {
         div.addEventListener('click', e => selectProfession(prof.NAME));        
         $('#build').appendChild(div);
     }
-    let div = document.createElement('div');
-    div.className = 'pointsused';
-    div.innerHTML = `Points Used: ${build.pointsUsed}<br/>Points Left: ${250-build.pointsUsed}`;
-    $('#proftree').appendChild(div);
 }
 
 function drawAllLists() {
