@@ -4,17 +4,50 @@
     <meta charset="UTF-8">
     <title>Relics of Corbantis Launcher</title>
     <style>
-        body { margin: 0; }
+        body { margin: 0; background: #7b1b1d; }
+        .shadow { box-shadow: 2px 2px 2px black; }
+        #builds {
+          position: absolute;
+          left: 0;
+          top: 0;
+          height: 32px;
+          width: 1280px;
+          border-bottom: 8px solid #7b1b1d;
+          box-sizing: border-box;
+          background: #cccccc;
+        }
+        #builds .build {
+          display: inline-block;
+          height: 24px;
+          background-color: #cc9966;
+          border-top-left-radius: 4px;
+          border-top-right-radius: 4px;
+          padding: 0 2px;
+          font-weight: bolder;
+          margin: 0 2px;
+          vertical-align: top;
+          line-height: 24px;
+          cursor: pointer;
+        }
+        #builds .build.selected {
+          background-color: #7b1b1d;
+          color: #cc9966;
+        }
         #professions {
           font-size: 14px;
           position: absolute;
           left: 0;
-          width: 15%;
-          height: 100%;
+          top: 32px;
+          width: 192px;
+          height: 768px;
           overflow: auto;
+          background: #cc9966;
         }
         #professions ul, #totals ul {
           margin-bottom: 10px;
+        }
+        #professions li {
+          cursor: pointer;
         }
         .category > div {
           font-weight: bold;
@@ -23,147 +56,218 @@
           margin: 0;
           padding: 0;
         }
-        #profheader {
+        #selectedprof {
           position: absolute;
-          left: 20%;
-          top: 0%;
-          width: 40%;
-          height: 10%;
+          left: 200px;
+          top: 32px;
+          width: 512px;
+          height: 768px;
           text-align: center;
           font-size: 20px;
+          overflow: hidden;
         }
         #proftree {
-          position: absolute;
-          left: 20%;
-          top: 10%;
-          width: 40%;
-          height: 40%;
-        }
-        #proffooter {
-          position: absolute;
-          left: 20%;
-          top: 50%;
-          width: 40%;
-          height: 10%;
+          position: relative;
+          width: 512px;
+          height: 320px;
         }
         .skillbox {
           position: absolute;
-          width: 25%;
-          height: 16%;
+          width: 120px;
+          height: 44px;
           border: 1px solid black;
+          border-radius: 4px;
           font-size: 12px;
+          cursor: pointer;
+          background: #cc9966;
+        }
+        #proftree .skillbox {
+          box-shadow: 2px 2px 2px black;
         }
         .skillbox.learned {
           background-color: #627d9f;
         }
-        .fourByFour .box0 { left: 37.5%; top: 80%; }
-        .fourByFour .box1 { left: 37.5%; top: 0%; }
-        .fourByFour .box2 { left: 0%; top: 64%; }
-        .fourByFour .box3 { left: 0%; top: 48%; }
-        .fourByFour .box4 { left: 0%; top: 32%; }
-        .fourByFour .box5 { left: 0%; top: 16%; }
-        .fourByFour .box6 { left: 25%; top: 64%; }
-        .fourByFour .box7 { left: 25%; top: 48%; }
-        .fourByFour .box8 { left: 25%; top: 32%; }
-        .fourByFour .box9 { left: 25%; top: 16%; }
-        .fourByFour .box10 { left: 50%; top: 64%; }
-        .fourByFour .box11 { left: 50%; top: 48%; }
-        .fourByFour .box12 { left: 50%; top: 32%; }
-        .fourByFour .box13 { left: 50%; top: 16%; }
-        .fourByFour .box14 { left: 75%; top: 64%; }
-        .fourByFour .box15 { left: 75%; top: 48%; }
-        .fourByFour .box16 { left: 75%; top: 32%; }
-        .fourByFour .box17 { left: 75%; top: 16%; }
-        #commands {
+        .skillbox .points {
           position: absolute;
-          left: 20%;
-          width: 20%;
-          height: 40%;
-          top: 60%;
+          bottom: 0;
+          right: 0;
+          font-size: 10px;
+          padding: 4px;
         }
-        #skillmods {
-          position: absolute;
-          left: 40%;
-          width: 20%;
-          height: 40%;
-          top: 60%;
+        .fourByFour .box0 { left: 196px; bottom: 0px; }
+        .fourByFour .box1 { left: 196px; top: 0px; }
+        .fourByFour .box2 { left: 4px; bottom: 52px;  }
+        .fourByFour .box3 { left: 4px; bottom: 104px; }
+        .fourByFour .box4 { left: 4px; bottom: 156px; }
+        .fourByFour .box5 { left: 4px; bottom: 208px; }
+        .fourByFour .box6 { left: 132px; bottom: 52px;  }
+        .fourByFour .box7 { left: 132px; bottom: 104px; }
+        .fourByFour .box8 { left: 132px; bottom: 156px; }
+        .fourByFour .box9 { left: 132px; bottom: 208px; }
+        .fourByFour .box10 { left: 260px; bottom: 52px;  }
+        .fourByFour .box11 { left: 260px; bottom: 104px; }
+        .fourByFour .box12 { left: 260px; bottom: 156px; }
+        .fourByFour .box13 { left: 260px; bottom: 208px; }
+        .fourByFour .box14 { left: 388px; bottom: 52px;  }
+        .fourByFour .box15 { left: 388px; bottom: 104px; }
+        .fourByFour .box16 { left: 388px; bottom: 156px; }
+        .fourByFour .box17 { left: 388px; bottom: 208px; }
+        #effects {
+          background: #cc9966;
+          height: 400px;
+        }
+        #effects > div {
+          display: inline-block;
+          width: 49.5%;
+          vertical-align: top;
+        }
+        #effects ul {
+          font-size:12px;
+        }
+        #effects li {
+          list-style: none;
         }
         #totals {
           position: absolute;
-          left: 65%;
-          width: 35%;
-          top: 0%;
-          height: 100%;
+          left: 720px;
+          width: 560px;
+          top: 32px;
+          height: 768px;
           overflow: auto;
+          background: #cc9966;
         }
         #build {
           margin: 0 auto;
+          padding: 4px 0;
+          min-height: 55px;
+          background: #cc9966;
         }
         #title, #skilltitle {
           margin: 0;
-          padding: 0;
+          padding: 8px 0;
           font-size: 20px;
-          position: absolute;
-          bottom: 0%;
-          width: 100%;
           text-align: center;
+        }
+        #title {
+          color: #cc9966;
+        }
+        #skilltitle {
+          margin-top: 8px;
+          background: #cc9966;
         }
         .minitree {
           display: inline-block;
           max-width: 72px;
-          margin-right: 5px;
+          min-width: 48px;
+          margin: 0 2px;
           vertical-align: top;
           text-align: center;
           font-size: 12px;
+          cursor: pointer;
         }
         .minitree > div {
           position: relative;
-          width: 32px;
-          height: 32px;
+          width: 33px;
+          height: 25px;
           margin: auto;
         }
+        .minitree .skillbox {
+          position: absolute;
+          width: 9px;
+          height: 5px;
+          border: 1px solid black;
+          border-radius: 0px;
+          box-sizing: border-box;
+        }
+        .minitree .fourByFour .box0 { left: 12px; bottom: 0px; }
+        .minitree .fourByFour .box1 { left: 12px; bottom: 20px; }
+        .minitree .fourByFour .box2 { left: 0px; bottom: 4px;  }
+        .minitree .fourByFour .box3 { left: 0px; bottom: 8px;  }
+        .minitree .fourByFour .box4 { left: 0px; bottom: 12px; }
+        .minitree .fourByFour .box5 { left: 0px; bottom: 16px; }
+        .minitree .fourByFour .box6 { left: 8px; bottom: 4px;  }
+        .minitree .fourByFour .box7 { left: 8px; bottom: 8px;  }
+        .minitree .fourByFour .box8 { left: 8px; bottom: 12px; }
+        .minitree .fourByFour .box9 { left: 8px; bottom: 16px; }
+        .minitree .fourByFour .box10 { left: 16px; bottom: 4px;  }
+        .minitree .fourByFour .box11 { left: 16px; bottom: 8px;  }
+        .minitree .fourByFour .box12 { left: 16px; bottom: 12px; }
+        .minitree .fourByFour .box13 { left: 16px; bottom: 16px; }
+        .minitree .fourByFour .box14 { left: 24px; bottom: 4px;  }
+        .minitree .fourByFour .box15 { left: 24px; bottom: 8px;  }
+        .minitree .fourByFour .box16 { left: 24px; bottom: 12px; }
+        .minitree .fourByFour .box17 { left: 24px; bottom: 16px; }
         .pointsused {
           position: absolute;
           right: 0;
           bottom: 0;
           text-align: right;
+          color: #cc9966;
+        }
+        #totals ul {
+          font-size: 12px;
         }
         #totals li {
           list-style: none;
           display: inline-block;
           width: 50%;
-          font-size: 12px;
-          line-height: 12px;
-          margin: 0;
-          padding: 0;
+        }
+        #overlay {
+          position: absolute;
+          z-index: 1000;
+          background-color: #000000;
+          opacity: .8;
+          width: 100%;
+          height: 100%;
+        }
+        .dialog {
+          background-color: white;
+          position: absolute;
+          width: 256px;
+          height: 48px;
+          border-radius: 4px;
+          top: 0;
+          left: 512px;
+          opacity: 1;
+        }
+        #buildname {
+          width: 240px;
+
         }
       </style>
   </head>
   <body>
+    <div id="builds"></div>
     <div id="professions"></div>
-    <header id="profheader">
-      <div id="build"></div>
+    <div id="selectedprof">
+      <div id="build" class="shadow"></div>
       <h1 id="title"></h1>
-    </header>
-    <div id="proftree" class="fourByFour"></div>
-    <footer id="proffooter">
+      <div id="proftree" class="fourByFour"></div>
       <h1 id="skilltitle"></h1>
-    </footer>
-    <div id="commands">
-      <header>Commands</header>
-      <ul id="commandlist"></ul>
-    </div>
-    <div id="skillmods">
-      <header>Skill Mods</header>
-      <ul id="skillmodlist"></ul>
-    </div>
-    <div id="totals">
+      <div id="effects">
+        <div id="commands">
+          <header>Commands</header>
+          <ul id="commandlist"></ul>
+        </div>
+        <div id="skillmods">
+            <header>Skill Mods</header>
+            <ul id="skillmodlist"></ul>
+          </div>
+        </div>
+      </div>
+      <div id="totals">
       <header>All Skill Mods</header>
       <ul id="allskillmodlist"></ul>
       <header>All Commands</header>
       <ul id="allcommandlist"></ul>
       <header>All Certifications</header>
       <ul id="allcertlist"></ul>
+    </div>
+    <div id="overlay" style="display:none">
+      <div class="dialog">
+        <div class="prompt">Build Name:</div>
+        <input type="text" id="buildname"/>
+      </div>
     </div>
   </body>
   <script>
