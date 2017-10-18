@@ -51,3 +51,15 @@ for (var prof of professions) {
 }
 fs.writeFileSync("professions.json", JSON.stringify(professions, null, 2));
 
+
+var skillNamesCSV = fs.readFileSync("skl_n.csv", 'utf-8');
+
+lines = skillNamesCSV.split(/\r?\n/g);
+rows = [];
+var skillNames = {};
+for (var line of lines) {
+    var row = line.split(', ', 2);
+    skillNames[row[0]] = row[1];
+}
+
+fs.writeFileSync("skill_names.json", JSON.stringify(skillNames, null, 2));

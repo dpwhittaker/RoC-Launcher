@@ -15739,7 +15739,8 @@
         ],
         "SKILL_MODS": {
           "heavy_rocket_launcher_accuracy": 20,
-          "heavy_rocket_launcher_speed": null,
+          "heavy_rocket_launcher_speed": 20,
+          "heavy_particle_beam_accuracy": 10,
           "heavy_particle_beam_speed": 10
         },
         "SEARCHABLE": true,
@@ -20178,7 +20179,10 @@
           "saberThrow3",
           "saber1hFlurry2",
           "saber2hPhantom",
-          "saberPolearmDervish2"
+          "saberPolearmDervish2",
+          "cert_polearmlightsaber_gen4",
+          "cert_onehandlightsaber_gen4",
+          "cert_twohandlightsaber_gen4"
         ],
         "SKILL_MODS": {
           "onehandlightsaber_accuracy": 25,
@@ -20831,8 +20835,7 @@
         "COMMANDS": [
           "jediMindTrick",
           "forceChoke",
-          "forceKnockdown3",
-          "cert_polearmlightsaber_gen4"
+          "forceKnockdown3"
         ],
         "SKILL_MODS": {
           "forceintimidate_accuracy": 35,
@@ -21432,8 +21435,7 @@
         "JEDI_STATE_REQUIRED": "jedi",
         "COMMANDS": [
           "totalHealSelf",
-          "totalHealOther",
-          "cert_onehandlightsaber_gen4"
+          "totalHealOther"
         ],
         "SKILL_MODS": {
           "private_jedi_difficulty": 200,
@@ -22012,8 +22014,7 @@
         "JEDI_STATE_REQUIRED": "jedi",
         "COMMANDS": [
           "forceRun3",
-          "regainConsciousness",
-          "cert_twohandlightsaber_gen4"
+          "regainConsciousness"
         ],
         "SKILL_MODS": {
           "private_jedi_difficulty": 200,
@@ -22585,8 +22586,7 @@
         "APPRENTICESHIPS_REQUIRED": 0,
         "JEDI_STATE_REQUIRED": "jedi",
         "COMMANDS": [
-          "avoidIncapacitation",
-          "cert_onehandlightsaber_gen4"
+          "avoidIncapacitation"
         ],
         "SKILL_MODS": {
           "melee_defense": 25,
@@ -26373,6 +26373,374 @@
         "SEARCHABLE": true,
         "ENDER": 0,
         "SKILL_MODS": {}
+      }
+    ]
+  },
+  {
+    "NAME": "bhguild",
+    "PARENT": "combat_bountyhunter",
+    "GRAPH_TYPE": "pyramid",
+    "GOD_ONLY": false,
+    "IS_TITLE": false,
+    "IS_PROFESSION": true,
+    "IS_HIDDEN": false,
+    "MONEY_REQUIRED": 0,
+    "POINTS_REQUIRED": 0,
+    "SKILLS_REQUIRED_COUNT": 0,
+    "XP_COST": 0,
+    "XP_CAP": 0,
+    "APPRENTICESHIPS_REQUIRED": 0,
+    "JEDI_STATE_REQUIRED": "none",
+    "SEARCHABLE": true,
+    "ENDER": 0,
+    "SKILL_MODS": {},
+    "COMMANDS": [],
+    "SKILLS_REQUIRED": [],
+    "skills": [
+      {
+        "NAME": "bhguild_novice",
+        "PARENT": "bhguild",
+        "GRAPH_TYPE": "pyramid",
+        "GOD_ONLY": false,
+        "IS_TITLE": false,
+        "IS_PROFESSION": false,
+        "IS_HIDDEN": false,
+        "MONEY_REQUIRED": 0,
+        "POINTS_REQUIRED": 0,
+        "SKILLS_REQUIRED_COUNT": 0,
+        "SKILLS_REQUIRED": [
+          "combat_bountyhunter_master"
+        ],
+        "PRECLUSION_SKILLS": "combat_1hsword_novice,combat_2hsword_novice,combat_polearm_novice,combat_unarmed_novice",
+        "XP_TYPE": "bountyhunter",
+        "XP_COST": 50000,
+        "XP_CAP": 100000,
+        "APPRENTICESHIPS_REQUIRED": 0,
+        "JEDI_STATE_REQUIRED": "none",
+        "SKILL_MODS": {
+          "pistol_accuracy": 20,
+          "heavy_rifle_lightning_accuracy": 20,
+          "carbine_accuracy": 20,
+          "heavy_rifle_lightning_speed": 20,
+          "aim": 20
+        },
+        "SEARCHABLE": true,
+        "ENDER": 0,
+        "COMMANDS": []
+      },
+      {
+        "NAME": "bhguild_master",
+        "PARENT": "bhguild",
+        "GRAPH_TYPE": "pyramid",
+        "GOD_ONLY": false,
+        "IS_TITLE": false,
+        "IS_PROFESSION": false,
+        "IS_HIDDEN": false,
+        "MONEY_REQUIRED": 0,
+        "POINTS_REQUIRED": 0,
+        "SKILLS_REQUIRED_COUNT": 0,
+        "XP_COST": 0,
+        "XP_CAP": 0,
+        "APPRENTICESHIPS_REQUIRED": 0,
+        "JEDI_STATE_REQUIRED": "none",
+        "SEARCHABLE": true,
+        "ENDER": 0,
+        "SKILL_MODS": {},
+        "COMMANDS": [],
+        "SKILLS_REQUIRED": []
+      },
+      {
+        "NAME": "bhguild_rank1",
+        "PARENT": "bhguild",
+        "GRAPH_TYPE": "pyramid",
+        "GOD_ONLY": false,
+        "IS_TITLE": true,
+        "IS_PROFESSION": false,
+        "IS_HIDDEN": false,
+        "MONEY_REQUIRED": 0,
+        "POINTS_REQUIRED": 0,
+        "SKILLS_REQUIRED_COUNT": 0,
+        "SKILLS_REQUIRED": [
+          "bhguild_novice"
+        ],
+        "XP_TYPE": "bountyhunter",
+        "XP_COST": 100000,
+        "XP_CAP": 200000,
+        "APPRENTICESHIPS_REQUIRED": 0,
+        "JEDI_STATE_REQUIRED": "none",
+        "COMMANDS": [
+          "intimidate1",
+          "melee_damage_mitigation_2"
+        ],
+        "SKILL_MODS": {
+          "counterattack": 15,
+          "dodge": 15,
+          "melee_defense": 10
+        },
+        "SEARCHABLE": true,
+        "ENDER": 0
+      },
+      {
+        "NAME": "bhguild_rank2",
+        "PARENT": "bhguild_rank1",
+        "GRAPH_TYPE": "pyramid",
+        "GOD_ONLY": false,
+        "IS_TITLE": false,
+        "IS_PROFESSION": false,
+        "IS_HIDDEN": false,
+        "MONEY_REQUIRED": 0,
+        "POINTS_REQUIRED": 0,
+        "SKILLS_REQUIRED_COUNT": 0,
+        "SKILLS_REQUIRED": [
+          "bhguild_rank1"
+        ],
+        "XP_TYPE": "bountyhunter",
+        "XP_COST": 200000,
+        "XP_CAP": 400000,
+        "APPRENTICESHIPS_REQUIRED": 0,
+        "JEDI_STATE_REQUIRED": "none",
+        "COMMANDS": [
+          "warcry1"
+        ],
+        "SKILL_MODS": {
+          "posture_change_down_defense": 15,
+          "knockdown_defense": 15,
+          "dizzy_defense": 15
+        },
+        "SEARCHABLE": true,
+        "ENDER": 0
+      },
+      {
+        "NAME": "bhguild_rank3",
+        "PARENT": "bhguild_rank2",
+        "GRAPH_TYPE": "pyramid",
+        "GOD_ONLY": false,
+        "IS_TITLE": true,
+        "IS_PROFESSION": false,
+        "IS_HIDDEN": false,
+        "MONEY_REQUIRED": 0,
+        "POINTS_REQUIRED": 0,
+        "SKILLS_REQUIRED_COUNT": 0,
+        "SKILLS_REQUIRED": [
+          "bhguild_rank2"
+        ],
+        "XP_TYPE": "bountyhunter",
+        "XP_COST": 400000,
+        "XP_CAP": 800000,
+        "APPRENTICESHIPS_REQUIRED": 0,
+        "JEDI_STATE_REQUIRED": "none",
+        "SKILL_MODS": {
+          "warcry": 10,
+          "pistol_hit_while_moving": 10,
+          "pistol_accuracy_while_standing": 15,
+          "carbine_hit_while_moving": 10
+        },
+        "SEARCHABLE": true,
+        "ENDER": 0,
+        "COMMANDS": []
+      },
+      {
+        "NAME": "bhguild_rank4",
+        "PARENT": "bhguild_rank3",
+        "GRAPH_TYPE": "pyramid",
+        "GOD_ONLY": false,
+        "IS_TITLE": false,
+        "IS_PROFESSION": false,
+        "IS_HIDDEN": false,
+        "MONEY_REQUIRED": 0,
+        "POINTS_REQUIRED": 0,
+        "SKILLS_REQUIRED_COUNT": 0,
+        "SKILLS_REQUIRED": [
+          "bhguild_rank3"
+        ],
+        "XP_TYPE": "bountyhunter",
+        "XP_COST": 800000,
+        "XP_CAP": 1600000,
+        "APPRENTICESHIPS_REQUIRED": 0,
+        "JEDI_STATE_REQUIRED": "none",
+        "SKILL_MODS": {
+          "stun_defense": 15,
+          "intimidate_defense": 15
+        },
+        "SEARCHABLE": true,
+        "ENDER": 0,
+        "COMMANDS": []
+      },
+      {
+        "NAME": "bhguild_rank5",
+        "PARENT": "bhguild_rank4",
+        "GRAPH_TYPE": "pyramid",
+        "GOD_ONLY": false,
+        "IS_TITLE": true,
+        "IS_PROFESSION": false,
+        "IS_HIDDEN": false,
+        "MONEY_REQUIRED": 0,
+        "POINTS_REQUIRED": 0,
+        "SKILLS_REQUIRED_COUNT": 0,
+        "SKILLS_REQUIRED": [
+          "bhguild_rank4"
+        ],
+        "XP_TYPE": "bountyhunter",
+        "XP_COST": 1600000,
+        "XP_CAP": 3200000,
+        "APPRENTICESHIPS_REQUIRED": 0,
+        "JEDI_STATE_REQUIRED": "none",
+        "COMMANDS": [
+          "intimidate2"
+        ],
+        "SKILL_MODS": {
+          "droid_find_chance": 10,
+          "droid_find_speed": 10,
+          "pistol_accuracy": 20,
+          "heavy_rifle_lightning_accuracy": 20,
+          "carbine_accuracy": 20,
+          "heavy_rifle_lightning_speed": 20,
+          "aim": 20
+        },
+        "SEARCHABLE": true,
+        "ENDER": 0
+      },
+      {
+        "NAME": "bhguild_rank6",
+        "PARENT": "bhguild_rank5",
+        "GRAPH_TYPE": "pyramid",
+        "GOD_ONLY": false,
+        "IS_TITLE": false,
+        "IS_PROFESSION": false,
+        "IS_HIDDEN": false,
+        "MONEY_REQUIRED": 0,
+        "POINTS_REQUIRED": 0,
+        "SKILLS_REQUIRED_COUNT": 0,
+        "SKILLS_REQUIRED": [
+          "bhguild_rank5"
+        ],
+        "XP_TYPE": "bountyhunter",
+        "XP_COST": 3200000,
+        "XP_CAP": 6400000,
+        "APPRENTICESHIPS_REQUIRED": 0,
+        "JEDI_STATE_REQUIRED": "none",
+        "COMMANDS": [
+          "warcry2"
+        ],
+        "SKILL_MODS": {
+          "counterattack": 15,
+          "dodge": 15,
+          "melee_defense": 10,
+          "pistol_hit_while_moving": 10,
+          "pistol_accuracy_while_standing": 15,
+          "carbine_hit_while_moving": 10
+        },
+        "SEARCHABLE": true,
+        "ENDER": 0
+      },
+      {
+        "NAME": "bhguild_rank7",
+        "PARENT": "bhguild_rank6",
+        "GRAPH_TYPE": "pyramid",
+        "GOD_ONLY": false,
+        "IS_TITLE": false,
+        "IS_PROFESSION": false,
+        "IS_HIDDEN": false,
+        "MONEY_REQUIRED": 0,
+        "POINTS_REQUIRED": 0,
+        "SKILLS_REQUIRED_COUNT": 0,
+        "SKILLS_REQUIRED": [
+          "bhguild_rank6"
+        ],
+        "XP_TYPE": "bountyhunter",
+        "XP_COST": 6400000,
+        "XP_CAP": 12800000,
+        "APPRENTICESHIPS_REQUIRED": 0,
+        "JEDI_STATE_REQUIRED": "none",
+        "SKILL_MODS": {
+          "warcry": 20,
+          "stun_defense": 15,
+          "intimidate_defense": 15
+        },
+        "SEARCHABLE": true,
+        "ENDER": 0,
+        "COMMANDS": []
+      },
+      {
+        "NAME": "bhguild_rank8",
+        "PARENT": "bhguild_rank7",
+        "GRAPH_TYPE": "pyramid",
+        "GOD_ONLY": false,
+        "IS_TITLE": true,
+        "IS_PROFESSION": false,
+        "IS_HIDDEN": false,
+        "MONEY_REQUIRED": 0,
+        "POINTS_REQUIRED": 0,
+        "SKILLS_REQUIRED_COUNT": 0,
+        "SKILLS_REQUIRED": [
+          "bhguild_rank7"
+        ],
+        "XP_TYPE": "bountyhunter",
+        "XP_COST": 12800000,
+        "XP_CAP": 25600000,
+        "APPRENTICESHIPS_REQUIRED": 0,
+        "JEDI_STATE_REQUIRED": "none",
+        "SKILL_MODS": {
+          "counterattack": 15,
+          "dodge": 15,
+          "melee_defense": 10
+        },
+        "SEARCHABLE": true,
+        "ENDER": 0,
+        "COMMANDS": []
+      },
+      {
+        "NAME": "bhguild_rank9",
+        "PARENT": "bhguild_rank8",
+        "GRAPH_TYPE": "pyramid",
+        "GOD_ONLY": false,
+        "IS_TITLE": true,
+        "IS_PROFESSION": false,
+        "IS_HIDDEN": false,
+        "MONEY_REQUIRED": 0,
+        "POINTS_REQUIRED": 0,
+        "SKILLS_REQUIRED_COUNT": 0,
+        "SKILLS_REQUIRED": [
+          "bhguild_rank8"
+        ],
+        "XP_TYPE": "bountyhunter",
+        "XP_COST": 25600000,
+        "XP_CAP": 50000000,
+        "APPRENTICESHIPS_REQUIRED": 0,
+        "JEDI_STATE_REQUIRED": "none",
+        "SKILL_MODS": {
+          "droid_find_chance": 10,
+          "droid_find_speed": 10
+        },
+        "SEARCHABLE": true,
+        "ENDER": 0,
+        "COMMANDS": []
+      },
+      {
+        "NAME": "bhguild_rank10",
+        "PARENT": "bhguild_rank9",
+        "GRAPH_TYPE": "pyramid",
+        "GOD_ONLY": false,
+        "IS_TITLE": true,
+        "IS_PROFESSION": false,
+        "IS_HIDDEN": false,
+        "MONEY_REQUIRED": 0,
+        "POINTS_REQUIRED": 0,
+        "SKILLS_REQUIRED_COUNT": 0,
+        "SKILLS_REQUIRED": [
+          "bhguild_rank9"
+        ],
+        "XP_TYPE": "bountyhunter",
+        "XP_COST": 50000000,
+        "XP_CAP": 100000000,
+        "APPRENTICESHIPS_REQUIRED": 0,
+        "JEDI_STATE_REQUIRED": "none",
+        "SKILL_MODS": {},
+        "SEARCHABLE": true,
+        "ENDER": 0,
+        "COMMANDS": [
+          "melee_damage_mitigation_3"          
+        ]
       }
     ]
   }

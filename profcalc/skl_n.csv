@@ -1,0 +1,1494 @@
+architect, Architect
+ballistic_munitions_components, Ballistic munitions components
+bio_engineer, Bio-Engineer
+chef, Chef
+combat, Combat
+combat_1hsword, Fencer
+combat_1hsword_ability_01, Intermediate Fencing Technique
+combat_1hsword_ability_02, Advanced Fencing Technique
+combat_1hsword_ability_03, Expert Fencing Technique
+combat_1hsword_ability_04, Master Fencing Technique
+combat_1hsword_accuracy_01, Intermediate Fencing Stances and Grips
+combat_1hsword_accuracy_02, Advanced Fencing Stances and Grips
+combat_1hsword_accuracy_03, Expert Fencing Stances and Grips
+combat_1hsword_accuracy_04, Master Fencing Stances and Grips
+combat_1hsword_master, Master Fencer
+combat_1hsword_novice, Novice Fencer
+combat_1hsword_speed_01, Intermediate Footwork
+combat_1hsword_speed_02, Advanced Footwork
+combat_1hsword_speed_03, Expert Footwork
+combat_1hsword_speed_04, Master Footwork
+combat_1hsword_support_01, Intermediate Fencing Finesse
+combat_1hsword_support_02, Advanced Fencing Finesse
+combat_1hsword_support_03, Expert Fencing Finesse
+combat_1hsword_support_04, Master Fencing Finesse
+combat_2hsword, Swordsman
+combat_2hsword_ability_01, Intermediate Sword Defense
+combat_2hsword_ability_02, Advanced Sword Defense
+combat_2hsword_ability_03, Expert Sword Defense
+combat_2hsword_ability_04, Master Sword Defense
+combat_2hsword_accuracy_01, Intermediate Sword Offense
+combat_2hsword_accuracy_02, Advanced Sword Offense
+combat_2hsword_accuracy_03, Expert Sword Offense
+combat_2hsword_accuracy_04, Master Sword Offense
+combat_2hsword_master, Master Swordsman
+combat_2hsword_novice, Novice Swordsman
+combat_2hsword_speed_01, Intermediate Sword Techniques
+combat_2hsword_speed_02, Advanced Sword Techniques
+combat_2hsword_speed_03, Expert Sword Techniques
+combat_2hsword_speed_04, Master Sword Techniques
+combat_2hsword_support_01, Intermediate Sword Finesse
+combat_2hsword_support_02, Advanced Sword Finesse
+combat_2hsword_support_03, Expert Sword Finesse
+combat_2hsword_support_04, Master Sword Finesse
+combat_bountyhunter, Bounty Hunter
+combat_bountyhunter_droidcontrol_01, Bounty Carbine Specialization I
+combat_bountyhunter_droidcontrol_02, Bounty Carbine Specialization II
+combat_bountyhunter_droidcontrol_03, Bounty Carbine Specialization III
+combat_bountyhunter_droidcontrol_04, Bounty Carbine Specialization IV
+combat_bountyhunter_droidresponse_01, Bounty Pistol Specialization I
+combat_bountyhunter_droidresponse_02, Bounty Pistol Specialization II
+combat_bountyhunter_droidresponse_03, Bounty Pistol Specialization III
+combat_bountyhunter_droidresponse_04, Bounty Pistol Specialization IV
+combat_bountyhunter_investigation_01, Investigation I
+combat_bountyhunter_investigation_02, Investigation II
+combat_bountyhunter_investigation_03, Investigation III
+combat_bountyhunter_investigation_04, Investigation IV
+combat_bountyhunter_master, Master Bounty Hunter
+combat_bountyhunter_novice, Novice Bounty Hunter
+combat_bountyhunter_support_01, Light Lightning Cannon Specialization I
+combat_bountyhunter_support_02, Light Lightning Cannon Specialization II
+combat_bountyhunter_support_03, Light Lightning Cannon Specialization III
+combat_bountyhunter_support_04, Light Lightning Cannon Specialization IV
+combat_brawler, Brawler
+combat_brawler_1handmelee_01, One-Handed I: Sword Technique
+combat_brawler_1handmelee_02, One-Handed II: Lethal Strikes
+combat_brawler_1handmelee_03, One-Handed III: Blunt Edge Strikes
+combat_brawler_1handmelee_04, One-Handed IV: Dance of Blades
+combat_brawler_2handmelee_01, Two-Handed I: Weighted Stances
+combat_brawler_2handmelee_02, Two-Handed II: Strength & Precision
+combat_brawler_2handmelee_03, Two-Handed III: Sweeps
+combat_brawler_2handmelee_04, Two-Handed IV: Fatal Finesse
+combat_brawler_master, Master Brawler
+combat_brawler_novice, Novice Brawler
+combat_brawler_polearm_01, Polearms I: Long Hafted Weaponry
+combat_brawler_polearm_02, Polearms II: Form & Balance
+combat_brawler_polearm_03, Polearms III: Power Strikes
+combat_brawler_polearm_04, Polearms IV: Overwhelming Assault
+combat_brawler_unarmed_01, Unarmed I: Street Fighting
+combat_brawler_unarmed_02, Unarmed II: Stunning Attack
+combat_brawler_unarmed_03, Unarmed III: Blinding Attack
+combat_brawler_unarmed_04, Unarmed IV: Teras Kasi Fundamentals
+combat_carbine, Carbineer
+combat_carbine_ability_01, Intermediate Carbine Counterinsurgency Tactics
+combat_carbine_ability_02, Advanced Carbine Counterinsurgency Tactics
+combat_carbine_ability_03, Expert Carbine Counterinsurgency Tactics
+combat_carbine_ability_04, Master Carbine Counterinsurgency Tactics
+combat_carbine_accuracy_01, Intermediate Carbine Assault Tactics
+combat_carbine_accuracy_02, Advanced Carbine Assault Tactics
+combat_carbine_accuracy_03, Expert Carbine Assault Tactics
+combat_carbine_accuracy_04, Master Carbine Assault Tactics
+combat_carbine_master, Master Carbineer
+combat_carbine_novice, Novice Carbineer
+combat_carbine_speed_01, Intermediate Carbine Marksmanship
+combat_carbine_speed_02, Advanced Carbine Marksmanship
+combat_carbine_speed_03, Expert Carbine Marksmanship
+combat_carbine_speed_04, Master Carbine Marksmanship
+combat_carbine_support_01, Intermediate Carbine Special Abilities
+combat_carbine_support_02, Advanced Carbine Special Abilities
+combat_carbine_support_03, Expert Carbine Special Abilities
+combat_carbine_support_04, Master Carbine Special Abilities
+combat_command_support_02, Advanced Specialized Weapon Crafting
+combat_command_support_04, Master Specialized Weapon Crafting
+combat_commando, Commando
+combat_commando_heavyweapon_accuracy_01, Field Tactics I
+combat_commando_heavyweapon_accuracy_02, Field Tactics II
+combat_commando_heavyweapon_accuracy_03, Field Tactics III
+combat_commando_heavyweapon_accuracy_04, Field Tactics IV
+combat_commando_heavyweapon_speed_01, Heavy Support Weapons I
+combat_commando_heavyweapon_speed_02, Heavy Support Weapons II
+combat_commando_heavyweapon_speed_03, Heavy Support Weapons III
+combat_commando_heavyweapon_speed_04, Heavy Support Weapons IV
+combat_commando_master, Master Commando
+combat_commando_novice, Novice Commando
+combat_commando_support_01, Acid Rifle Specialization I
+combat_commando_support_02, Acid Rifle Specialization II
+combat_commando_support_03, Acid Rifle Specialization III
+combat_commando_support_04, Acid Rifle Specialization IV
+combat_commando_thrownweapon_01, Flamethrower Specialization I
+combat_commando_thrownweapon_02, Flamethrower Specialization II
+combat_commando_thrownweapon_03, Flamethrower Specialization III
+combat_commando_thrownweapon_04, Flamethrower Specialization IV
+combat_engineer, Combat Engineer
+combat_marksman, Marksman
+combat_marksman_carbine_01, Carbines I: Medium Range Combat
+combat_marksman_carbine_02, Carbines II: Full Auto Firing
+combat_marksman_carbine_03, Carbines III: Improved Control
+combat_marksman_carbine_04, Carbines IV: Called Shots
+combat_marksman_master, Master Marksman
+combat_marksman_novice, Novice Marksman
+combat_marksman_pistol_01, Pistols I: Short Range Combat
+combat_marksman_pistol_02, Pistols II: Light Sidearms
+combat_marksman_pistol_03, Pistols III: Medium Sidearms
+combat_marksman_pistol_04, Pistols IV: Heavy Sidearms
+combat_marksman_rifle_01, Rifles I: Long Range Combat
+combat_marksman_rifle_02, Rifles II: Concealed Firing
+combat_marksman_rifle_03, Rifles III: Improved Aim
+combat_marksman_rifle_04, Rifles IV: Sniping
+combat_marksman_support_01, Ranged Support I: Aim & Threaten
+combat_marksman_support_02, Ranged Support II: Maneuvers
+combat_marksman_support_03, Ranged Support III: Warning Shot
+combat_marksman_support_04, Ranged Support IV: Suppression
+combat_medic, Combat Medic
+combat_melee_basic, Melee combat: basic knowledge
+combat_melee_teras_kasi_basic, Teras Kasi: basic knowledge
+combat_melee_teras_kasi_power_advanced, Teras Kasi: advanced power
+combat_melee_teras_kasi_power_basic, Teras Kasi: basic power
+combat_melee_teras_kasi_power_expert, Teras Kasi: expert power
+combat_melee_teras_kasi_power_intermediate, Teras Kasi: intermediate power
+combat_melee_teras_kasi_speed_advanced, Teras Kasi: advanced speed
+combat_melee_teras_kasi_speed_basic, Teras Kasi: basic speed
+combat_melee_teras_kasi_speed_expert, Teras Kasi: expert speed
+combat_melee_teras_kasi_speed_intermediate, Teras Kasi: intermediate speed
+combat_melee_teras_kasi_technique_advanced, Teras Kasi: advanced technique
+combat_melee_teras_kasi_technique_basic, Teras Kasi: basic technique
+combat_melee_teras_kasi_technique_expert, Teras Kasi: expert technique
+combat_melee_teras_kasi_technique_intermediate, Teras Kasi: intermediate technique
+combat_meleespecialize_onehand_advanced, Melee Specialist: advanced one-handed combat
+combat_meleespecialize_onehand_basic, Melee Specialist: basic one-handed combat
+combat_meleespecialize_onehand_expert, Melee Specialist: expert one-handed combat
+combat_meleespecialize_onehand_intermediate, Melee Specialist: intermediate one-handed combat
+combat_meleespecialize_onehand_specialist, Melee Specialist: one-hand specialization
+combat_meleespecialize_polearm_advanced, Melee Specialist: advanced pole-arm techniques
+combat_meleespecialize_polearm_basic, Melee Specialist: basic polearm abilities
+combat_meleespecialize_polearm_expert, Melee Specialist: expert polearm combat techniques
+combat_meleespecialize_polearm_intermediate, Melee Specialist: intermediate polearm
+combat_meleespecialize_polearm_specialist, Melee Specialist: polearm specialization
+combat_meleespecialize_teras_kasi_specialist, Teras Kasi: Specialist
+combat_meleespecialize_twohand_advanced, Melee Specialist: advanced two-hand combat techniques
+combat_meleespecialize_twohand_basic, Melee Specialist: basic two-hand combat ability
+combat_meleespecialize_twohand_expert, Melee Specialist: expert two-hand combat ability
+combat_meleespecialize_twohand_intermediate, Melee Specialist: intermediate two-handed combat
+combat_meleespecialize_twohand_specialist, Melee Specialist: two-hand specialization
+combat_pistol, Pistoleer
+combat_pistol_ability_01, Pistol Techniques I: Disarming Shot
+combat_pistol_ability_02, Pistol Techniques II: Double Tap
+combat_pistol_ability_03, Pistol Techniques III: Stopping Shot
+combat_pistol_ability_04, Pistol Techniques IV: Fan Shot
+combat_pistol_accuracy_01, Pistol Grips I: Point Blank Hold
+combat_pistol_accuracy_02, Pistol Grips II: Dodge Hold
+combat_pistol_accuracy_03, Pistol Grips III: Two-Handed Aim & Fire
+combat_pistol_accuracy_04, Pistol Grips IV: Rapid Trigger Work
+combat_pistol_master, Master Pistoleer
+combat_pistol_novice, Novice Pistoleer
+combat_pistol_speed_01, Pistol Marksmanship I: Wrist Stability
+combat_pistol_speed_02, Pistol Marksmanship II: Firing on the Move
+combat_pistol_speed_03, Pistol Marksmanship III: Fast Target Acquisition
+combat_pistol_speed_04, Pistol Marksmanship IV: Dead-Eye Aim
+combat_pistol_support_01, Pistol Stances I: Close Range Stability
+combat_pistol_support_02, Pistol Stances II: Quick-Draw Posture
+combat_pistol_support_03, Pistol Stances III: Firing from the Hip
+combat_pistol_support_04, Pistol Stances IV: Advanced Coordination
+combat_polearm, Pikeman
+combat_polearm_ability_01, Intermediate Polearm Defensive Techniques
+combat_polearm_ability_02, Advanced Polearm Defensive Techniques
+combat_polearm_ability_03, Expert Polearm Defensive Techniques
+combat_polearm_ability_04, Master Polearm Defensive Techniques
+combat_polearm_accuracy_01, Intermediate Polearm Stances
+combat_polearm_accuracy_02, Advanced Polearm Stances
+combat_polearm_accuracy_03, Expert Polearm Stances
+combat_polearm_accuracy_04, Master Polearm Stances
+combat_polearm_master, Master Pikeman
+combat_polearm_novice, Novice Pikeman
+combat_polearm_speed_01, Intermediate Polearm Offensive Techniques
+combat_polearm_speed_02, Advanced Polearm Offensive Techniques
+combat_polearm_speed_03, Expert Polearm Offensive Techniques
+combat_polearm_speed_04, Master Polearm Offensive Techniques
+combat_polearm_support_01, Intermediate Polearm Support Abilities
+combat_polearm_support_02, Advanced Polearm Support Abilities
+combat_polearm_support_03, Expert Polearm Support Abilities
+combat_polearm_support_04, Master Polearm Support Abilities
+combat_ranged_accuracy_advanced, Ranged combat: advanced accuracy
+combat_ranged_accuracy_basic, Ranged combat: basic accuracy
+combat_ranged_accuracy_expert, Ranged combat: expert accuracy
+combat_ranged_accuracy_intermediate, Ranged combat: intermediate accuracy
+combat_ranged_speed_advanced, Ranged combat: advanced speed
+combat_ranged_speed_basic, Ranged combat: basic speed
+combat_ranged_speed_expert, Ranged combat: expert speed
+combat_ranged_speed_intermediate, Ranged combat: intermediate speed
+combat_ranged_weapons_basic, Ranged combat: basic ranged weapon ability
+combat_rangedspecialize_carbine_advanced, Ranged specialization: advanced carbine
+combat_rangedspecialize_carbine_basic, Ranged specialization: basic carbine
+combat_rangedspecialize_carbine_intermediate, Ranged specialization: intermediate carbine
+combat_rangedspecialize_carbine_specialist, Ranged Specialization: Carbine Specialist
+combat_rangedspecialize_pistol_advanced, Ranged Specialization: Advanced Pistol
+combat_rangedspecialize_pistol_basic, Ranged Specialization: Basic Pistols
+combat_rangedspecialize_pistol_intermediate, Ranged Specialization: Intermediate Pistol Technique
+combat_rangedspecialize_pistol_specialist, Ranged Specialization: Pistol Specialist
+combat_rangedspecialize_rifle_advanced, Ranged Specialization: Advanced Rifle
+combat_rangedspecialize_rifle_basic, Ranged Specialization: Basic Rifle
+combat_rangedspecialize_rifle_intermediate, Ranged Specialization: Intermediate Rifle
+combat_rangedspecialize_rifle_specialist, Ranged Specialization: Rifle Specialist
+combat_rifleman, Rifleman
+combat_rifleman_ability_01, Counter-Sniping I: Flushing Shot
+combat_rifleman_ability_02, Counter-Sniping II: Startling Shot
+combat_rifleman_ability_03, Counter-Sniping III: Advanced Flushing Shot
+combat_rifleman_ability_04, Counter-Sniping IV: Advanced Startling Shot
+combat_rifleman_accuracy_01, Sniping I: Mind Shot 2
+combat_rifleman_accuracy_02, Sniping II: Head Shot 3
+combat_rifleman_accuracy_03, Sniping III: Surprise Shot
+combat_rifleman_accuracy_04, Sniping IV: Sniper Shot
+combat_rifleman_master, Master Rifleman
+combat_rifleman_novice, Novice Rifleman
+combat_rifleman_speed_01, Concealment I: Conceal Shot
+combat_rifleman_speed_02, Concealment II: Cover Fighting
+combat_rifleman_speed_03, Concealment III: Sneak and Shoot
+combat_rifleman_speed_04, Concealment IV: Silent Assassin
+combat_rifleman_support_01, Rifle Abilities I: Flurry Shot
+combat_rifleman_support_02, Rifle Abilities II: Defensive Firing
+combat_rifleman_support_03, Rifle Abilities III: Flurry Shot 2
+combat_rifleman_support_04, Rifle Abilities IV: Fast Sniping
+combat_smuggler, Smuggler
+combat_smuggler_combat_01, Dirty Fighting I: Feign Death
+combat_smuggler_combat_02, Dirty Fighting II: Shooting Wild
+combat_smuggler_combat_03, Dirty Fighting III: Low Blow
+combat_smuggler_combat_04, Dirty Fighting IV: Last Ditch Assault
+combat_smuggler_master, Master Smuggler
+combat_smuggler_novice, Novice Smuggler
+combat_smuggler_slicing_01, Slicing I: Terminals
+combat_smuggler_slicing_02, Slicing II: Weapon Basic
+combat_smuggler_slicing_03, Slicing III: Armor
+combat_smuggler_slicing_04, Slicing IV: Weapon Advanced
+combat_smuggler_spice_01, Spices I: Naturals
+combat_smuggler_spice_02, Spices II: Meds
+combat_smuggler_spice_03, Spices III: Stims
+combat_smuggler_spice_04, Spices IV: Chems
+combat_smuggler_underworld_01, Underworld I: Negotiator
+combat_smuggler_underworld_02, Underworld II: Fast Talker
+combat_smuggler_underworld_03, Underworld III: Sell Out
+combat_smuggler_underworld_04, Underworld IV: Connections
+combat_tactic_block_advanced, Combat Tactics: Advanced Blocking
+combat_tactic_block_basic, Combat Tactics: Basic Blocking
+combat_tactic_block_expert, Combat Tactics: Expert Blocking
+combat_tactic_block_intermediate, Combat Tactics: Intermediate Blocking
+combat_tactic_counter_advanced, Combat Tactics: Advanced Counter-attack
+combat_tactic_counter_basic, Combat Tactics: Basic Counter-attack
+combat_tactic_counter_expert, Combat Tactics: Expert Counter-attack
+combat_tactic_evade_advanced, Combat Tactics: Advanced Evasion Techniques
+combat_tactic_evade_basic, Combat Tactics: Basic Evasion
+combat_tactic_evade_expert, Combat Tactics: Evasion Expert
+combat_tactic_general_basic, Combat Tactics: General Combat Technique
+combat_tactic_ranged_weapon_ability_advanced, Combat Tactics: Advanced Ranged Weapon Ability
+combat_tactic_ranged_weapon_ability_basic, Combat Tactics: Basic Ranged Weapon Ability
+combat_tactic_ranged_weapon_ability_expert, Combat Tactics: Expert Ranged Weapon Ability
+combat_tactic_stealth_advanced, Combat Tactics: Advanced Stealth Techniques
+combat_tactic_stealth_basic, Combat Tactics: Basic Stealth
+combat_tactic_stealth_expert, Combat Tactics: Stealth Expert
+combat_tactic_strategy_advanced, Combat Tactics: Advanced Strategy
+combat_tactic_strategy_basic, Combat Tactics: Basic Strategy
+combat_tactic_strategy_expert, Combat Tactics: Expert Strategy
+combat_tactic_strategy_intermediate, Combat Tactics: Intermediate Strategy
+combat_unarmed, Teras Kasi Artist
+combat_unarmed_ability_01, Intermediate Power Techniques
+combat_unarmed_ability_02, Advanced Power Techniques
+combat_unarmed_ability_03, Expert Power Techniques
+combat_unarmed_ability_04, Master Power Techniques
+combat_unarmed_accuracy_01, Intermediate Meditative Techniques
+combat_unarmed_accuracy_02, Advanced Meditative Techniques
+combat_unarmed_accuracy_03, Expert Meditative Techniques
+combat_unarmed_accuracy_04, Master Meditative Techniques
+combat_unarmed_master, Teras Kasi Master
+combat_unarmed_novice, Teras Kasi Novice
+combat_unarmed_speed_01, Intermediate Balance Conditioning
+combat_unarmed_speed_02, Advanced Balance Conditioning
+combat_unarmed_speed_03, Expert Balance Conditioning
+combat_unarmed_speed_04, Master Balance Conditioning
+combat_unarmed_support_01, Intermediate Precision Striking
+combat_unarmed_support_02, Advanced Precision Striking
+combat_unarmed_support_03, Expert Precision Striking
+combat_unarmed_support_04, Master Precision Striking
+commando, Commando
+commerce, Commerce
+common_knowledge, Common Knowledge
+craft_armor_advanced_armor_designer, Armorsmith: Advanced Armor Designer
+craft_armor_advanced_segment_construction, Armorsmith: Advanced Segment Construction
+craft_armor_armor_layers, Armorsmith: Armor Layer Construction Techniques
+craft_armor_composite_armor_segments, Armorsmith: Composite Armor Segments
+craft_armor_deflector_shield_components, Armorsmith: Deflector Shield Components
+craft_armor_deflector_shield_fundamentals, Armorsmith: Deflector Shield Fundamentals
+craft_armor_expert_armor_designer, Armorsmith: Expert Armor Designer
+craft_armor_heavy_armor_modules, Armorsmith: Heavy Armor Modules Construction Techniques
+craft_armor_light_armor_modules, Armorsmith: Light Armor Modules Construction Techniques
+craft_armor_natural_armor_segments, Armorsmith: Natural Armor Segments
+craft_armor_novice_armor_designer, Armorsmith: Novice Armor Designer
+craft_cook_culinaryskill_advanced, Cooking: Advanced Culinary Skill
+craft_cook_culinaryskill_basic, Cooking: Basic Culinary Skill
+craft_cook_culinaryskill_expert, Cooking: Expert Culinary Skill
+craft_cook_culinaryskill_intermediate, Cooking: Intermediate Culinary Skill
+craft_cook_general_advanced, Cooking: Advanced General Knowledge
+craft_cook_general_expert, Cooking: Expert General Knowledge
+craft_cook_general_intermediate, Cooking: Intermediate General Knowledge
+craft_cook_general_novice, Cooking: Novice
+craft_cook_technique_advanced, Cooking: Advanced Technique
+craft_cook_technique_basic, Cooking: Basic Technique
+craft_cook_technique_expert, Cooking: Expert Technique
+craft_cook_technique_intermediate, Cooking: Intermediate Technique
+craft_factory_efficiency_advanced, Factories: Advanced Efficiency
+craft_factory_efficiency_basic, Factories: Basic Efficiency
+craft_factory_efficiency_expert, Factories: Efficiency Expert
+craft_factory_efficiency_intermediate, Factories: Intermediate Efficiency
+craft_factory_efficiency_specialist, Factories: Efficiency Specialist
+craft_factory_maintenance_advanced, Factories: Advanced Maintenance
+craft_factory_maintenance_basic, Factories: Basic Maintenance
+craft_factory_maintenance_expert, Factories: Expert Maintenance
+craft_factory_maintenance_intermediate, Factories: Intermediate Maintenance
+craft_factory_management_advanced, Factories: Advanced Maintenance
+craft_factory_management_basic, Factories: Basic Management
+craft_factory_management_expert, Factories: Expert Management
+craft_factory_management_intermediate, Factories: Intermediate Management
+craft_factory_speed_advanced, Factories: Advanced Speed
+craft_factory_speed_basic, Factories: Basic Speed
+craft_factory_speed_expert, Factories: Expert Speed
+craft_factory_speed_intermediate, Factories: Intermediate Speed
+craft_farm_management_advanced, Farming: Advanced Management
+craft_farm_management_basic, Farming: Basic Management
+craft_farm_management_expert, Farming: Expert Management
+craft_farm_management_intermediate, Farming: Intermediate Management
+craft_farm_management_specialist, Farming: Management Specialist
+craft_farm_producecrop_advanced, Farming: Advanced Crop Production
+craft_farm_producecrop_basic, Farming: Basic Crop Production 
+craft_farm_producecrop_expert, Farming: Expert Crop Production
+craft_farm_producecrop_intermediate, Farming: Intermediate Crop Production
+craft_farm_producecrop_specialist, Farming: Crop Production Specialist
+craft_farm_producelivestock_advanced, Ranching: Advanced Livestock Production
+craft_farm_producelivestock_basic, Ranching: Basic Livestock Production
+craft_farm_producelivestock_expert, Ranching: Livestock Production Expert
+craft_farm_producelivestock_intermediate, Ranching: Intermediate Livestock Production
+craft_farm_producelivestock_specialist, Ranching: Livestock Production Specialist
+craft_general_engineering_advanced, Crafting: Advanced General Engineering
+craft_general_engineering_basic, Crafting: Basic General Engineering
+craft_general_engineering_expert, Crafting: Expert Engineering
+craft_general_engineering_intermediate, Crafting: Intermediate Engineering
+craft_general_engineering_specialist, Crafting: Engineering Specialist
+craft_general_experimentation_advanced, Crafting: Advanced Experimentation
+craft_general_experimentation_basic, Crafting: Basic Experimentation
+craft_general_experimentation_expert, Crafting: Expert Experimentation
+craft_general_experimentation_specialist, Crafting: Experimentation Specialist
+craft_general_itemdesign_advanced, Crafting: Advanced Item Design
+craft_general_itemdesign_basic, Crafting: Basic Item Design
+craft_general_itemdesign_expert, Crafting: Expert Item Design
+craft_general_itemdesign_specialist, Crafting: Item Design Specialist
+craft_general_repair_advanced, Crafting: Advanced General Repair
+craft_general_repair_basic, Crafting: Basic Repair
+craft_general_repair_expert, Crafting: Expert General Repair
+craft_general_repairsalvage_specialist, Repair / Salvage Specialist
+craft_general_salvage_advanced, Crafting: Advanced Salvage
+craft_general_salvage_basic, Crafting: Basic Salvage
+craft_general_salvage_expert, Crafting: Salvage Expert
+craft_resource_mineliquid_advanced, Liquid Mining: Advanced
+craft_resource_mineliquid_basic, Liquid Mining: Basic
+craft_resource_mineliquid_expert, Liquid Mining: Expert
+craft_resource_mineliquid_specialist, Liquid Mining: Specialist
+craft_resource_minemineral_advanced, Mineral Mining: Advanced
+craft_resource_minemineral_basic, Mineral Mining: Basic
+craft_resource_minemineral_expert, Mineral Mining: Expert
+craft_resource_minemineral_specialist, Mineral Mining: Specialist
+craft_resource_minerenewable_advanced, Renewable Resource Mining: Advanced
+craft_resource_minerenewable_basic, Renewable Resource Mining: Basic
+craft_resource_minerenewable_expert, Renewable Resource Mining: Expert
+craft_resource_minerenewable_specialist, Renewable Resource Mining: Specialist
+craft_resource_survey_advanced, Surveying: Advanced
+craft_resource_survey_basic, Surveying: Basic
+craft_resource_survey_expert, Surveying: Expert
+craft_resource_survey_specialist, Surveying: Specialist
+craft_tailor_accessory_advanced, Tailoring: Advanced Accessories
+craft_tailor_accessory_basic, Tailoring: Basic Accessories
+craft_tailor_accessory_expert, Tailoring: Expert Accessories
+craft_tailor_accessory_intermediate, Tailoring: Intermediate Accessories
+craft_tailor_dye_advanced, Tailoring: Advanced Dyes
+craft_tailor_dye_basic, Tailoring: Basic Dyes
+craft_tailor_dye_expert, Tailoring: Expert Dyes
+craft_tailor_dye_intermediate, Tailoring: Intermediate Dyes
+craft_tailor_general_advanced, Tailoring: Advanced General
+craft_tailor_general_expert, Tailoring: Expert General
+craft_tailor_general_intermediate, Tailoring: Intermediate General
+craft_tailor_general_novice, Tailoring: Novice General
+craft_tailor_material_advanced, Tailoring: Advanced Materials
+craft_tailor_material_basic, Tailoring: Basic Materials
+craft_tailor_material_expert, Tailoring: Expert Materials
+craft_tailor_material_intermediate, Tailoring: Intermediate Materials
+craft_vend_accounting_advanced, Vending: Advanced Accounting
+craft_vend_accounting_basic, Vending: Basic Accounting
+craft_vend_accounting_expert, Vending: Expert Accounting
+craft_vend_accounting_intermediate, Vending: Intermediate Accounting
+craft_vend_customization_advanced, Vending: Advanced Customization
+craft_vend_customization_basic, Vending: Basic Customization 
+craft_vend_customization_expert, Vending: Customization Expert
+craft_vend_customization_intermediate, Vending: Intermediate Customization
+craft_vend_management_advanced, Vending: Advanced Management
+craft_vend_management_basic, Vending: Basic Management
+craft_vend_management_expert, Vending: Expert Management
+craft_vend_management_intermediate, Vending: Intermediate Management
+craft_vend_salespecialist_advanced, Vending: Advanced Sales Specialist
+craft_vend_salespecialist_basic, Vending: Basic Sales Specialization
+craft_vend_salespecialist_expert, Vending: Expert Sales Specialist
+craft_vend_salespecialist_intermediate, Vending: Intermediate Sales Specialist
+craft_weapon_melee_blade_crafting, Melee Weapon Crafting: Basic Blades
+craft_weapon_melee_blunt_implements, Melee Weapon Crafting: Blunt Implements
+craft_weapon_melee_grips_and_handles, Melee Weapon Crafting: Grips and Handles
+craft_weapon_melee_two_handed_weapon_design, Melee Weapon Crafting: Two-handed Weapons Design
+craft_weapon_melee_vibro_weapon_construction, Melee Weapon Crafting: Vibro-weapon Construction Techniques
+craft_weapon_melee_weapon_construction_techniques, Melee Weapon Crafting: Construction Techniques
+craft_weapon_melee_weapontech_advanced, Crafting: Advanced Melee Weapontech
+craft_weapon_melee_weapontech_expert, Crafting: Expert Melee Weapontech
+craft_weapon_melee_weapontech_novice, Crafting: Novice Melee Weapontech
+craft_weapon_munition_ballistics_advanced, Munitions Crafting: Advanced Ballistics
+craft_weapon_munition_ballistics_basic, Munitions Crafting: Basic Ballistics
+craft_weapon_munition_ballistics_expert, Munitions Crafting: Expert Ballistics
+craft_weapon_munition_explosives_advanced, Munitions Crafting: Advanced Explosives
+craft_weapon_munition_explosives_basic, Munitions Crafting: Basic Explosives
+craft_weapon_munition_explosives_expert, Munitions Crafting: Expert Explosives
+craft_weapon_munition_explosivetech_advanced, Munitions Crafting: Advanced Explosives-tech
+craft_weapon_munition_explosivetech_expert, Munitions Crafting: Expert Explosives-tech
+craft_weapon_munition_explosivetech_novice, Munitions Crafting: Novice Explosives-tech
+craft_weapon_ranged_advanced_ranged_weapons_technician, Gunsmith: Advanced Ranged Weapons Technician
+craft_weapon_ranged_chassis_components, Gunsmith: Chassis Component Construction
+craft_weapon_ranged_expert_ranged_weapons_technician, Gunsmith: Expert Ranged Weapons Technician
+craft_weapon_ranged_firing_mechanisms, Gunsmith: Firing Mechanisms Crafting
+craft_weapon_ranged_heavy_ballistic_weapon_design, Gunsmith: Heavy Ballistic Weapons Design
+craft_weapon_ranged_heavy_energy_weapon_design, Gunsmith: Heavy Energy Weapons Design
+craft_weapon_ranged_heavy_weapon_construction, Gunsmith: Heavy Weapons Construction Techniques
+craft_weapon_ranged_light_ballistic_weapon_design, Gunsmith: Light Ballistic Weapons Design
+craft_weapon_ranged_light_energy_weapon_design, Gunsmith: Light Energy Weapons Design
+craft_weapon_ranged_light_weapon_construction, Gunsmith: Light Weapons Construction Techniques
+craft_weapon_ranged_novice_ranged_weapons_technician, Gunsmith: Novice Ranged Weapons Technician
+craft_weapon_ranged_weapon_accessories, Gunsmith: Ranged Weapon Accessories Crafting Ability
+crafting_architect, Architect
+crafting_architect_blueprints_01, Buildings I: Small Houses
+crafting_architect_blueprints_02, Buildings II: Medium Houses
+crafting_architect_blueprints_03, Buildings III: Large Houses
+crafting_architect_blueprints_04, Buildings IV: Large Houses
+crafting_architect_harvest_04, Master Harvester Construction
+crafting_architect_harvesting_01, Installations I: Factories
+crafting_architect_harvesting_02, Installations II: Medium Harvesters
+crafting_architect_harvesting_03, Installations III: Medium Harvesters
+crafting_architect_harvesting_04, Installations IV: Heavy Harvesters
+crafting_architect_master, Master Architect
+crafting_architect_novice, Novice Architect
+crafting_architect_production_01, Furniture I: Modest
+crafting_architect_production_02, Furniture II: Stylish
+crafting_architect_production_03, Furniture III: Advanced
+crafting_architect_production_04, Furniture IV: Tech
+crafting_architect_techniques_01, Construction I: Intermediate
+crafting_architect_techniques_02, Construction II: Advanced
+crafting_architect_techniques_03, Construction III: Expert
+crafting_architect_techniques_04, Construction IV: Master
+crafting_armorsmith, Armorsmith
+crafting_armorsmith_complexity_01, Technique I: Protection Fundamentals
+crafting_armorsmith_complexity_02, Technique II: Advanced Outfitting
+crafting_armorsmith_complexity_03, Technique III: Expert Outfitting
+crafting_armorsmith_complexity_04, Technique IV: Armor Crafting Mastery
+crafting_armorsmith_deflectors_01, Deflectors I: Deflector Components
+crafting_armorsmith_deflectors_02, Deflectors II: Mk 1 Technology
+crafting_armorsmith_deflectors_03, Deflectors III: Mk 2 Technology
+crafting_armorsmith_deflectors_04, Deflectors IV: Mk 3 Technology
+crafting_armorsmith_heavy_01, Layers I: Basic Enhancements
+crafting_armorsmith_heavy_02, Layers II: Blast & Heat
+crafting_armorsmith_heavy_03, Layers III: Cold & Shock
+crafting_armorsmith_heavy_04, Layers IV: Exotic Protection
+crafting_armorsmith_master, Master Armorsmith
+crafting_armorsmith_novice, Novice Armorsmith
+crafting_armorsmith_personal_01, Personal Armor I: Chitin
+crafting_armorsmith_personal_02, Personal Armor II: Tantel
+crafting_armorsmith_personal_03, Personal Armor III: Ubese
+crafting_armorsmith_personal_04, Personal Armor IV: Padded
+crafting_artisan, Artisan
+crafting_artisan_business_01, Business I: Access Fees
+crafting_artisan_business_02, Business II: Advanced Sales
+crafting_artisan_business_03, Business III: Business Ownership
+crafting_artisan_business_04, Business IV: Business Diversity
+crafting_artisan_domestic_01, Domestic Arts I: Simple Cooking
+crafting_artisan_domestic_02, Domestic Arts II: Simple Tailoring
+crafting_artisan_domestic_03, Domestic Arts III: Basic Desserts
+crafting_artisan_domestic_04, Domestic Arts IV: Clothing Repair
+crafting_artisan_engineering_01, Engineering I: Tinkering
+crafting_artisan_engineering_02, Engineering II: Hardware Design
+crafting_artisan_engineering_03, Engineering III: Advanced Concepts
+crafting_artisan_engineering_04, Engineering IV: Complex Systems
+crafting_artisan_master, Master Artisan
+crafting_artisan_novice, Novice Artisan
+crafting_artisan_survey_01, Surveying I: Improved Results
+crafting_artisan_survey_02, Surveying II: Increased Range
+crafting_artisan_survey_03, Surveying III: Exceptional Results
+crafting_artisan_survey_04, Surveying IV: Regional Surveying
+crafting_chef, Chef
+crafting_chef_dessert_01, Desserts I: Pastries
+crafting_chef_dessert_02, Desserts II: Cakes
+crafting_chef_dessert_03, Desserts III: Complex Desserts
+crafting_chef_dessert_04, Desserts IV: Delicious Creations
+crafting_chef_dish_01, Entrees I: Basic Meals
+crafting_chef_dish_02, Entrees II: Advanced Cooking
+crafting_chef_dish_03, Entrees III: Complex Dishes
+crafting_chef_dish_04, Entrees IV: Creative Dishes
+crafting_chef_drink_01, Mixology I: Cantina Favorites
+crafting_chef_drink_02, Mixology II: Fruity Drinks
+crafting_chef_drink_03, Mixology III: Hard Drinks
+crafting_chef_drink_04, Mixology IV: Regional Favorites
+crafting_chef_master, Master Chef
+crafting_chef_novice, Novice Chef
+crafting_chef_techniques_01, Cooking I: Experimentation
+crafting_chef_techniques_02, Cooking II: Nutrition
+crafting_chef_techniques_03, Cooking III: Creative Flavoring
+crafting_chef_techniques_04, Cooking IV: Culinary Mastery
+crafting_droidengineer, Droid Engineer
+crafting_droidengineer_blueprints_01, Intermediate Droid Blueprints
+crafting_droidengineer_blueprints_02, Advanced Droid Blueprints
+crafting_droidengineer_blueprints_03, Expert Droid Blueprints
+crafting_droidengineer_blueprints_04, Master Droid Blueprints
+crafting_droidengineer_master, Master Droid Engineer
+crafting_droidengineer_novice, Novice Droid Engineer
+crafting_droidengineer_production_01, Intermediate Droid Production
+crafting_droidengineer_production_02, Advanced Droid Production
+crafting_droidengineer_production_03, Expert Droid Production
+crafting_droidengineer_production_04, Master Droid Production
+crafting_droidengineer_refinement_01, Intermediate Droid Refinement
+crafting_droidengineer_refinement_02, Advanced Droid Refinement
+crafting_droidengineer_refinement_03, Expert Droid Refinement
+crafting_droidengineer_refinement_04, Master Droid Refinement
+crafting_droidengineer_techniques_01, Intermediate Droid Construction Techniques
+crafting_droidengineer_techniques_02, Advanced Droid Construction Techniques
+crafting_droidengineer_techniques_03, Expert Droid Construction Techniques
+crafting_droidengineer_techniques_04, Master Droid Construction Techniques
+crafting_merchant, Merchant
+crafting_merchant_advertising_01, Advertising I: Vocalization Training
+crafting_merchant_advertising_02, Advertising II: Advanced Vocalization
+crafting_merchant_advertising_03, Advertising III: Planetary Ad Campaign
+crafting_merchant_advertising_04, Advertising IV: Advertising Efficiency
+crafting_merchant_hiring_01, Hiring I: Selective Hiring
+crafting_merchant_hiring_02, Hiring II: Expanded Hiring
+crafting_merchant_hiring_03, Hiring III: Complete Hiring
+crafting_merchant_hiring_04, Hiring IV: Uniforms
+crafting_merchant_management_01, Management I: Additional Vendor
+crafting_merchant_management_02, Management II: Additional Vendor
+crafting_merchant_management_03, Management III: Additional Vendor
+crafting_merchant_management_04, Management IV: Additional Vendor
+crafting_merchant_master, Master Merchant
+crafting_merchant_novice, Novice Merchant
+crafting_merchant_sales_01, Efficiency I: Market
+crafting_merchant_sales_02, Efficiency II: Vendor
+crafting_merchant_sales_03, Efficiency III: Increased Market
+crafting_merchant_sales_04, Efficiency IV: Structures
+crafting_shipwright, Shipwright
+crafting_shipwright_defense_01, Defense Systems I:  Light Armaments
+crafting_shipwright_defense_02, Defense Systems II: Standard Ordnance
+crafting_shipwright_defense_03, Defense Systems III: Heavy Weapons
+crafting_shipwright_defense_04, Defense Systems IV: Advanced Ship Defense
+crafting_shipwright_engineering_01, Spaceframe Engineering I: Small Chassis
+crafting_shipwright_engineering_02, Spaceframe Engineering II: Standard Assault Ships
+crafting_shipwright_engineering_03, Spaceframe Engineering III: Heavy Fighters
+crafting_shipwright_engineering_04, Spaceframe Engineering IV: Advanced Ship Design
+crafting_shipwright_master, Master Shipwright
+crafting_shipwright_novice, Novice Shipwright
+crafting_shipwright_propulsion_01, Propulsion Technology I: Simple Ion Drives
+crafting_shipwright_propulsion_02, Propulsion Technology II: Thrust Dynamics
+crafting_shipwright_propulsion_03, Propulsion Technology III: Advanced Hyperdrive Engineering
+crafting_shipwright_propulsion_04, Propulsion Technology IV: Advanced Drive Theory
+crafting_shipwright_systems_01, Core Systems I: Basic Systems
+crafting_shipwright_systems_02, Core Systems II: Intermediate Ship Devices
+crafting_shipwright_systems_03, Core Systems III: Heavy Internal Systems
+crafting_shipwright_systems_04, Core Systems IV: Advanced Assembly
+crafting_starfighter_engineer, Starfighter Engineer
+crafting_starfighter_engineer_defense_01, Defensive Systems I: Shield Projectors
+crafting_starfighter_engineer_defense_02, Defensive Systems II: Advanced Durasteel Weaves
+crafting_starfighter_engineer_defense_03, Defensive Systems III: Anti-Missile Defense
+crafting_starfighter_engineer_defense_04, Defensive Systems IV: Advanced Shield Technology
+crafting_starfighter_engineer_infrastructure_01, Advanced Infrastructure I: Large-Block Power Plants
+crafting_starfighter_engineer_infrastructure_02, Advanced Infrastructure II: Military-Grade Engines
+crafting_starfighter_engineer_infrastructure_03, Advanced Infrastructure III: Advanced Reactor Design
+crafting_starfighter_engineer_infrastructure_04, Advanced Infrastructure IV: Experimental Drives
+crafting_starfighter_engineer_master, Master Starfighter Engineer
+crafting_starfighter_engineer_novice, Novice Starfighter Engineer
+crafting_starfighter_engineer_systems_01, Advanced Core Systems I: High Performance Boosters
+crafting_starfighter_engineer_systems_02, Advanced Core Systems II: Advanced Aftermarket Design
+crafting_starfighter_engineer_systems_03, Advanced Core Systems III: Droid Interfaces
+crafting_starfighter_engineer_systems_04, Advanced Core Systems IV: Elite Modification
+crafting_starfighter_engineer_weapons_01, Combat Systems I: Cannon and Blaster Tech
+crafting_starfighter_engineer_weapons_02, Combat Systems II: Disruptor Technology
+crafting_starfighter_engineer_weapons_03, Combat Systems III: Missile Systems
+crafting_starfighter_engineer_weapons_04, Combat Systems IV: Advanced Weapon Technology
+crafting_tailor, Tailor
+crafting_tailor_casual_01, Casual Wear I: Basics
+crafting_tailor_casual_02, Casual Wear II: Synthetics
+crafting_tailor_casual_03, Casual Wear III: Weather Wear
+crafting_tailor_casual_04, Casual Wear IV: Complex Clothing
+crafting_tailor_field_01, Field Wear I: Basic Gear
+crafting_tailor_field_02, Field Wear II: Reinforced Fibers
+crafting_tailor_field_03, Field Wear III: Martial Gear
+crafting_tailor_field_04, Field Wear IV: Paramilitary Gear
+crafting_tailor_formal_01, Formal Wear I: Fashion Basics
+crafting_tailor_formal_02, Formal Wear II: Jewelry
+crafting_tailor_formal_03, Formal Wear III: Gowns
+crafting_tailor_formal_04, Formal Wear IV: High Fashion
+crafting_tailor_master, Master Tailor
+crafting_tailor_novice, Novice Tailor
+crafting_tailor_production_01, Tailoring I: Experimentation
+crafting_tailor_production_02, Tailoring II: Repair
+crafting_tailor_production_03, Tailoring III: Advanced Techniques
+crafting_tailor_production_04, Tailoring IV: Technical Mastery
+crafting_weaponsmith, Weaponsmith
+crafting_weaponsmith_firearms_01, Intermediate Firearms Crafting
+crafting_weaponsmith_firearms_02, Advanced Firearms Crafting
+crafting_weaponsmith_firearms_03, Expert Firearms Crafting
+crafting_weaponsmith_firearms_04, Master Firearms Crafting
+crafting_weaponsmith_master, Master Weaponsmith
+crafting_weaponsmith_melee_01, Intermediate Melee Weapons Crafting
+crafting_weaponsmith_melee_02, Advanced Melee Weapons Crafting
+crafting_weaponsmith_melee_03, Expert Melee Weapons Crafting
+crafting_weaponsmith_melee_04, Master Melee Weapons Crafting
+crafting_weaponsmith_munitions_01, Intermediate Munitions Crafting
+crafting_weaponsmith_munitions_02, Advanced Munitions Crafting
+crafting_weaponsmith_munitions_03, Expert Munitions Crafting
+crafting_weaponsmith_munitions_04, Master Munitions Crafting
+crafting_weaponsmith_novice, Novice Weaponsmith
+crafting_weaponsmith_techniques_01, Intermediate Weapon Crafting Techniques
+crafting_weaponsmith_techniques_02, Advanced Weapon Crafting Techniques
+crafting_weaponsmith_techniques_03, Expert Weapon Crafting Techniques
+crafting_weaponsmith_techniques_04, Master Weapon Crafting Techniques
+creature_handler, Creature Handler
+demo_combat, Demo Combat
+doctor, Doctor
+droid_engineer, Droid Engineer
+entertainer, Entertainer
+explorer, Explorer
+force_discipline_defender, Force Defense
+force_discipline_defender_force_defense_01, Force Defense I
+force_discipline_defender_force_defense_02, Force Defense II
+force_discipline_defender_force_defense_03, Force Defense III
+force_discipline_defender_force_defense_04, Force Defense IV
+force_discipline_defender_master, Master Force Defender
+force_discipline_defender_melee_defense_01, Force Melee Defense I
+force_discipline_defender_melee_defense_02, Force Melee Defense II
+force_discipline_defender_melee_defense_03, Force Melee Defense III
+force_discipline_defender_melee_defense_04, Force Melee Defense IV
+force_discipline_defender_novice, Novice Force Defender
+force_discipline_defender_preternatural_defense_01, Preternatural Defense I
+force_discipline_defender_preternatural_defense_02, Preternatural Defense II
+force_discipline_defender_preternatural_defense_03, Preternatural Defense III
+force_discipline_defender_preternatural_defense_04, Preternatural Defense IV
+force_discipline_defender_ranged_defense_01, Force Ranged Defense I
+force_discipline_defender_ranged_defense_02, Force Ranged Defense II
+force_discipline_defender_ranged_defense_03, Force Ranged Defense III
+force_discipline_defender_ranged_defense_04, Force Ranged Defense IV
+force_discipline_enhancements, Force Enhancement
+force_discipline_enhancements_master, Master Force Enhancer
+force_discipline_enhancements_movement_01, Force Celerity I
+force_discipline_enhancements_movement_02, Force Celerity II
+force_discipline_enhancements_movement_03, Force Celerity III
+force_discipline_enhancements_movement_04, Force Celerity IV
+force_discipline_enhancements_novice, Novice Force Enhancer
+force_discipline_enhancements_protection_01, Force Protection I
+force_discipline_enhancements_protection_02, Force Protection II
+force_discipline_enhancements_protection_03, Force Protection III
+force_discipline_enhancements_protection_04, Force Protection IV
+force_discipline_enhancements_resistance_01, Force Resistance I
+force_discipline_enhancements_resistance_02, Force Resistance II
+force_discipline_enhancements_resistance_03, Force Resistance III
+force_discipline_enhancements_resistance_04, Force Resistance IV
+force_discipline_enhancements_synergy_01, Force Synergy I
+force_discipline_enhancements_synergy_02, Force Synergy II
+force_discipline_enhancements_synergy_03, Force Synergy III
+force_discipline_enhancements_synergy_04, Force Synergy IV
+force_discipline_healing, Force Healing
+force_discipline_healing_damage_01, Force Rejuvenation I
+force_discipline_healing_damage_02, Force Rejuvenation II
+force_discipline_healing_damage_03, Force Rejuvenation III
+force_discipline_healing_damage_04, Force Rejuvenation IV
+force_discipline_healing_master, Master Force Healing
+force_discipline_healing_novice, Novice Force Healing
+force_discipline_healing_other_01, Force Assist I
+force_discipline_healing_other_02, Force Assist II
+force_discipline_healing_other_03, Force Assist III
+force_discipline_healing_other_04, Force Assist IV
+force_discipline_healing_states_01, Force Purification I
+force_discipline_healing_states_02, Force Purification II
+force_discipline_healing_states_03, Force Purification III
+force_discipline_healing_states_04, Force Purification IV
+force_discipline_healing_wound_01, Force Restoration I
+force_discipline_healing_wound_02, Force Restoration II
+force_discipline_healing_wound_03, Force Restoration III
+force_discipline_healing_wound_04, Force Restoration IV
+force_discipline_light_saber, Lightsaber
+force_discipline_light_saber_master, Lightsaber Master
+force_discipline_light_saber_novice, Lightsaber Novice
+force_discipline_light_saber_one_hand_01, One-Handed Lightsaber I
+force_discipline_light_saber_one_hand_02, One-Handed Lightsaber II
+force_discipline_light_saber_one_hand_03, One-Handed Lightsaber III
+force_discipline_light_saber_one_hand_04, One-Handed Lightsaber IV
+force_discipline_light_saber_polearm_01, Double-Bladed Lightsaber I
+force_discipline_light_saber_polearm_02, Double-Bladed Lightsaber II
+force_discipline_light_saber_polearm_03, Double-Bladed Lightsaber III
+force_discipline_light_saber_polearm_04, Double-Bladed Lightsaber IV
+force_discipline_light_saber_technique_01, Lightsaber Technique I
+force_discipline_light_saber_technique_02, Lightsaber Technique II
+force_discipline_light_saber_technique_03, Lightsaber Technique III
+force_discipline_light_saber_technique_04, Lightsaber Technique IV
+force_discipline_light_saber_two_hand_01, Two-Handed Lightsaber I
+force_discipline_light_saber_two_hand_02, Two-Handed Lightsaber II
+force_discipline_light_saber_two_hand_03, Two-Handed Lightsaber III
+force_discipline_light_saber_two_hand_04, Two-Handed Lightsaber IV
+force_discipline_powers, Force Powers
+force_discipline_powers_debuff_01, Force Diminish I
+force_discipline_powers_debuff_02, Force Diminish II
+force_discipline_powers_debuff_03, Force Diminish III
+force_discipline_powers_debuff_04, Force Diminish IV
+force_discipline_powers_lightning_01, Force Lightning I
+force_discipline_powers_lightning_02, Force Lightning II
+force_discipline_powers_lightning_03, Force Lightning III
+force_discipline_powers_lightning_04, Force Lightning IV
+force_discipline_powers_master, Master Force Wielder
+force_discipline_powers_mental_01, Force Subjugate I
+force_discipline_powers_mental_02, Force Subjugate II
+force_discipline_powers_mental_03, Force Subjugate III
+force_discipline_powers_mental_04, Force Subjugate IV
+force_discipline_powers_novice, Novice Force Wielder
+force_discipline_powers_push_01, Psychokineses I
+force_discipline_powers_push_02, Psychokineses II
+force_discipline_powers_push_03, Psychokineses III
+force_discipline_powers_push_04, Psychokineses IV
+force_rank_dark, Dark Force Rankings
+force_rank_dark_master, Council Leader
+force_rank_dark_novice, Rank Member
+force_rank_dark_rank_01, Enforcer I: 1st Rank
+force_rank_dark_rank_02, Enforcer II: 2nd Rank
+force_rank_dark_rank_03, Enforcer III: 3rd Rank
+force_rank_dark_rank_04, Enforcer IV: 4th Rank
+force_rank_dark_rank_05, Templar I: 5th Rank
+force_rank_dark_rank_06, Templar II: 6th Rank
+force_rank_dark_rank_07, Templar III: 7th Rank
+force_rank_dark_rank_08, Oppressor I: 8th Rank
+force_rank_dark_rank_09, Oppressor II: 9th Rank
+force_rank_dark_rank_10, The Council
+force_rank_light, Light Force Rankings
+force_rank_light_master, Council Leader
+force_rank_light_novice, Rank Member
+force_rank_light_rank_01, Sentinel I: 1st Rank
+force_rank_light_rank_02, Sentinel II: 2nd Rank
+force_rank_light_rank_03, Sentinel III: 3rd Rank
+force_rank_light_rank_04, Sentinel IV: 4th Rank
+force_rank_light_rank_05, Consular I: 5th Rank
+force_rank_light_rank_06, Consular II: 6th Rank
+force_rank_light_rank_07, Consular III: 7th Rank
+force_rank_light_rank_08, Arbiter I: 8th Rank
+force_rank_light_rank_09, Arbiter II: 9th Rank
+force_rank_light_rank_10, The Council
+force_sensitive_combat_prowess, Combat Prowess
+force_sensitive_combat_prowess_master, Combat Prowess Master
+force_sensitive_combat_prowess_melee_accuracy, Combat Prowess : Melee Accuracy
+force_sensitive_combat_prowess_melee_accuracy_01, Melee Accuracy I: Weapon Finesse
+force_sensitive_combat_prowess_melee_accuracy_02, Melee Accuracy II: Extension
+force_sensitive_combat_prowess_melee_accuracy_03, Melee Accuracy III: Weapon Control
+force_sensitive_combat_prowess_melee_accuracy_04, Melee Accuracy IV: Muscle Control
+force_sensitive_combat_prowess_melee_speed, Combat Prowess : Melee Weapon Speed
+force_sensitive_combat_prowess_melee_speed_01, Melee Speed I: Weapon Study
+force_sensitive_combat_prowess_melee_speed_02, Melee Speed II: Wielding
+force_sensitive_combat_prowess_melee_speed_03, Melee Speed III: Honed Abilities
+force_sensitive_combat_prowess_melee_speed_04, Melee Speed IV: Quick Attack
+force_sensitive_combat_prowess_novice, Combat Prowess Novice
+force_sensitive_combat_prowess_ranged_accuracy, Combat Prowess : Ranged Accuracy
+force_sensitive_combat_prowess_ranged_accuracy_01, Ranged Accuracy I: Sense Movement
+force_sensitive_combat_prowess_ranged_accuracy_02, Ranged Accuracy II: Sense Speed
+force_sensitive_combat_prowess_ranged_accuracy_03, Ranged Accuracy III: Vital Damage
+force_sensitive_combat_prowess_ranged_accuracy_04, Ranged Accuracy IV: Kill Shot
+force_sensitive_combat_prowess_ranged_speed, Combat Prowess : Ranged Weapon Speed
+force_sensitive_combat_prowess_ranged_speed_01, Ranged Speed I: Anticipation
+force_sensitive_combat_prowess_ranged_speed_02, Ranged Speed II: Honed Senses
+force_sensitive_combat_prowess_ranged_speed_03, Ranged Speed III: Trigger Finger
+force_sensitive_combat_prowess_ranged_speed_04, Ranged Speed IV: Will of the Weapon
+force_sensitive_crafting_mastery, Crafting Mastery
+force_sensitive_crafting_mastery_assembly, Crafting Mastery : Assembly
+force_sensitive_crafting_mastery_assembly_01, Assembly I: Dextrous Touch
+force_sensitive_crafting_mastery_assembly_02, Assembly II: Quality Assurance
+force_sensitive_crafting_mastery_assembly_03, Assembly III: Advanced Preparation
+force_sensitive_crafting_mastery_assembly_04, Assembly IV: Astute Construction
+force_sensitive_crafting_mastery_experimentation, Crafting Mastery : Experimentation
+force_sensitive_crafting_mastery_experimentation_01, Experimentation I: Crafting Studies
+force_sensitive_crafting_mastery_experimentation_02, Experimentation II: Progressive Tinkering
+force_sensitive_crafting_mastery_experimentation_03, Experimentation III: Improved Procedure
+force_sensitive_crafting_mastery_experimentation_04, Experimentation IV: Advanced Analysis
+force_sensitive_crafting_mastery_master, Crafting Mastery
+force_sensitive_crafting_mastery_novice, Crafting Mastery Novice
+force_sensitive_crafting_mastery_repair, Crafting Mastery : Repair
+force_sensitive_crafting_mastery_repair_01, Repair I: Restoration
+force_sensitive_crafting_mastery_repair_02, Repair II: Renovation
+force_sensitive_crafting_mastery_repair_03, Repair III: Refurbishing
+force_sensitive_crafting_mastery_repair_04, Repair IV: Rejuvenate
+force_sensitive_crafting_mastery_technique, Crafting Mastery : Technique
+force_sensitive_crafting_mastery_technique_01, Technique I: Fortunate Crafting
+force_sensitive_crafting_mastery_technique_02, Technique II: Auspicious Crafting
+force_sensitive_crafting_mastery_technique_03, Technique III: Substantial Crafting
+force_sensitive_crafting_mastery_technique_04, Technique IV: Prosperous Crafting
+force_sensitive_enhanced_reflexes, Enhanced Reflexes
+force_sensitive_enhanced_reflexes_master, Enhanced Reflexes Master
+force_sensitive_enhanced_reflexes_melee_defense, Enhanced Reflexes : Melee Defenses
+force_sensitive_enhanced_reflexes_melee_defense_01, Melee Defense I: Attack Avoidance
+force_sensitive_enhanced_reflexes_melee_defense_02, Melee Defense II: Increased Dexterity
+force_sensitive_enhanced_reflexes_melee_defense_03, Melee Defense III: Heightened Agility
+force_sensitive_enhanced_reflexes_melee_defense_04, Melee Defense IV: Close Combat Avoidance
+force_sensitive_enhanced_reflexes_novice, Enhanced Reflexes Novice
+force_sensitive_enhanced_reflexes_ranged_defense, Enhanced Reflexes : Ranged Defenses
+force_sensitive_enhanced_reflexes_ranged_defense_01, Ranged Defense I: Heightened Reflexes
+force_sensitive_enhanced_reflexes_ranged_defense_02, Ranged Defense II: Reaction Speed
+force_sensitive_enhanced_reflexes_ranged_defense_03, Ranged Defense III: Precognitive Senses
+force_sensitive_enhanced_reflexes_ranged_defense_04, Ranged Defense IV: Danger Sense
+force_sensitive_enhanced_reflexes_survival, Enhanced Reflexes : Survival
+force_sensitive_enhanced_reflexes_survival_01, Survival I: Wilderness Survival
+force_sensitive_enhanced_reflexes_survival_02, Survival II: Nature Sense
+force_sensitive_enhanced_reflexes_survival_03, Survival III: Uncanny Movement
+force_sensitive_enhanced_reflexes_survival_04, Survival IV: Harmonious Nature
+force_sensitive_enhanced_reflexes_vehicle_control, Enhanced Reflexes : Vehicle Control
+force_sensitive_enhanced_reflexes_vehicle_control_01, Vehicle Control I: Ground Sense
+force_sensitive_enhanced_reflexes_vehicle_control_02, Vehicle Control II: Superior Handling
+force_sensitive_enhanced_reflexes_vehicle_control_03, Vehicle Control III: Vehicle Harmony
+force_sensitive_enhanced_reflexes_vehicle_control_04, Vehicle Control IV: Reflexive Driving
+force_sensitive_heightened_senses, Heightened Senses
+force_sensitive_heightened_senses_healing, Heightened Senses : Healing
+force_sensitive_heightened_senses_healing_01, Healing I: Sophisticated Diagnosis
+force_sensitive_heightened_senses_healing_02, Healing II: Empathic Treatment
+force_sensitive_heightened_senses_healing_03, Healing III: Superior Remedy
+force_sensitive_heightened_senses_healing_04, Healing IV: Prominent Alleviation
+force_sensitive_heightened_senses_luck, Heightened Senses : Luck
+force_sensitive_heightened_senses_luck_01, Luck I: Unforeseen Events
+force_sensitive_heightened_senses_luck_02, Luck II: Fortune
+force_sensitive_heightened_senses_luck_03, Luck III: Serendipity
+force_sensitive_heightened_senses_luck_04, Luck IV: Kismet
+force_sensitive_heightened_senses_master, Heightened Senses Master
+force_sensitive_heightened_senses_novice, Heightened Senses Novice
+force_sensitive_heightened_senses_persuasion, Heightened Senses : Persuasion
+force_sensitive_heightened_senses_persuasion_01, Persuasion I: Alignment
+force_sensitive_heightened_senses_persuasion_02, Persuasion II: Blandishment
+force_sensitive_heightened_senses_persuasion_03, Persuasion III: Cajolery
+force_sensitive_heightened_senses_persuasion_04, Persuasion IV: Enticement
+force_sensitive_heightened_senses_surveying, Heightened Senses : Surveying
+force_sensitive_heightened_senses_surveying_01, Surveying I: Improved Mining 
+force_sensitive_heightened_senses_surveying_02, Surveying II: Select Yields
+force_sensitive_heightened_senses_surveying_03, Surveying III: Preferred Results
+force_sensitive_heightened_senses_surveying_04, Surveying IV: Sharpened Assaying
+force_title_jedi, Force Progression
+force_title_jedi_master, Jedi Master
+force_title_jedi_novice, Force Sensitive
+force_title_jedi_rank_01, Jedi Initiate
+force_title_jedi_rank_02, Jedi Padawan
+force_title_jedi_rank_03, Jedi Knight
+force_title_jedi_rank_04, Jedi Guardian
+gunsmith, Gunsmith
+image_designer, Image Designer
+intermediate_engineering, Intermediate Engineering
+intermediate_polylinguistics, Intermediate Polylinguistics
+intermediate_xenolinguistics, Intermediate Xenolinguistics
+jedi, Jedi
+jedi_dark_side_journeyman, Dark Jedi Knight
+jedi_dark_side_journeyman_force_manipulation_01, Advanced Manipulation I: Lightning Arc
+jedi_dark_side_journeyman_force_manipulation_02, Advanced Manipulation II: Opponent Imbalance
+jedi_dark_side_journeyman_force_manipulation_03, Advanced Manipulation III: Greater Kinesis
+jedi_dark_side_journeyman_force_manipulation_04, Advanced Manipulation IV: Lightning Bolt
+jedi_dark_side_journeyman_force_power_01, Advanced Force Power I
+jedi_dark_side_journeyman_force_power_02, Advanced Force Power II
+jedi_dark_side_journeyman_force_power_03, Advanced Force Power III
+jedi_dark_side_journeyman_force_power_04, Advanced Force Power IV
+jedi_dark_side_journeyman_healing_01, Skilled Healing I: Projection of Strength
+jedi_dark_side_journeyman_healing_02, Skilled Healing II: Projection of Vitality
+jedi_dark_side_journeyman_healing_03, Skilled Healing III: Projection of Will
+jedi_dark_side_journeyman_healing_04, Skilled Healing IV: Projection of Remedy
+jedi_dark_side_journeyman_master, Dark Jedi Knight
+jedi_dark_side_journeyman_novice, Dark Jedi Apprentice
+jedi_dark_side_journeyman_saber_01, Heavy Lightsaber I: Called Strikes
+jedi_dark_side_journeyman_saber_02, Heavy Lightsaber II: Stances
+jedi_dark_side_journeyman_saber_03, Heavy Lightsaber III: Sturdy Strikes
+jedi_dark_side_journeyman_saber_04, Heavy Lightsaber IV: Vigorous Attack
+jedi_dark_side_master, Dark Jedi Master
+jedi_dark_side_master_force_manipulation_01, Superior Manipulation I: Lightning Fork
+jedi_dark_side_master_force_manipulation_02, Superior Manipulation II: Project Coercion
+jedi_dark_side_master_force_manipulation_03, Superior Manipulation III: Lightning Strike
+jedi_dark_side_master_force_manipulation_04, Superior Manipulation IV: Drain Essence
+jedi_dark_side_master_force_power_01, Superior Force Power I: Animal Anxiety
+jedi_dark_side_master_force_power_02, Superior Force Power II: Animal Conciliation
+jedi_dark_side_master_force_power_03, Superior Force Power III: Animal Bewilderment
+jedi_dark_side_master_force_power_04, Superior Force Power IV: Mind Control
+jedi_dark_side_master_healing_01, Expert Healing I: Restoration
+jedi_dark_side_master_healing_02, Expert Healing II: Stimulation
+jedi_dark_side_master_healing_03, Expert Healing III: Steadfastness
+jedi_dark_side_master_healing_04, Expert Healing IV: Expurgation
+jedi_dark_side_master_master, Dark Jedi Master
+jedi_dark_side_master_novice, Dark Jedi Guardian
+jedi_dark_side_master_saber_01, Dual-edge Saber I: Called Strikes
+jedi_dark_side_master_saber_02, Dual-edge Saber II: Mighty Strikes
+jedi_dark_side_master_saber_03, Dual-edge Saber III: Accurate Strikes
+jedi_dark_side_master_saber_04, Dual-edge Saber IV: Devastating Moves
+jedi_light_side_journeyman, Jedi Knight
+jedi_light_side_journeyman_force_manipulation_01, Improved Manipulation I: Lightning Arc
+jedi_light_side_journeyman_force_manipulation_02, Improved Manipulation II: Opponent Imbalance
+jedi_light_side_journeyman_force_manipulation_03, Improved Manipulation III: Greater Kinesis
+jedi_light_side_journeyman_force_manipulation_04, Improved Manipulation IV: Lightning Bolt
+jedi_light_side_journeyman_force_power_01, Improved Force Power I: Animal Trepidation
+jedi_light_side_journeyman_force_power_02, Improved Force Power II: Animal Tranquility
+jedi_light_side_journeyman_force_power_03, Improved Force Power III: Animal Persuasion
+jedi_light_side_journeyman_force_power_04, Improved Force Power IV: Confusion
+jedi_light_side_journeyman_healing_01, Advanced Healing I: Aura of Regeneration
+jedi_light_side_journeyman_healing_02, Advanced Healing II: Aura of Revitalization
+jedi_light_side_journeyman_healing_03, Advanced Healing III: Aura of Fortitude
+jedi_light_side_journeyman_healing_04, Advanced Healing IV: Aura of Purity
+jedi_light_side_journeyman_master, Jedi Knight
+jedi_light_side_journeyman_novice, Jedi Apprentice
+jedi_light_side_journeyman_saber_01, Two-hand Lightsaber I: Precision
+jedi_light_side_journeyman_saber_02, Two-hand Lightsaber II: Stability
+jedi_light_side_journeyman_saber_03, Two-hand Lightsaber III: Skilled Strikes
+jedi_light_side_journeyman_saber_04, Two-hand Lightsaber IV: Wild Swing
+jedi_light_side_master, Jedi Master
+jedi_light_side_master_force_manipulation_01, Greater Manipulation I: Lightning Fork
+jedi_light_side_master_force_manipulation_02, Greater Manipulation II: Instill Apprehension
+jedi_light_side_master_force_manipulation_03, Greater Manipulation III: Lightning Strike
+jedi_light_side_master_force_manipulation_04, Greater Manipulation IV: Drain Essence
+jedi_light_side_master_force_power_01, Greater Force Power I
+jedi_light_side_master_force_power_02, Greater Force Power II
+jedi_light_side_master_force_power_03, Greater Force Power III
+jedi_light_side_master_force_power_04, Greater Force Power IV
+jedi_light_side_master_healing_01, Superior Healing I: Restoration
+jedi_light_side_master_healing_02, Superior Healing II: Invigoration
+jedi_light_side_master_healing_03, Superior Healing III: Resolution
+jedi_light_side_master_healing_04, Superior Healing IV: Cleansing
+jedi_light_side_master_master, Jedi Master
+jedi_light_side_master_novice, Jedi Guardian
+jedi_light_side_master_saber_01, Polearm Saber I: Precision
+jedi_light_side_master_saber_02, Polearm Saber II: Expert Strikes
+jedi_light_side_master_saber_03, Polearm Saber III: Improved Precision
+jedi_light_side_master_saber_04, Polearm Saber IV: Power Strikes
+jedi_novice, Jedi Novice
+jedi_padawan, Jedi Padawan
+jedi_padawan_force_manipulation_01, Force Manipulation I: Increased Speed
+jedi_padawan_force_manipulation_02, Force Manipulation II: Opponent Disorientation
+jedi_padawan_force_manipulation_03, Force Manipulation III: Mental Intrusion
+jedi_padawan_force_manipulation_04, Force Manipulation IV: Lesser Kinesis
+jedi_padawan_force_power_01, Force Power I
+jedi_padawan_force_power_02, Force Power II
+jedi_padawan_force_power_03, Force Power III
+jedi_padawan_force_power_04, Force Power IV
+jedi_padawan_healing_01, Basic Healing I: Personal Regeneration
+jedi_padawan_healing_02, Basic Healing II: Personal Revitalization
+jedi_padawan_healing_03, Basic Healing III: Personal Fortitude
+jedi_padawan_healing_04, Basic Healing IV: Personal Rejuvenation
+jedi_padawan_master, Jedi Padawan
+jedi_padawan_novice, Jedi Initiate
+jedi_padawan_saber_01, Lightsaber I: Laser Weapon Basics
+jedi_padawan_saber_02, Lightsaber II: Celerity
+jedi_padawan_saber_03, Lightsaber III: Precision
+jedi_padawan_saber_04, Lightsaber IV: Advanced Strikes
+journalist, Journalist
+marksman, Marksman
+melee_weaponsmith, Melee Weaponsmith
+merchant, Merchant
+miner, Miner
+novice_architect, Novice Architect
+novice_armor_designer, Novice Armor Designer
+novice_armorer, Novice Armorer
+novice_bio_engineer, Novice Bio-Engineer
+novice_chef, Novice Chef
+novice_combat_engineer, Novice Combat Engineer
+novice_combat_medic, Novice Combat Medic
+novice_commando, Novice Commando
+novice_cook, Novice Cook
+novice_creature_handler, Novice Creature Handler
+novice_doctor, Novice Doctor
+novice_droid_engineer, Novice Droid Engineer
+novice_droid_technician, Novice Droid Technician
+novice_entertainer, Novice Entertainer
+novice_explorer, Novice Explorer
+novice_gunsmith, Novice Gunsmith
+novice_jedi, Novice Jedi
+novice_marksman, Novice Marksman
+novice_melee_weapons_technician, Novice Melee Weapons Technician
+novice_merchant, Novice Merchant
+novice_miner, Novice Miner
+novice_politician, Novice Politician
+novice_ranged_weapons_technician, Novice Ranged Weapons Technician
+novice_ranger, Novice Ranger
+novice_smuggler, Novice Smuggler
+novice_teras_kasi_artist, Novice Teras Kasi Artist
+novice_vehicle_engineer, Novice Vehicle Engineer
+novice_vehicle_technician, Novice Vehicle Technician
+novice_weaponsmith, Novice Weaponsmith
+novice_xenobiologist, Novice Xenobiologist
+outdoors_bio_engineer, Bio-Engineer
+outdoors_bio_engineer_creature_01, Clone Engineering I
+outdoors_bio_engineer_creature_02, Clone Engineering II
+outdoors_bio_engineer_creature_03, Clone Engineering III
+outdoors_bio_engineer_creature_04, Clone Engineering IV
+outdoors_bio_engineer_dna_harvesting_01, DNA Sampling I
+outdoors_bio_engineer_dna_harvesting_02, DNA Sampling II
+outdoors_bio_engineer_dna_harvesting_03, DNA Sampling III
+outdoors_bio_engineer_dna_harvesting_04, DNA Sampling IV
+outdoors_bio_engineer_master, Master Bio-Engineer
+outdoors_bio_engineer_novice, Novice Bio-Engineer
+outdoors_bio_engineer_production_01, Engineering Techniques I
+outdoors_bio_engineer_production_02, Engineering Techniques II
+outdoors_bio_engineer_production_03, Engineering Techniques III
+outdoors_bio_engineer_production_04, Engineering Techniques IV
+outdoors_bio_engineer_tissue_01, Tissue Engineering I
+outdoors_bio_engineer_tissue_02, Tissue Engineering II
+outdoors_bio_engineer_tissue_03, Tissue Engineering III
+outdoors_bio_engineer_tissue_04, Tissue Engineering IV
+outdoors_creaturehandler, Creature Handler
+outdoors_creaturehandler_healing_01, Creature Empathy I: Animal Comprehension
+outdoors_creaturehandler_healing_02, Creature Empathy II: Animal Compassion
+outdoors_creaturehandler_healing_03, Creature Empathy III: Biological Affinity
+outdoors_creaturehandler_healing_04, Creature Empathy IV: Consonance of Will
+outdoors_creaturehandler_master, Master Creature Handler
+outdoors_creaturehandler_novice, Novice Creature Handler
+outdoors_creaturehandler_support_01, Creature Management I: Group Organization
+outdoors_creaturehandler_support_02, Creature Management II: Advanced Organization
+outdoors_creaturehandler_support_03, Creature Management III: Pack Management
+outdoors_creaturehandler_support_04, Creature Management IV: Absolute Trust
+outdoors_creaturehandler_taming_01, Creature Taming I: Basic Domestication
+outdoors_creaturehandler_taming_02, Creature Taming II: Pacification Techniques
+outdoors_creaturehandler_taming_03, Creature Taming III: Behavioral Science
+outdoors_creaturehandler_taming_04, Creature Taming IV: Animal Language
+outdoors_creaturehandler_training_01, Creature Training I: Animal Rapport
+outdoors_creaturehandler_training_02, Creature Training II: Obedience Education
+outdoors_creaturehandler_training_03, Creature Training III: Martial Obedience Education
+outdoors_creaturehandler_training_04, Creature Training IV: Tactical Animal Psychology
+outdoors_miner, Miner
+outdoors_miner_liquid_01, Intermediate Liquid Mining
+outdoors_miner_liquid_02, Advanced Liquid Mining
+outdoors_miner_liquid_03, Expert Liquid Mining
+outdoors_miner_liquid_04, Master Liquid Mining
+outdoors_miner_master, Master Miner
+outdoors_miner_mineral_01, Intermediate Mineral Mining
+outdoors_miner_mineral_02, Advanced Mineral Mining
+outdoors_miner_mineral_03, Expert Mineral Miner
+outdoors_miner_mineral_04, Master Mineral Mining
+outdoors_miner_novice, Novice Miner
+outdoors_miner_production_01, Intermediate Installation Production
+outdoors_miner_production_02, Advanced Installation Production
+outdoors_miner_production_03, Expert Installation Production
+outdoors_miner_production_04, Master Installation Production
+outdoors_miner_renewable_01, Intermediate Energy Mining
+outdoors_miner_renewable_02, Advanced Energy Mining
+outdoors_miner_renewable_03, Expert Energy Mining
+outdoors_miner_renewable_04, Master Energy Mining
+outdoors_ranger, Ranger
+outdoors_ranger_harvest_01, Tracking I: Direction Sense
+outdoors_ranger_harvest_02, Tracking II: Path Reading
+outdoors_ranger_harvest_03, Tracking III: Improved Direction Sense
+outdoors_ranger_harvest_04, Tracking IV: Man Hunting
+outdoors_ranger_master, Master Ranger
+outdoors_ranger_movement_01, Wayfaring I: Basic Concealment
+outdoors_ranger_movement_02, Wayfaring II: Rough Terrain Mastery
+outdoors_ranger_movement_03, Wayfaring III: Stealth Techniques
+outdoors_ranger_movement_04, Wayfaring IV: Exploration Mastery
+outdoors_ranger_novice, Novice Ranger
+outdoors_ranger_support_01, Advanced Trapping I: Danger Recognition
+outdoors_ranger_support_02, Advanced Trapping II: Imaginative Design
+outdoors_ranger_support_03, Advanced Trapping III: Ingenious Design
+outdoors_ranger_support_04, Advanced Trapping IV: Trapping Mastery
+outdoors_ranger_tracking_01, Frontiering I: Advanced Foraging Techniques
+outdoors_ranger_tracking_02, Frontiering II: Advanced Camp Engineering
+outdoors_ranger_tracking_03, Frontiering III: Wilderness Survival Mastery
+outdoors_ranger_tracking_04, Frontiering IV: Habitat Engineering
+outdoors_scout, Scout
+outdoors_scout_camp_01, Survival I: Rudimentary Techniques
+outdoors_scout_camp_02, Survival II: Advanced Techniques
+outdoors_scout_camp_03, Survival III: Harsh Environment Techniques
+outdoors_scout_camp_04, Survival IV: Special Techniques
+outdoors_scout_harvest_01, Hunting I: Civilian Methodology
+outdoors_scout_harvest_02, Hunting II: Military Methodology
+outdoors_scout_harvest_03, Hunting III: Trandoshan Methodology
+outdoors_scout_harvest_04, Hunting IV: Unconventional Methodology
+outdoors_scout_master, Master Scout
+outdoors_scout_movement_01, Exploration I: Fundamentals
+outdoors_scout_movement_02, Exploration II: Advanced Principles
+outdoors_scout_movement_03, Exploration III: Harsh Environment Training
+outdoors_scout_movement_04, Exploration IV: Alien Environment Training
+outdoors_scout_novice, Novice Scout
+outdoors_scout_tools_01, Trapping I: Makeshift Design
+outdoors_scout_tools_02, Trapping II: Refined Design
+outdoors_scout_tools_03, Trapping III: Martial Design
+outdoors_scout_tools_04, Trapping IV: Elite Martial Design
+outdoors_scout_tracking_01, Intermediate Creature Tracking
+outdoors_scout_tracking_02, Advanced Creature Tracking
+outdoors_scout_tracking_03, Expert Creature Tracking
+outdoors_scout_tracking_04, Tracking Specialist
+outdoors_squadleader, Squad Leader
+outdoors_squadleader_defense_01, Leadership I: Enforced Discipline
+outdoors_squadleader_defense_02, Leadership II: Command Directives
+outdoors_squadleader_defense_03, Leadership III: Exemplary Behavior
+outdoors_squadleader_defense_04, Leadership IV: Battlefield Authority
+outdoors_squadleader_master, Master Squad Leader
+outdoors_squadleader_movement_01, Mobility I: Terrain Guidance
+outdoors_squadleader_movement_02, Mobility II: Flexibility
+outdoors_squadleader_movement_03, Mobility III: Advanced Guidance
+outdoors_squadleader_movement_04, Mobility IV: Advanced Flexibility
+outdoors_squadleader_novice, Novice Squad Leader
+outdoors_squadleader_offense_01, Strategy I: Planned Action
+outdoors_squadleader_offense_02, Strategy II: Decisive Action
+outdoors_squadleader_offense_03, Strategy III: Unified Strike
+outdoors_squadleader_offense_04, Strategy IV: Improved Unified Strike
+outdoors_squadleader_support_01, Tactics I: Battlefield Support
+outdoors_squadleader_support_02, Tactics II: Ranged Defense
+outdoors_squadleader_support_03, Tactics III: Retreat
+outdoors_squadleader_support_04, Tactics IV: Defensive Form
+pilot, Star Pilot
+pilot_imperial_navy, Imperial Navy Pilot
+pilot_imperial_navy_droid_01, Astromech Management I: Droid Interface Basics
+pilot_imperial_navy_droid_02, Astromech Management II: Engineering Algorithms
+pilot_imperial_navy_droid_03, Astromech Management III: System Balance Programming
+pilot_imperial_navy_droid_04, Astromech Management IV: Droid Intelligence Theory
+pilot_imperial_navy_master, Imperial Pilot Ace
+pilot_imperial_navy_novice, Imperial Pilot Initiate
+pilot_imperial_navy_procedures_01, Imperial Training I: Basic Training
+pilot_imperial_navy_procedures_02, Imperial Training II: Imperial Regular
+pilot_imperial_navy_procedures_03, Imperial Training III: Special Forces
+pilot_imperial_navy_procedures_04, Imperial Training IV: Elite TIE Guard
+pilot_imperial_navy_starships_01, Imperial Technology I: Intermediate TIE Combat Craft Operations
+pilot_imperial_navy_starships_02, Imperial Technology II: Advanced TIE Combat Craft Operations
+pilot_imperial_navy_starships_03, Imperial Technology III: Advanced Capability TIE Vessels
+pilot_imperial_navy_starships_04, Imperial Technology IV: TIE Experimental Vessels
+pilot_imperial_navy_weapons_01, Equipment I: Basic Imperial Starship Component Use
+pilot_imperial_navy_weapons_02, Equipment II: Intermediate Imperial Starship Component Use
+pilot_imperial_navy_weapons_03, Equipment III: Advanced Imperial Starship Component Use
+pilot_imperial_navy_weapons_04, Equipment IV: Heavy Imperial Starship Component Use
+pilot_neutral, Freelance Pilot
+pilot_neutral_droid_01, Droid Interface Basics
+pilot_neutral_droid_02, Engineering Algorithms
+pilot_neutral_droid_03, System Balance Programming
+pilot_neutral_droid_04, Droid Intelligence Theory
+pilot_neutral_master, Flight Artistry
+pilot_neutral_novice, Basic Pilot
+pilot_neutral_procedures_01, Basic Training
+pilot_neutral_procedures_02, Starship Defense
+pilot_neutral_procedures_03, Advanced Technique
+pilot_neutral_procedures_04, Expert Technique
+pilot_neutral_starships_01, Basic Fighters
+pilot_neutral_starships_02, Advanced Fighters
+pilot_neutral_starships_03, Special Warships
+pilot_neutral_starships_04, Exotic Vessels
+pilot_neutral_weapons_01, Basic Starship Component Use
+pilot_neutral_weapons_02, Intermediate Starship Component Use
+pilot_neutral_weapons_03, Advanced Starship Component Use
+pilot_neutral_weapons_04, Heavy Starship Component Use
+pilot_rebel_navy, Alliance Starfighter Pilot
+pilot_rebel_navy_droid_01, Droid Interface Basics
+pilot_rebel_navy_droid_02, Engineering Algorithms
+pilot_rebel_navy_droid_03, System Balance Programming
+pilot_rebel_navy_droid_04, Droid Intelligence Theory
+pilot_rebel_navy_master, Rebel Alliance Master Pilot
+pilot_rebel_navy_novice, Alliance Starfighter Trainee
+pilot_rebel_navy_procedures_01, Starfighter Survival Tactics
+pilot_rebel_navy_procedures_02, Space Combat Techniques
+pilot_rebel_navy_procedures_03, Advanced Space Combat
+pilot_rebel_navy_procedures_04, Special Weapons and Tactics
+pilot_rebel_navy_starships_01, Basic Starfighter Continuation Training
+pilot_rebel_navy_starships_02, Multi-role Craft
+pilot_rebel_navy_starships_03, Space Superiority Fighters
+pilot_rebel_navy_starships_04, Hyper-Maneuverable Starfighters
+pilot_rebel_navy_weapons_01, Equipment A: Basic Alliance Starship Component Use
+pilot_rebel_navy_weapons_02, Equipment B: Intermediate Alliance Starship Component Use
+pilot_rebel_navy_weapons_03, Equipment C: Advanced Alliance Starship Component Use
+pilot_rebel_navy_weapons_04, Equipment D: Heavy Alliance Starship Component Use
+politician, Politician
+profession_architect, Architect
+profession_architect_novice, Novice Architect
+profession_armorsmith, Armorsmith
+profession_armorsmith_novice, Novice Armorsmith
+profession_bountyhunter, Bounty Hunter
+profession_bountyhunter_novice, Novice Bounty Hunter
+profession_chef, Chef
+profession_chef_novice, Novice Chef
+profession_combat_brawler_master, Master Brawler
+profession_combat_brawler_novice, Novice Brawler
+profession_combat_marksman_master, Master Marksman
+profession_combat_marksman_novice, Novice Marksman
+profession_combatengineer, Combat Engineer
+profession_combatengineer_novice, Novice Combat Engineer
+profession_combatmedic, Combat Medic
+profession_combatmedic_novice, Novice Combat Medic
+profession_commando, Commando
+profession_commando_novice, Novice Commando
+profession_crafting_artisan_master, Master Artisan
+profession_crafting_artisan_novice, Novice Artisan
+profession_doctor, Doctor
+profession_doctor_novice, Novice Doctor
+profession_entertainer, Entertainer
+profession_entertainer_novice, Novice Entertainer
+profession_explorer, Explorer
+profession_explorer_novice, Novice Explorer
+profession_gunsmith, Gunsmith
+profession_gunsmith_novice, Novice Gunsmith
+profession_imagedesigner, Image Designer
+profession_imagedesigner_novice, Novice Image Designer
+profession_marksman, Marksman
+profession_marksman_novice, Novice Marksman
+profession_merchant, Merchant
+profession_merchant_novice, Novice Merchant
+profession_miner, Miner
+profession_miner_novice, Novice Miner
+profession_outdoors_scout_master, Master Scout
+profession_outdoors_scout_novice, Novice Scout
+profession_rancher, Rancher
+profession_rancher_novice, Novice Rancher
+profession_ranger, Ranger
+profession_ranger_novice, Novice Ranger
+profession_science_medic_master, Master Medic
+profession_science_medic_novice, Novice Medic
+profession_smuggler, Smuggler
+profession_smuggler_novice, Novice Smuggler
+profession_social_entertainer_master, Master Entertainer
+profession_social_entertainer_novice, Novice Entertainer
+profession_squadleader, Squad Leader
+profession_squadleader_novice, Novice Squad Leader
+profession_teraskasi, Teras Kasi Artist
+profession_teraskasi_novice, Novice Teras Kasi Artist
+profession_weaponsmith, Melee Weaponsmith
+profession_weaponsmith_novice, Novice Melee Weaponsmith
+ranger, Ranger
+rifle_concealment_chance, Sniper Support Chance
+science, Science
+science_combatmedic, Combat Medic
+science_combatmedic_healing_range_01, Intermediate Ranged Healing Distance
+science_combatmedic_healing_range_02, Advanced Ranged Healing Distance
+science_combatmedic_healing_range_03, Expert Ranged Healing Distance
+science_combatmedic_healing_range_04, Master Ranged Healing Distance
+science_combatmedic_healing_range_speed_01, Intermediate Ranged Healing Speed
+science_combatmedic_healing_range_speed_02, Advanced Ranged Healing Speed
+science_combatmedic_healing_range_speed_03, Expert Ranged Healing Speed
+science_combatmedic_healing_range_speed_04, Master Ranged Healing Speed
+science_combatmedic_master, Master Combat Medic
+science_combatmedic_medicine_01, Intermediate Combat Medicine Crafting
+science_combatmedic_medicine_02, Advanced Combat Medicine Crafting
+science_combatmedic_medicine_03, Expert Combat Medicine Crafting
+science_combatmedic_medicine_04, Master Combat Medicine Crafting
+science_combatmedic_novice, Novice Combat Medic
+science_combatmedic_support_01, Intermediate Combat Medic Support
+science_combatmedic_support_02, Advanced Combat Medic Support
+science_combatmedic_support_03, Expert Combat Medic Support
+science_combatmedic_support_04, Master Combat Medic Support
+science_doctor, Doctor
+science_doctor_ability_01, Intermediate Doctor's Medicine Knowledge
+science_doctor_ability_02, Advanced Doctor's Medicine Knowledge
+science_doctor_ability_03, Expert Doctor's Medicine Knowledge
+science_doctor_ability_04, Master Doctor's Medicine Knowledge
+science_doctor_master, Master Doctor
+science_doctor_novice, Novice Doctor
+science_doctor_support_01, Intermediate Doctor's Medicine Crafting
+science_doctor_support_02, Advanced Doctor's Medicine Crafting
+science_doctor_support_03, Expert Doctor's Medicine Crafting
+science_doctor_support_04, Master Doctor's Medicine Crafting
+science_doctor_wound_01, Intermediate Wound Treatment
+science_doctor_wound_02, Advanced Wound Treatment
+science_doctor_wound_03, Expert Wound Treatment
+science_doctor_wound_04, Master Wound Treatment
+science_doctor_wound_speed_01, Intermediate Wound Treatment Speed
+science_doctor_wound_speed_02, Advanced Wound Treatment Speed
+science_doctor_wound_speed_03, Expert Wound Treatment Speed
+science_doctor_wound_speed_04, Master Wound Treatment Speed
+science_medic, Medic
+science_medic_ability_01, Pharmacology I: Applications of Medicine
+science_medic_ability_02, Pharmacology II: Practical Medicine
+science_medic_ability_03, Pharmacology III: Combat Medicine
+science_medic_ability_04, Pharmacology IV: Xeno Pharmacology
+science_medic_crafting_01, Organic Chemistry I: Basic Wound Treatment
+science_medic_crafting_02, Organic Chemistry II: Enhanced Stimpacks
+science_medic_crafting_03, Organic Chemistry III: Complex Wound Treatment
+science_medic_crafting_04, Organic Chemistry IV: Experimental Chemistry
+science_medic_injury_01, First Aid I: Simple Bandaging
+science_medic_injury_02, First Aid II: Treat Bleeding
+science_medic_injury_03, First Aid III: Field Dressing
+science_medic_injury_04, First Aid IV: Quick Heal
+science_medic_injury_speed_01, Diagnostics I: Rapid Diagnosis
+science_medic_injury_speed_02, Diagnostics II: Transport Patient
+science_medic_injury_speed_03, Diagnostics III: Accelerated Healing
+science_medic_injury_speed_04, Diagnostics IV: Technical Diagnosis
+science_medic_master, Master Medic
+science_medic_novice, Novice Medic
+skill_system_root, Skill System Root
+smuggler, Smuggler
+social, Social
+social_acrobat, Acrobat
+social_acrobat_evasion_01, Acrobatics I: Enhanced Dexterity
+social_acrobat_evasion_02, Acrobatics II: Physical Evasion
+social_acrobat_evasion_03, Acrobatics III: Combat Alacrity
+social_acrobat_evasion_04, Acrobatics IV: Tactical Contortion
+social_acrobat_juggling_01, Juggling I: Pins
+social_acrobat_juggling_02, Juggling II: Rings
+social_acrobat_juggling_03, Juggling III: Sharp Objects
+social_acrobat_juggling_04, Juggling IV: Flaming Objects
+social_acrobat_master, Master Acrobat
+social_acrobat_novice, Novice Acrobat
+social_acrobat_shock_01, Juggling Effectiveness I: Balancer
+social_acrobat_shock_02, Juggling Effectiveness II: Athlete
+social_acrobat_shock_03, Juggling Effectiveness III: Acrobat
+social_acrobat_shock_04, Juggling Effectiveness IV: Aerialist
+social_acrobat_thrown_01, Throwing Weapons I: Daggers
+social_acrobat_thrown_02, Throwing Weapons II: Boomerang
+social_acrobat_thrown_03, Throwing Weapons III: Throwing Stars
+social_acrobat_thrown_04, Throwing Weapons IV: Plasma Sphere
+social_dance_knowledge_advanced, Dancing: Advanced Knowledge
+social_dance_knowledge_basic, Dancing: Basic Knowledge
+social_dance_knowledge_expert, Dancing: Expert Knowledge
+social_dance_knowledge_intermediate, Dancing: Intermediate Knowledge
+social_dance_knowledge_specialist, Dancing: Knowledge Specialist
+social_dancer, Dancer
+social_dancer_ability_01, Dancing Techniques I
+social_dancer_ability_02, Dancing Techniques II
+social_dancer_ability_03, Dancing Techniques III
+social_dancer_ability_04, Technique Specialist IV
+social_dancer_knowledge_01, Dancing Knowledge I
+social_dancer_knowledge_02, Dancing Knowledge II
+social_dancer_knowledge_03, Dancing Knowledge III
+social_dancer_knowledge_04, Dancing Knowledge IV
+social_dancer_master, Master Dancer
+social_dancer_novice, Novice Dancer
+social_dancer_shock_01, Dancer's Fatigue Healing I
+social_dancer_shock_02, Dancer's Fatigue Healing II
+social_dancer_shock_03, Dancer's Fatigue Healing III
+social_dancer_shock_04, Dancer's Fatigue Healing IV
+social_dancer_wound_01, Dancer's Wound Healing I
+social_dancer_wound_02, Dancer's Wound Healing II
+social_dancer_wound_03, Dancer's Wound Healing III
+social_dancer_wound_04, Dancer's Wound Healing IV
+social_entertainer, Entertainer
+social_entertainer_dance_01, Dancing I: Basic
+social_entertainer_dance_02, Dancing II: Rhythmic
+social_entertainer_dance_03, Dancing III: Footloose
+social_entertainer_dance_04, Dancing IV: Formal
+social_entertainer_hairstyle_01, Image Design I: Facial Hair & Trim
+social_entertainer_hairstyle_02, Image Design II: Basic Hair Styling
+social_entertainer_hairstyle_03, Image Design III: Improved Hair Styling
+social_entertainer_hairstyle_04, Image Design IV: Complex Hair Styling
+social_entertainer_healing_01, Entertainment Healing I: Amateur Act
+social_entertainer_healing_02, Entertainment Healing II: Professional Act
+social_entertainer_healing_03, Entertainment Healing III: Center Stage
+social_entertainer_healing_04, Entertainment Healing IV: Headliner
+social_entertainer_master, Master Entertainer
+social_entertainer_music_01, Musicianship I: Rock
+social_entertainer_music_02, Musicianship II: Easy
+social_entertainer_music_03, Musicianship III: Folk
+social_entertainer_music_04, Musicianship IV: Jazz
+social_entertainer_novice, Novice Entertainer
+social_imagedesigner, Image Designer
+social_imagedesigner_bodyform_01, Bodyform I: Personal Training
+social_imagedesigner_bodyform_02, Bodyform II: Body Glamour
+social_imagedesigner_bodyform_03, Bodyform III: Alien Bioforms
+social_imagedesigner_bodyform_04, Bodyform IV: Body Mastery
+social_imagedesigner_exotic_01, Face I: Facial Customization
+social_imagedesigner_exotic_02, Face II: Stage Make Up & Design
+social_imagedesigner_exotic_03, Face III: Alien Faceforms
+social_imagedesigner_exotic_04, Face IV: Face Mastery
+social_imagedesigner_hairstyle_01, Hairstyling I: Barber
+social_imagedesigner_hairstyle_02, Hairstyling II: Hair Dresser
+social_imagedesigner_hairstyle_03, Hairstyling III: Hair Stylist
+social_imagedesigner_hairstyle_04, Hairstyling IV: Beautician
+social_imagedesigner_markings_01, Markings I: Tattoos
+social_imagedesigner_markings_02, Markings II: Patterns
+social_imagedesigner_markings_03, Markings III: Advanced Detail
+social_imagedesigner_markings_04, Markings IV: Detail Mastery
+social_imagedesigner_master, Master Image Designer
+social_imagedesigner_novice, Novice Image Designer
+social_langage_sullustan_speak, Sullustese Speech (Sullustan Language)
+social_language, Languages
+social_language_basic, Basic Language (Human Language)
+social_language_basic_comprehend, Basic Comprehension (Human Language)
+social_language_basic_speak, Basic Speech (Human Language)
+social_language_bothan, Bothese
+social_language_bothan_comprehend, Bothese Comprehension (Bothan Language)
+social_language_bothan_speak, Bothese Speech (Bothan Language)
+social_language_human, Basic
+social_language_ithorian, Ithorese
+social_language_ithorian_comprehend, Ithorese Comprehension (Ithorian Language)
+social_language_ithorian_speak, Ithorese Speech (Ithorian Language)
+social_language_lekku, Lekku
+social_language_lekku_comprehend, Lekku Comprehension (Twi'lek Silent Language)
+social_language_lekku_speak, Lekku Silent Speech (Twi'lek Silent Language)
+social_language_moncalamari, Mon Calamarian
+social_language_moncalamari_comprehend, Mon Calamarian Comprehension (Mon Calamarian Language)
+social_language_moncalamari_speak, Mon Calamarian Speech (Mon Calamarian Language)
+social_language_rodian, Rodese
+social_language_rodian_comprehend, Rodese Comprehension (Rodian Language)
+social_language_rodian_speak, Rodese Speech (Rodian Language)
+social_language_sullustan, Sullustese
+social_language_sullustan_comprehend, Sullustese Comprehension (Sullustan Language)
+social_language_sullustan_speak, Sullustese Speech (Sullustan Language)
+social_language_trandoshan, Dosh
+social_language_trandoshan_comprehend, Dosh Comprehension (Trandoshan Language)
+social_language_trandoshan_speak, Dosh Speech (Trandoshan Language)
+social_language_twilek, Ryl
+social_language_twilek_comprehend, Ryl Comprehension (Twi'lek Spoken Language)
+social_language_twilek_speak, Ryl Speech (Twi'lek Spoken Language)
+social_language_wookiee, Shyriiwook
+social_language_wookiee_comprehend, Shyriiwook Comprehension (Wookiee Language)
+social_language_wookiee_speak, Shyriiwook Speech (Wookiee Language)
+social_language_zabrak, Zabrak
+social_language_zabrak_comprehend, Zabrak Comprehension (Zabrak Language)
+social_language_zabrak_speak, Zabrak Speech (Zabrak Language)
+social_musician, Musician
+social_musician_ability_01, Musical Techniques I
+social_musician_ability_02, Musical Techniques II
+social_musician_ability_03, Musical Techniques III
+social_musician_ability_04, Technique Specialist IV
+social_musician_knowledge_01, Musical Knowledge I
+social_musician_knowledge_02, Musical Knowledge II
+social_musician_knowledge_03, Musical Knowledge III
+social_musician_knowledge_04, Musical Knowledge IV
+social_musician_master, Master Musician
+social_musician_novice, Novice Musician
+social_musician_shock_01, Musician's Fatigue Healing I
+social_musician_shock_02, Musician's Fatigue Healing II
+social_musician_shock_03, Musician's Fatigue Healing III
+social_musician_shock_04, Musician's Fatigue Healing IV
+social_musician_wound_01, Musician's Wound Healing I
+social_musician_wound_02, Musician's Wound Healing II
+social_musician_wound_03, Musician's Wound Healing III
+social_musician_wound_04, Musician's Wound Healing IV
+social_politician, Politician
+social_politician_civic_01, Civic Policy I: Jobs
+social_politician_civic_02, Civic Policy II: Education
+social_politician_civic_03, Civic Policy III: Medical Policies
+social_politician_civic_04, Civic Policy IV: Job Policies
+social_politician_fiscal_01, Fiscal Policy I: Tourism
+social_politician_fiscal_02, Fiscal Policy II: Banking & Travel
+social_politician_fiscal_03, Fiscal Policy III: Industry
+social_politician_fiscal_04, Fiscal Policy IV: Research
+social_politician_martial_01, Martial Policy I: Militia
+social_politician_martial_02, Martial Policy II: Cloning
+social_politician_martial_03, Martial Policy III: Stronghold
+social_politician_martial_04, Martial Policy IV: Faction
+social_politician_master, Master Politician
+social_politician_novice, Novice Politician
+social_politician_urban_01, City Customization I: Lamps & Statues
+social_politician_urban_02, City Customization II: Fountains
+social_politician_urban_03, City Customization III: Gardens
+social_politician_urban_04, City Customization IV: Advanced Decoration
+species_bothan, Bothan Species Features
+species_human, Human Species Features
+species_ithorian, Ithorian Species Features
+species_moncal, Mon Calamari Species Features
+species_rodian, Rodian Species Features
+species_sullustan, Sullustan Species Features
+species_trandoshan, Trandoshan Species Features
+species_twilek, Twi'lek Species Features
+species_wookiee, Wookiee Species Features
+species_zabrak, Zabrak Species Features
+teras_kasi_artist, Teras Kasi Artist
+vehicle_engineer, Vehicle Engineer
+xenobiologist, Xenobiologist
+bhguild_novice, Master Bounty Hunter
+bhguild_rank1, Bounty Hunter Guild Initiate I
+bhguild_rank2, Bounty Hunter Guild Initiate II
+bhguild_rank3, Acolyte of the Mandalorians I
+bhguild_rank4, Acolyte of the Mandalorians II
+bhguild_rank5, Great Hunter I
+bhguild_rank6, Great Hunter II
+bhguild_rank7, Great Hunter III
+bhguild_rank8, Supreme Hunter
+bhguild_rank9, Legendary Hunter
+bhguild_master, Mandalorians
+bhguild, Bounty Hunter Guild
+bhguild_rank10, Mandalore
